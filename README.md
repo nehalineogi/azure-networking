@@ -18,6 +18,8 @@ The purpose of this repo is to deliver **reusable and github friendly** artifact
 # Design Areas
 ## Azure Hub-Spoke Design
 
+![Hub-spoke-design](design-gifs/hub-spoke-design.GIF)
+
 - Hybrid Connectivity Architecture
 - Site-to-site, Point-to-Site and ExR connected Branches
 - Default traffic Flows
@@ -31,6 +33,7 @@ The purpose of this repo is to deliver **reusable and github friendly** artifact
 - Limitations
 
 ## vWAN (Azure Virtual WAN)
+![Hub-spoke-design](design-gifs/vwan-design.GIF)
  - Hybrid Connectivity Architecture
  - Single region default flows with Azure vWAN
  - Secured vWAN

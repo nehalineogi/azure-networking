@@ -1,6 +1,6 @@
 # About this Repo: The **why** behind networking design
 
-The purpose of this repo is to deliver **reusable and github friendly** artifacts for CSAs to run effective Azure design and partner skilling sessions that explains the **why behind the design options based on requirements**.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region and secure design. The content is based on **real partner questions and design sessions** with collaboration from cross functional CSAs. **Provide effective story telling tips and tools  using draw.io (diagrams.net) layered approach** and increasing level of complexity depending on the requirements**. Networking complexity broken down into layers and **one diagram** per design area with increasing level of complexity. Include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
+The purpose of this repo is to deliver **reusable and github friendly** artifacts for CSAs to run effective Azure design and partner skilling sessions that explains the **why behind the design options based on requirements**.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region,secure design and AKS Networking. The content is based on **real partner questions and design sessions** with collaboration from cross functional CSAs. **Provide effective story telling tips and tools  using draw.io (diagrams.net) layered approach**. Networking complexity broken down into layers and **one diagram** per design area. Include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
 
 
 # Scope: Reusable Artifacts for CSA
@@ -13,8 +13,8 @@ The purpose of this repo is to deliver **reusable and github friendly** artifact
 - 30 second preview animation vedios for each design area
 - 45 minute sessions for each design area
 - Cross functional team collaboration for networking areas
-- Documented flows to reduce lab prep time
-- Explain the why behind the decision and include configuration snippets and concepts
+- Documented flows and configuration snippets to reduce lab prep time
+
 # Design Areas
 ## Azure Hub-Spoke Design
 

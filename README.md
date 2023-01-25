@@ -1,4 +1,4 @@
-# About this Repo: The **why** behind networking design
+# About this repo: The **why** behind networking design
 
 The purpose of this repo is to deliver **reusable and github friendly** artifacts for CSAs to run effective Azure design and partner skilling sessions that explains the **why behind the design options based on requirements**.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region,secure design and AKS Networking. The content is based on **real partner questions and design sessions** with collaboration from cross functional CSAs. **Provide effective story telling tips and tools  using draw.io (diagrams.net) layered approach**. Networking complexity broken down into layers and **one diagram** per design area. Include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
 
@@ -46,7 +46,8 @@ The purpose of this repo is to deliver **reusable and github friendly** artifact
  - Limitations
 
 
-## Azure Load Balancer
+## Load balancing in Azure
+![lb-design](design-gifs/lb-design.GIF)
  - Azure load balancer (layer 4)
  - Azure applicatin Gateway (layer 7)
  - Azure Traffic Manager
@@ -55,6 +56,7 @@ The purpose of this repo is to deliver **reusable and github friendly** artifact
  - Use case for Private endpoint with AFD
 
 ## DNS in Azure
+![DNS Design](design-gifs/dns-design.GIF)
 
 - DNS Options in Azure
 - Default DNS configuration 
@@ -64,6 +66,7 @@ The purpose of this repo is to deliver **reusable and github friendly** artifact
 - Azure Private DNS Resolver
 
 ## NVA High availability
+![nva-ha-design](design-gifs/nva-ha-design.GIF)
 - NVA LB Sandwich design
 - Challenge: Preserving flow symettry
 - North South flows
@@ -74,6 +77,7 @@ The purpose of this repo is to deliver **reusable and github friendly** artifact
 - Configuration Snippets
 
 ## Private Endpoints
+![private-ep-design](design-gifs/private-ep-design.GIF)
 - Consumer provider model
 - Use case with AFD
 - Use case with AKS
@@ -87,4 +91,5 @@ The purpose of this repo is to deliver **reusable and github friendly** artifact
 ## Azure Virtual Desktop - Network design
 ## Networking in Azure Kubnernetes Services
 ## Azure API Management (APIM)
+## Networking with Azure Data Factory and SQL MI
 

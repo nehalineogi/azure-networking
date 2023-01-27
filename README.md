@@ -1,6 +1,6 @@
 # About this repo: The why behind networking design and the art of possible
 
-The purpose of this repo is to deliver **reusable and github friendly** artifacts for Cloud Solutions Architects to run effective Azure design and skilling sessions. Tips and tools for effective story telling that explains the **why behind the design options based on requirements** and the art of the possible.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region,secure design cross functional networking areas and AKS Networking. The content is based on **real partner design sessions** with collaboration from cross functional architects and SMEs.  Networking complexity broken down into **layers** and **one diagram** per design area. Include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
+The purpose of this repo is to deliver **reusable and github friendly** artifacts for Cloud Solutions Architects to run effective Azure design and skilling sessions. Tips and tools for effective story telling that explains the **why behind the design options based on requirements** and the art of the possible.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region,secure design cross functional networking areas and AKS Networking. The content is based on **real partner design sessions** with collaboration from cross functional architects and SMEs.  Networking complexity broken down into **layers** and **one diagram** per design area using [draw.io](https://app.diagrams.net/) now [diagrams.net](https://www.diagrams.net/). Include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
 
 
 # Scope: Reusable Artifacts for Cloud Architects
@@ -9,7 +9,7 @@ The purpose of this repo is to deliver **reusable and github friendly** artifact
 - Layered diagrams to run effective Azure Design and skilling sessions 
 - Real world use cases dervied from working with Partners and customers
 - Level 100 to level 500 design in one diagram
-- gihub collaboration with Partners and CSAs
+- gihub collaboration with Partners and cloud architects
 - 30 second preview animation vedios for each design area
 - 45 minute sessions for each design area and Q&A
 - Cross functional team collaboration for networking areas
@@ -17,19 +17,19 @@ The purpose of this repo is to deliver **reusable and github friendly** artifact
 
 # Join us for live sessions
 
-To register [DM me on Linkedin](https://www.linkedin.com/in/nehalineogi) with your role, email ID and session of interest.  Join us to learn, connect with your peers in the industry and share your feedback for content for future sessions.  If you are a partner and would like to be a guest speaker to present a 5 min story do let me know.
+To register [DM me on Linkedin](https://www.linkedin.com/in/nehalineogi) with your role, email ID and session of interest. This will be a virtual teams meeting. Join us to learn, connect with your peers in the industry and share your use cases and design variations.  If you are a partner and would like to be a guest speaker to present a 5 min story do let me know.  Note: We are also looking to do in-person session at the Microsoft Technology Center (MTC) in the future so stay tuned...
 
 
 **Upcoming sessions:**
 
 | Sesssion Name                                         | Date                        | Guest Speaker
-|-------------------------------------------------------|-----------------------------|------------------|
-| [Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET| Nehali Neogi     |
-| [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET |                  |
-| [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET |                  |
-| [DNS Options in Azure](#dns-in-azure)                 | Thu, Mar 16th 2023 12-1pm ET|                  |
-| [NVA high availabilty options](#nva-high-availability)| Thu, Mar 23rd 2023 12-1pm ET|                  |
-| [Private Endpoints](#private-endpoints)               | Thu, Mar 30th,2023 12-1pm ET|                  |
+|-------------------------------------------------------|-----------------------------|---------------------|
+| [Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET|         TBA         |
+| [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET |         TBA         |
+| [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET |         TBA         |
+| [DNS Options in Azure](#dns-in-azure)                 | Thu, Mar 16th 2023 12-1pm ET|         TBA         |
+| [NVA high availabilty options](#nva-high-availability)| Thu, Mar 23rd 2023 12-1pm ET|         TBA         |
+| [Private Endpoints](#private-endpoints)               | Thu, Mar 30th,2023 12-1pm ET|         TBA         |
 
 
 
@@ -62,7 +62,7 @@ This design includes the following layers:
  - Single region default flows with Azure vWAN
  - Secured vWAN
  - Use case for routing intent
- - Use case for NVA
+ - Use case for NVA in indirect spokes
  - Use case for Custom Routing
  - Multiregin design
  - Configuratin snippets

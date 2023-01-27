@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Q3tZxSdM5fvqX7ymIuxw" name="README">
-        <mxGraphModel dx="1030" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1908" dy="1785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -8,7 +8,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="Hub-Spoke with AzFW + ARS" id="6jfIVGP5fNh-bk4MxDeE">
-        <mxGraphModel dx="4275" dy="3985" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="3608" dy="3985" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="bhTP2_UY_HiaFr0e0wly-0"/>
                 <mxCell id="bhTP2_UY_HiaFr0e0wly-56" value="Hub-Spoke" style="" parent="bhTP2_UY_HiaFr0e0wly-0"/>
@@ -201,7 +201,7 @@
                     </mxCell>
                 </UserObject>
                 <UserObject label="&lt;span style=&quot;font-size: 30px;&quot;&gt;S2S&lt;/span&gt;" tags="" id="plZ5Qt-CsRb0I7bbDfOB-0">
-                    <mxCell style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=30;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" connectable="0" parent="bhTP2_UY_HiaFr0e0wly-53">
+                    <mxCell style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=30;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" parent="bhTP2_UY_HiaFr0e0wly-53" vertex="1" connectable="0">
                         <mxGeometry x="-961" y="100.00000000000045" as="geometry">
                             <mxPoint x="-373" y="-2" as="offset"/>
                         </mxGeometry>

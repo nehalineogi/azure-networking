@@ -14,6 +14,7 @@ The purpose of this repo is to deliver **reusable and github friendly** artifact
 - 45 minute sessions for each design area and Q&A
 - Cross functional team collaboration for networking areas
 - Documented flows and configuration snippets to reduce lab prep time
+- Scripts for architects to run the skilling session
 
 # Join us for live sessions
 
@@ -38,6 +39,8 @@ We have limited spots available so if you are interested to join live sesssion p
 # Design Areas
 ## Azure Hub-Spoke Design
 
+Download [draw.io diagram](diagrams/hub-spoke.drawio)
+
 ![Hub-spoke-design](design-gifs/hub-spoke-design.GIF)
 
 In this session we walk through the Hub-spoke architecure design. This design includes the following layers.
@@ -56,6 +59,9 @@ In this session we walk through the Hub-spoke architecure design. This design in
 - Limitations
 
 ## vWAN (Azure Virtual WAN)
+
+Download [draw.io diagram](diagrams/vwan.drawio)
+
 ![azure-vwan](design-gifs/vwan-design.GIF)
 
 In this session we walk through the vWAN architectures. This design includes the following layers:
@@ -73,6 +79,8 @@ In this session we walk through the vWAN architectures. This design includes the
 
 ## Load balancing in Azure
 
+Download [draw.io diagram](diagrams/load-balancing.drawio)
+
 ![lb-design](design-gifs/lb-design.GIF)
 In this session we walk through the load balancing architectures. This design includes the following layers
  - Azure load balancer (layer 4)
@@ -83,6 +91,8 @@ In this session we walk through the load balancing architectures. This design in
  - Use case for Private endpoint with AFD
 
 ## DNS in Azure
+
+Download [draw.io diagram](diagrams/load-balancing.drawio)
 ![DNS Design](design-gifs/dns-design.GIF)
 
 In this session we walk through the DNS options in Azure.his design includes the following layers
@@ -95,8 +105,13 @@ In this session we walk through the DNS options in Azure.his design includes the
 - Azure Private DNS Resolver
 
 ## NVA High availability
-This design includes the following layers:
+
+
+Download [draw.io diagram](diagrams/NVA-ha.drawio)
+
 ![nva-ha-design](design-gifs/nva-ha-design.GIF)
+
+This design includes the following layers:
 - NVA LB Sandwich design
 - Challenge: Preserving flow symettry
 - North South flows
@@ -107,8 +122,12 @@ This design includes the following layers:
 - Configuration Snippets
 
 ## Private Endpoints
-This design includes the following layers:
+
+Download [draw.io diagram](diagrams/private-EP.drawio)
+
 ![private-ep-design](design-gifs/private-ep-design.GIF)
+
+This design includes the following layers:
 - Consumer provider model
 - Use case with AFD
 - Use case with AKS

@@ -1,6 +1,6 @@
 # About this repo: The why behind networking design and the art of the possible
 
-The purpose of this repo is to deliver **reusable and github friendly** artifacts for Cloud Solutions Architects to run effective Azure design and skilling sessions. The repository will include tips and tools for effective story telling that explain the **why behind the design options based on requirements** and the art of the possible.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region, secure design, cross functional networking areas and AKS networking. The content is based on **real partner design sessions** with collaboration from cross-functional architects.  The networking complexity is broken down into **layers** with **one diagram** per design area using [draw.io](https://app.diagrams.net/) now [diagrams.net](https://www.diagrams.net/). This repo will include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
+The purpose of this repo is to deliver **layered, reusable and github friendly** network architecture diagrams for Cloud Solutions Architects to run effective Azure design and skilling sessions. The repository will include tips and tools for effective story telling that explain the **why behind the design options based on requirements** and the art of the possible.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region, secure design, cross functional networking areas and AKS networking. The content is based on **real partner design sessions** with collaboration from cross-functional architects.  The networking complexity is broken down into **layers** with **one diagram** per design area using [draw.io](https://app.diagrams.net/) now [diagrams.net](https://www.diagrams.net/). This repo will include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
 
 
 # Scope: Reusable Artifacts for Cloud Architects
@@ -133,18 +133,18 @@ This design includes the following layers:
 - Use case with AFD
 - Use case with AKS
 
-# Acknowledgement
-# Upcoming designs
-## IPv6 in Azure
-## AzFW deep dive
-## ExpressRoute designs
-## Azure VMWare Solutions - Network design
-## Azure Virtual Desktop - Network design
-## Networking in Azure Kubnernetes Services
-## Azure API Management (APIM)
-## Networking with Azure Data Factory and SQL MI
+## Upcoming designs
 
-# Tooling
+- IPv6 in Azure
+- AzFW deep dive
+- ExpressRoute designs
+- Azure VMWare Solutions - Network design
+- Azure Virtual Desktop - Network design
+- Networking in Azure Kubnernetes Services
+- Azure API Management (APIM)
+- Networking with Azure Data Factory and SQL MI
+
+## Tooling
 
 There are three options to use the draw.io diagrams.
 
@@ -158,3 +158,21 @@ There are three options to use the draw.io diagrams.
 2. Use the web browser to open the file online using the link [here](https://app.diagrams.net/)
 
 3. Integrate with vscode using the ![vscode plugin](extras/vscode-extension.png)
+
+
+## Acknowledgement
+
+Special thank you to my colleagues
+
+
+- [David O'Keefe](https://www.linkedin.com/in/david-o-keefe/)
+- [Shaun Croucher](https://github.com/shcrouch)
+- [Xavier Elizondo](https://github.com/xelizondo)
+- [Heather Tze](https://github.com/hsze)
+- [Mays Algebary](https://github.com/malgebary)
+- [Daniel Mauser](https://github.com/dmauser)
+- [Jose Moreno](https://github.com/erjosito)
+- [Sowmyan Soman Chullikkattil](https://github.com/sowsan)
+- [Mike Richter](https://github.com/michaelsrichter)
+- [Mike Shelton](https://www.linkedin.com/in/mshelt)
+- [Tommy Falgout](https://github.com/lastcoolnameleft)

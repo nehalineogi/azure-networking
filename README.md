@@ -7,14 +7,14 @@ The purpose of this repo is to deliver **reusable and github friendly** artifact
 
 - Reusable whiteboard style architecture draw.io (diagrams.net) templates
 - Layered diagrams to run effective Azure Design and skilling sessions 
-- Real world use cases dervied from working with Partners and customers
+- Real world use cases dervied from working with Microsoft customers
 - Level 100 to level 500 design in one diagram
-- Github collaboration with Partners and cloud architects
+- Github collaboration with customers and cloud architects
 - 30 second preview animation videos for each design area
 - 45 minute sessions for each design area and Q&A
 - Cross functional team collaboration for networking areas
 - Documented flows and configuration snippets to reduce lab prep time
-- Scripts for architects to run the skilling session
+- Scripts and guidance for architects to run the skilling session
 
 # Join us for live sessions
 
@@ -39,7 +39,7 @@ We have limited spots available so if you are interested to join live sesssion p
 # Design Areas
 ## Azure Hub-Spoke Design
 
-Download [draw.io diagram](diagrams/hub-spoke.drawio)
+Download [draw.io diagram](diagrams/hub-spoke.drawio). More information on how to open .drawio files [here](#tooling).
 
 ![Hub-spoke-design](design-gifs/hub-spoke-design.GIF)
 
@@ -60,7 +60,7 @@ In this session we walk through the Hub-spoke architecure design. This design in
 
 ## vWAN (Azure Virtual WAN)
 
-Download [draw.io diagram](diagrams/vwan.drawio)
+Download [draw.io diagram](diagrams/vwan.drawio). More information on how to open .drawio files [here](#tooling).
 
 ![azure-vwan](design-gifs/vwan-design.GIF)
 
@@ -79,7 +79,7 @@ In this session we walk through the vWAN architectures. This design includes the
 
 ## Load balancing in Azure
 
-Download [draw.io diagram](diagrams/load-balancing.drawio)
+Download [draw.io diagram](diagrams/load-balancing.drawio). More information on how to open .drawio files [here](#tooling).
 
 ![lb-design](design-gifs/lb-design.GIF)
 In this session we walk through the load balancing architectures. This design includes the following layers
@@ -92,7 +92,8 @@ In this session we walk through the load balancing architectures. This design in
 
 ## DNS in Azure
 
-Download [draw.io diagram](diagrams/load-balancing.drawio)
+Download [draw.io diagram](diagrams/load-balancing.drawio). More information on how to open .drawio files [here](#tooling).
+
 ![DNS Design](design-gifs/dns-design.GIF)
 
 In this session we walk through the DNS options in Azure.his design includes the following layers
@@ -107,7 +108,7 @@ In this session we walk through the DNS options in Azure.his design includes the
 ## NVA High availability
 
 
-Download [draw.io diagram](diagrams/NVA-ha.drawio)
+Download [draw.io diagram](diagrams/NVA-ha.drawio). More information on how to open .drawio files [here](#tooling).
 
 ![nva-ha-design](design-gifs/nva-ha-design.GIF)
 
@@ -123,7 +124,7 @@ This design includes the following layers:
 
 ## Private Endpoints
 
-Download [draw.io diagram](diagrams/private-EP.drawio)
+Download [draw.io diagram](diagrams/private-EP.drawio). More information on how to open .drawio files [here](#tooling).
 
 ![private-ep-design](design-gifs/private-ep-design.GIF)
 
@@ -143,3 +144,17 @@ This design includes the following layers:
 ## Azure API Management (APIM)
 ## Networking with Azure Data Factory and SQL MI
 
+# Tooling
+
+There are three options to use the draw.io diagrams.
+
+1. Use the desktop app
+    Download the desktop app from the microsoft store. 
+    ![desktop-app](extras/drawio-app.png)
+
+    Dowload file from github and open in the desktop app
+    ![save-drawio](extras/save-drawio.png)
+    
+2. Use the web browser to open the file online using the link [here](https://app.diagrams.net/)
+
+3. Integrate with vscode using the ![vscode plugin](extras/vscode-extension.png)

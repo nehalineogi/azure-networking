@@ -307,7 +307,7 @@
                 <mxCell id="FMytKJnADL6UDUm3uzk5-0" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.survivable_branch_appliance;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=30;" parent="bhTP2_UY_HiaFr0e0wly-48" vertex="1">
                     <mxGeometry x="-1735" y="526" width="52" height="85" as="geometry"/>
                 </mxCell>
-                <mxCell id="bhTP2_UY_HiaFr0e0wly-5" value="Default Flows" style="" parent="bhTP2_UY_HiaFr0e0wly-0"/>
+                <mxCell id="bhTP2_UY_HiaFr0e0wly-5" value="Default Flows" style="" parent="bhTP2_UY_HiaFr0e0wly-0" visible="0"/>
                 <UserObject label="" tags="" id="bhTP2_UY_HiaFr0e0wly-6">
                     <mxCell style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;strokeColor=#006600;strokeWidth=2;fontFamily=Comic Sans MS;startArrow=classic;startFill=1;endArrow=classic;endFill=1;opacity=0;curved=1;jumpStyle=none;jumpSize=2;sketch=1;curveFitting=1;jiggle=2;" parent="bhTP2_UY_HiaFr0e0wly-5" edge="1">
                         <mxGeometry width="80" relative="1" as="geometry">

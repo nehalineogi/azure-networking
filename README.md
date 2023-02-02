@@ -28,7 +28,7 @@ Note: **Invite will go out the week of Feb 13th**
 
 | Sesssion Name                                         | Date                        | Guest Speaker
 |-------------------------------------------------------|-----------------------------|---------------------|
-| [Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET|       Tommy Falgot (Sr. Cloud Solution Architect) 
+| [Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET|       Tommy Falgout (Sr. Cloud Solution Architect) 
 | [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET |        Mays Algebary (Global Black Belt, Networking )      |
 | [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET |         TBA         |
 | [DNS Options in Azure](#dns-in-azure)                 | Thu, Mar 16th 2023 12-1pm ET|         Daniel Mauser (Global Black Belt, Networking)      |

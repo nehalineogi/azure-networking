@@ -1,17 +1,15 @@
-# About this repo: The why behind networking design and the art of the possible
+# About this repo: The art of the possible and the *why* behind the various design options
 
 The purpose of this repo is to deliver **layered, reusable and github friendly** network architecture diagrams for Cloud Solutions Architects to run effective Azure design and skilling sessions. The repository will include tips and tools for effective story telling that explain the **why behind the design options based on requirements** and the art of the possible.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region, secure design, cross functional networking areas and AKS networking. The content is based on **real partner design sessions** with collaboration from cross-functional architects.  The networking complexity is broken down into **layers** with **one diagram** per design area using [draw.io](https://app.diagrams.net/) now [diagrams.net](https://www.diagrams.net/). This repo will include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
 
 
-# Scope: Reusable Artifacts for Cloud Architects
+# Scope: Solving Cloud Architect's Challenges
 
 - Reusable network architecture diagram templates
 - Layered diagrams to run effective Azure Design and skilling sessions 
 - Real world use cases dervied from working with Microsoft customers
 - Level 100 to level 500 design in one diagram
 - Github collaboration with customers and cloud architects
-- 30 second preview animation videos for each design area
-- 45 minute sessions for each design area and Q&A
 - Cross functional team collaboration for networking areas
 - Documented flows and configuration snippets to reduce lab prep time
 - Scripts and guidance for architects to run the skilling session

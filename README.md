@@ -94,7 +94,7 @@ In this session we walk through the load balancing architectures. This design in
 
 ## DNS in Azure
 
-Download [draw.io diagram](diagrams/load-balancing.drawio). More information on how to open .drawio files [here](#installation).
+Download [draw.io diagram](diagrams/dns-in-azure.drawio). More information on how to open .drawio files [here](#installation).
 
 ![DNS Design](design-gifs/dns-design.GIF)
 

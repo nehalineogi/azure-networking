@@ -3,7 +3,7 @@
 The purpose of this repo is to deliver **layered, reusable and github friendly** network architecture diagrams for Cloud Solutions Architects to run effective Azure design and skilling sessions. The repository will include tips and tools for effective story telling that explain the **why behind the design options based on requirements** and the art of the possible.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region, secure design, cross functional networking areas and AKS networking. The content is based on **real customer and partner design sessions** with collaboration from cross-functional architects.  The networking complexity is broken down into **layers** with **one diagram** per design area using [draw.io](https://app.diagrams.net/) now [diagrams.net](https://www.diagrams.net/). This repo will include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
 
 
-# Scope: Solving Cloud Architect's Challenges
+# Scope: Reusable Network Diagrams
 
 - Reusable network architecture diagram templates
 - Layered diagrams to run effective Azure Design and skilling sessions 
@@ -24,14 +24,14 @@ We have limited spots available so if you are interested to join live sesssion p
 
 Note: **Invites will go out the week of Feb 13th**
 
-| Sesssion Name                                         | Date                        | Guest Speaker | Presenter | Agenda
+| Sesssion Name                                         | Date                        | Guest Speaker(s) | Presenter(s) | Agenda
 |-------------------------------------------------------|------------------------------|------------------------------------------------|---------------------|---------------------|
-| [Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET | Tommy Falgout (Sr. Cloud Solution Architect)   | Nehali Neogi | TBD |
-| [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET  | Mays Algebary (Global Black Belt, Networking)  | TBD | TBD |
-| [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET  | TBA                                            | TBD | TBD |
-| [DNS Options in Azure](#dns-in-azure)                 | Thu, Mar 16th 2023 12-1pm ET | Daniel Mauser (Global Black Belt, Networking)  | TBD | TBD |
-| [NVA high availabilty options](#nva-high-availability)| Thu, Mar 23rd 2023 12-1pm ET | Jose Moreno (Principal Customer Enginner)      | TBD | TBD |
-| [Private Endpoints](#private-endpoints)               | Thu, Mar 30th,2023 12-1pm ET | TBA                                            | TBD | TBD |
+| [Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET | Tommy Falgout (Sr. Cloud Solution Architect), Jose Moreno (Principal Customer Engineer)   | Nehali Neogi | TBD |
+| [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET  | Mays Algebary (Global Black Belt, Networking)  | Nehali Neogi | TBD |
+| [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET  | Marc De Droog (Global Black Belt, Networking)                                         | Nehali Neogi | TBD |
+| [DNS Options in Azure](#dns-in-azure)                 | Thu, Mar 16th 2023 12-1pm ET | Daniel Mauser (Global Black Belt, Networking)  | Nehali Neogi | TBD |
+| [NVA high availabilty options](#nva-high-availability)| Thu, Mar 23rd 2023 12-1pm ET | Jose Moreno (Principal Customer Engineer)      | Nehali Neogi | TBD |
+| [Private Endpoints](#private-endpoints)               | Thu, Mar 30th,2023 12-1pm ET | TBA                                            | Nehali Neogi | TBD |
 
 
 

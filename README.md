@@ -36,7 +36,7 @@ Note: **Invite will go out the week of Feb 13th**
 
 
 
-# Design Areas
+# Design Areas (Core Networking Part 1)
 ## Azure Hub-Spoke Design
 
 Download [draw.io diagram](diagrams/hub-spoke.drawio). More information on how to open .drawio files [here](#installation).
@@ -133,16 +133,24 @@ This design includes the following layers:
 - Use case with AFD
 - Use case with AKS
 
-## Upcoming designs
+# Upcoming designs (Work in Progress)
 
-- IPv6 in Azure
-- AzFW deep dive
-- ExpressRoute designs
-- Azure VMWare Solutions - Network design
-- Azure Virtual Desktop - Network design
+# Desgin Areas (Cross Functional - Part 2)
 - Networking in Azure Kubnernetes Services
 - Azure API Management (APIM)
 - Networking with Azure Data Factory and SQL MI
+- Azure App Service Networking
+
+# Design Areas (Part 3)
+
+- Azure VMWare Solutions - Network design
+- Azure Virtual Desktop - Network design
+- IPv6 in Azure
+- AzFW deep dive
+- ExpressRoute designs
+
+
+
 
 # Tooling - Draw.io (now diagrams.net)
 ## Features

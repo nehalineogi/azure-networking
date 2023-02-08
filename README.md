@@ -1,6 +1,6 @@
 # About this repo: The art of the possible and the *why* behind the various design options
 
-The purpose of this repo is to deliver **layered, reusable and github friendly** network architecture diagrams for Cloud Solutions Architects to run effective Azure design and skilling sessions. The repository will include tips and tools for effective story telling that explain the **why behind the design options based on requirements** and the art of the possible.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region, secure design, cross functional networking areas and AKS networking. The content is based on **real partner design sessions** with collaboration from cross-functional architects.  The networking complexity is broken down into **layers** with **one diagram** per design area using [draw.io](https://app.diagrams.net/) now [diagrams.net](https://www.diagrams.net/). This repo will include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
+The purpose of this repo is to deliver **layered, reusable and github friendly** network architecture diagrams for Cloud Solutions Architects to run effective Azure design and skilling sessions. The repository will include tips and tools for effective story telling that explain the **why behind the design options based on requirements** and the art of the possible.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region, secure design, cross functional networking areas and AKS networking. The content is based on **real customer and partner design sessions** with collaboration from cross-functional architects.  The networking complexity is broken down into **layers** with **one diagram** per design area using [draw.io](https://app.diagrams.net/) now [diagrams.net](https://www.diagrams.net/). This repo will include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
 
 
 # Scope: Solving Cloud Architect's Challenges
@@ -22,16 +22,16 @@ We have limited spots available so if you are interested to join live sesssion p
 
 **Upcoming sessions:**
 
-Note: **Invite will go out the week of Feb 13th**
+Note: **Invites will go out the week of Feb 13th**
 
-| Sesssion Name                                         | Date                        | Guest Speaker
-|-------------------------------------------------------|-----------------------------|---------------------|
-| [Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET|       Tommy Falgout (Sr. Cloud Solution Architect) 
-| [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET |        Mays Algebary (Global Black Belt, Networking )      |
-| [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET |         TBA         |
-| [DNS Options in Azure](#dns-in-azure)                 | Thu, Mar 16th 2023 12-1pm ET|         Daniel Mauser (Global Black Belt, Networking)      |
-| [NVA high availabilty options](#nva-high-availability)| Thu, Mar 23rd 2023 12-1pm ET|         Jose Moreno (Principal Customer Enginner)         |
-| [Private Endpoints](#private-endpoints)               | Thu, Mar 30th,2023 12-1pm ET|         TBA         |
+| Sesssion Name                                         | Date                        | Guest Speaker | Presenter | Agenda
+|-------------------------------------------------------|------------------------------|------------------------------------------------|---------------------|---------------------|
+| [Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET | Tommy Falgout (Sr. Cloud Solution Architect)   | Nehali Neogi | TBD |
+| [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET  | Mays Algebary (Global Black Belt, Networking)  | TBD | TBD |
+| [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET  | TBA                                            | TBD | TBD |
+| [DNS Options in Azure](#dns-in-azure)                 | Thu, Mar 16th 2023 12-1pm ET | Daniel Mauser (Global Black Belt, Networking)  | TBD | TBD |
+| [NVA high availabilty options](#nva-high-availability)| Thu, Mar 23rd 2023 12-1pm ET | Jose Moreno (Principal Customer Enginner)      | TBD | TBD |
+| [Private Endpoints](#private-endpoints)               | Thu, Mar 30th,2023 12-1pm ET | TBA                                            | TBD | TBD |
 
 
 
@@ -169,7 +169,7 @@ Draw.io is [feature rich](https://www.diagrams.net/blog). I've listed my top 10 
 9. [vscode integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
 10. [Group shapes](https://drawio-app.com/more-draw-io-shortcuts-to-streamline-your-diagramming/) using CTRL-G
 
-##  Installation
+## Installation
 
 There are three options to open the draw.io diagrams.
 

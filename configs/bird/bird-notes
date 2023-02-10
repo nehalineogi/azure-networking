@@ -1,0 +1,13 @@
+apt install bird-bgp
+systemctl restart bird.service
+systemctl status bird.service
+root@bird-nva-east:/home/nehali# birdc
+BIRD 1.6.8 ready.
+bird> show protocols
+name     proto    table    state  since       info
+kernel1  Kernel   master   up     12:09:09
+static1  Static   master   up     12:09:09
+device1  Device   master   up     12:09:09
+vxlan    BGP      master   up     12:09:14    Established
+routeserver1 BGP      master   up     12:09:11    Established
+routeserver2 BGP      master   up     12:09:13    Established

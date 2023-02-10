@@ -5,14 +5,21 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 
 # Scope: Reusable and Layered Network Diagrams
 
-- Reusable network architecture diagram templates
+**Target Audience**:  Cloud Architects, Network Architects,Cloud Infrastructure Architects, Solution Engineers
+
+- Build Reusable network architecture diagram templates
 - Layered diagrams to run effective Azure Design and skilling sessions 
 - Real world use cases dervied from working with Microsoft customers
 - Level 100 to level 500 design in one diagram
-- Github collaboration with customers and cloud architects
+- Github friendly diagrams
+- Understand the why behind the design decision
+- Minimize lab time
+- Growth mindset
+
+Future Expansion:
 - Cross functional team collaboration for networking areas
-- Documented flows and configuration snippets to reduce lab prep time
-- Scripts and guidance for architects to run the skilling session
+- Configuration Snippets
+- Guided Scripts to run the skilling session
 
 # Join us for live sessions
 
@@ -144,6 +151,11 @@ This design includes the following layers:
 # Design Areas (Part 3)
 
 - Azure VMWare Solutions - Network design
+    - AVS with NVA in Azure VNET (with ARS)
+    - Multi-region design with NVA in Azure NVET (with ARS)
+    - AVS with NVA behind NSX
+    - Azure Site Recovery (From AVS to Azure)
+    - HCX Scenarios
 - Azure Virtual Desktop - Network design
 - IPv6 in Azure
 - AzFW deep dive

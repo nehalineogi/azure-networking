@@ -5,21 +5,29 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 
 # Scope: Reusable and Layered Network Diagrams
 
-**Target Audience**:  Cloud Architects, Network Architects,Cloud Infrastructure Architects, Solution Engineers
+**Target Audience**:  Cloud Solution Architects, Network Architects, Cloud Infrastructure Architects, Solution Engineers
 
-- Build Reusable network architecture diagram templates
+**Scope**
+- Build Reusable and github friendly network architecture diagram templates
 - Layered diagrams to run effective Azure Design and skilling sessions 
 - Real world use cases dervied from working with Microsoft customers
-- Level 100 to level 500 design in one diagram
-- Github friendly diagrams
+- Level 100 to level 500 scenarios in one diagram
 - Understand the why behind the design decision
 - Minimize lab time
 - Growth mindset
 
-Future Expansion:
-- Cross functional team collaboration for networking areas
-- Configuration Snippets
-- Guided Scripts to run the skilling session
+**Scheduled Sessions**
+
+  **[Part 1](#join-us-for-live-sessions)** (Hub-Spoke with ARS(Azure Route Server), Azure Virtual WAN, Load Balancing, DNS in Azure, NVA HA and Private Endpoint)
+
+
+
+<span style="color:green"> *Future Sessions Coming soon, stay tuned*</span>
+
+**Part 2** (Networking in Cross Functional Solution Areas) (AKS, Azure Data Factory, APIM, App Services)
+
+**Part 3** (Advanced Networking) (IPv6, ExpressRoute Designs, AVS, AVD)
+
 
 # Join us for live sessions
 
@@ -27,7 +35,7 @@ Future Expansion:
 We have limited spots available so if you are interested to join live sesssion please fillout [a form](https://forms.office.com/r/MM5MgmN1iA) with your role, email ID and session of interest. We will serve the request on the first come first serve basis. This will be a virtual teams meeting. Join us to learn, **connect with your peers in the industry** and share your use cases and design variations.  If you are a partner and would like to be a guest speaker to present a 5 min story do let me know.  Note: We are also looking to do in-person session at the Microsoft Technology Center (MTC) in Burlington,MA in the future so stay tuned...
 
 
-**Upcoming sessions:**
+**Part 1: Upcoming sessions:**
 
 Note: **Invites will go out the week of Feb 13th**
 
@@ -38,7 +46,7 @@ Note: **Invites will go out the week of Feb 13th**
 | [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET  | Marc De Droog (Global Black Belt, Networking)                                         | Nehali Neogi | TBD |
 | [DNS Options in Azure](#dns-in-azure)                 | Thu, Mar 16th 2023 12-1pm ET | Daniel Mauser (Global Black Belt, Networking)  | Nehali Neogi | TBD |
 | [NVA high availabilty options](#nva-high-availability)| Thu, Mar 23rd 2023 12-1pm ET | Jose Moreno (Principal Customer Engineer)      | Nehali Neogi | TBD |
-| [Private Endpoints](#private-endpoints)               | Thu, Mar 30th,2023 12-1pm ET | TBA                                            | Nehali Neogi | TBD |
+| [Private Endpoints](#private-endpoints)               | Thu, Mar 30th,2023 12-1pm ET | Shruthi Vijaya Nair (Global Black Belt, Networking)                                            | Nehali Neogi | TBD |
 
 
 
@@ -140,12 +148,12 @@ This design includes the following layers:
 - Use case with AFD
 - Use case with AKS
 
-# Upcoming designs (Work in Progress)
+# Upcoming designs <span style="color:red"> (Work In Progress...)</span>
 
 # Design Areas (Cross Functional - Part 2)
 
 
-## Networking in Azure Kubnernetes Services
+## Networking in Azure Kubernetes Service (AKS)
 ![aks-design](design-gifs/aks-design.gif)
 
 This design includes the following layers

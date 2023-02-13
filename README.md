@@ -143,14 +143,20 @@ This design includes the following layers:
 # Upcoming designs (Work in Progress)
 
 # Design Areas (Cross Functional - Part 2)
+
+
 - Networking in Azure Kubnernetes Services
-    - Azure CNI
-    - Azure Kubenet
-    - Azure CNI Overlay
-    - IPv6 in AKS
-    - Azure Data platform integration (Example: SQL MI integration, SQL DB, Cosmos DB, OSS DB (mysql, postgreSQL), blob storage)
-    - Multi-region with Relational DB(SQLMI, SQL DB, OSS DB) (Single Master) (Shopping cart)
-    - Multi-region with Non-relational or NoSQL (Cosmos DB, MongoDB) (Multi Master) (catalog db)
+![aks-design](design-gifs/aks-design.gif)
+
+This design includes the following layers
+
+- Azure CNI
+- Azure Kubenet
+- Azure CNI Overlay
+- IPv6 in AKS
+- Azure Data platform integration (Example: SQL MI integration, SQL DB, Cosmos DB, OSS DB (mysql, postgreSQL), blob storage)
+- Multi-region with Relational DB(SQLMI, SQL DB, OSS DB) (Single Master) (Shopping cart)
+- Multi-region with Non-relational or NoSQL (Cosmos DB, MongoDB) (Multi Master) (catalog db)
 
 
 - Networking with Azure Data Factory

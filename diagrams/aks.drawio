@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="5">
     <diagram name="AKS" id="uN7CGvEaiBTlguin2hiT">
-        <mxGraphModel dx="7990" dy="5957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="8645" dy="9115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -142,7 +142,7 @@
                 </UserObject>
                 <UserObject label="&lt;font style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;Internet&lt;/b&gt;&lt;/font&gt;" tags="" id="qUfyDGxGpHKbPqtfmTrg-16">
                     <mxCell style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;glass=0;labelBackgroundColor=default;fillStyle=auto;strokeColor=#000000;strokeWidth=4;fontFamily=Comic Sans MS;fontSize=25;fontColor=#000000;fillColor=none;gradientColor=none;opacity=70;sketch=1;curveFitting=1;jiggle=2;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;disableMultiStrokeFill=1;disableMultiStroke=1;" parent="TBIVwO9MvjW_WMQPq86C-65" vertex="1">
-                        <mxGeometry x="-1550" y="-3230" width="3970" height="140" as="geometry"/>
+                        <mxGeometry x="-1550" y="-3230" width="4500" height="140" as="geometry"/>
                     </mxCell>
                 </UserObject>
                 <mxCell id="TBIVwO9MvjW_WMQPq86C-196" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Load_Balancers.svg;rounded=0;sketch=1;hachureGap=-8;jiggle=2;disableMultiStroke=1;disableMultiStrokeFill=1;fillStyle=solid;curveFitting=1;strokeColor=default;strokeWidth=40;fontFamily=Comic Sans MS;fontColor=default;fillColor=default;" parent="TBIVwO9MvjW_WMQPq86C-65" vertex="1">
@@ -312,11 +312,6 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="TBIVwO9MvjW_WMQPq86C-66" value="aks-kubenet" style="" parent="0"/>
-                <UserObject label="&lt;font style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;Internet&lt;/b&gt;&lt;/font&gt;" tags="" id="TBIVwO9MvjW_WMQPq86C-86">
-                    <mxCell style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;glass=0;labelBackgroundColor=default;fillStyle=auto;strokeColor=#000000;strokeWidth=4;fontFamily=Comic Sans MS;fontSize=25;fontColor=#000000;fillColor=none;gradientColor=none;opacity=70;sketch=1;curveFitting=1;jiggle=2;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;disableMultiStrokeFill=1;disableMultiStroke=1;" parent="TBIVwO9MvjW_WMQPq86C-66" vertex="1">
-                        <mxGeometry x="510" y="-3250" width="2480" height="140" as="geometry"/>
-                    </mxCell>
-                </UserObject>
                 <mxCell id="TBIVwO9MvjW_WMQPq86C-63" style="edgeStyle=none;rounded=0;sketch=1;hachureGap=4;jiggle=2;disableMultiStroke=1;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;fontFamily=Comic Sans MS;fontSize=40;fontColor=default;endArrow=box;endFill=0;endSize=19;startSize=11;strokeColor=#FF0000;" parent="TBIVwO9MvjW_WMQPq86C-66" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1526" y="-850" as="sourcePoint"/>
@@ -389,7 +384,7 @@
                     </mxCell>
                 </UserObject>
                 <mxCell id="TBIVwO9MvjW_WMQPq86C-68" value="CNI Overlay" parent="0" visible="0"/>
-                <mxCell id="TBIVwO9MvjW_WMQPq86C-97" value="Inbound-Services" parent="0"/>
+                <mxCell id="TBIVwO9MvjW_WMQPq86C-97" value="Inbound-Services" parent="0" visible="0"/>
                 <mxCell id="TBIVwO9MvjW_WMQPq86C-148" style="edgeStyle=none;rounded=0;sketch=1;hachureGap=4;jiggle=2;disableMultiStroke=1;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF0000;strokeWidth=4;fontFamily=Comic Sans MS;fontSize=20;fontColor=#0066CC;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=11;endSize=19;" parent="TBIVwO9MvjW_WMQPq86C-97" source="TBIVwO9MvjW_WMQPq86C-140" target="TBIVwO9MvjW_WMQPq86C-103" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
@@ -460,7 +455,7 @@
                 </mxCell>
                 <mxCell id="TBIVwO9MvjW_WMQPq86C-187" value="Inbound-Flows" parent="0" visible="0"/>
                 <mxCell id="TBIVwO9MvjW_WMQPq86C-190" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/user.svg;rounded=0;sketch=1;hachureGap=-8;jiggle=2;disableMultiStroke=1;disableMultiStrokeFill=1;fillStyle=solid;curveFitting=1;strokeColor=default;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=35;fontColor=#000000;fillColor=default;" parent="TBIVwO9MvjW_WMQPq86C-187" vertex="1">
-                    <mxGeometry x="950" y="-3485" width="68.5" height="185.14" as="geometry"/>
+                    <mxGeometry x="860" y="-3595" width="68.5" height="185.14" as="geometry"/>
                 </mxCell>
                 <mxCell id="TBIVwO9MvjW_WMQPq86C-194" style="edgeStyle=none;curved=1;sketch=0;hachureGap=4;jiggle=2;disableMultiStroke=1;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#000000;strokeWidth=8;fontFamily=Comic Sans MS;fontSize=40;fontColor=#3399FF;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=11;endSize=19;flowAnimation=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="TBIVwO9MvjW_WMQPq86C-187" source="TBIVwO9MvjW_WMQPq86C-190" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -477,7 +472,7 @@
                 <mxCell id="TBIVwO9MvjW_WMQPq86C-247" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/NAT.svg;rounded=0;sketch=1;hachureGap=-8;jiggle=2;disableMultiStroke=1;disableMultiStrokeFill=1;fillStyle=solid;curveFitting=1;strokeColor=default;strokeWidth=2;fontFamily=Comic Sans MS;fontColor=#CC00CC;fillColor=default;" parent="TBIVwO9MvjW_WMQPq86C-187" vertex="1">
                     <mxGeometry x="2610" y="-3080" width="208" height="208" as="geometry"/>
                 </mxCell>
-                <mxCell id="TBIVwO9MvjW_WMQPq86C-226" value="Outbound Flows" parent="0"/>
+                <mxCell id="TBIVwO9MvjW_WMQPq86C-226" value="Outbound Flows" parent="0" visible="0"/>
                 <mxCell id="TBIVwO9MvjW_WMQPq86C-228" value="&lt;font color=&quot;#cc00cc&quot;&gt;&lt;b&gt;LB SNAT&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;fontFamily=Comic Sans MS;fontColor=#3399FF;" parent="TBIVwO9MvjW_WMQPq86C-226" vertex="1">
                     <mxGeometry x="1810" y="-3060" width="210" height="60" as="geometry"/>
                 </mxCell>
@@ -486,7 +481,7 @@
                         <mxPoint x="-1670" y="-2190" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="2420" y="-1300"/>
-                            <mxPoint x="1610" y="-1700"/>
+                            <mxPoint x="1610" y="-1660"/>
                             <mxPoint x="-1100" y="-1250"/>
                         </Array>
                         <mxPoint x="2360" y="-840" as="sourcePoint"/>
@@ -516,7 +511,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="TBIVwO9MvjW_WMQPq86C-248" value="&lt;font size=&quot;1&quot; face=&quot;Comic Sans MS&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 40px;&quot;&gt;NAT GW IP/Prefix&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;fontColor=#CC00CC;" parent="TBIVwO9MvjW_WMQPq86C-226" vertex="1">
-                    <mxGeometry x="2712" y="-3160" width="400" height="60" as="geometry"/>
+                    <mxGeometry x="2800" y="-3100" width="400" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="TBIVwO9MvjW_WMQPq86C-251" value="&lt;font color=&quot;#cc00cc&quot;&gt;Firewall SNAT&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=40;fontFamily=Comic Sans MS;fontColor=#004C99;fontStyle=1" parent="TBIVwO9MvjW_WMQPq86C-226" vertex="1" connectable="0">
                     <mxGeometry x="0.8462" y="-3" relative="1" as="geometry">
@@ -656,7 +651,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="VkVXox-Q_weuV1OeezHu" name="Multi-nodepool">
-        <mxGraphModel dx="1632" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1219" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>

@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="18">
     <diagram id="Wxy7yypy4PS-fuKhm5zA" name="NVA-HA">
-        <mxGraphModel dx="6520" dy="3956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="7827" dy="3684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -528,7 +528,6 @@
                 <mxCell id="2" style="edgeStyle=none;html=1;exitX=0.279;exitY=0.822;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=#0000CC;fontSize=36;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;startArrow=box;startFill=0;strokeWidth=5;disableMultiStroke=1;dashed=1;exitPerimeter=0;" parent="rSWhWMOrujNaRHSIz0-9-1" source="c_t1Y15U5qgj5dxgo_og-3" target="EDEjtokOcEf25RjdLFme-20" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_t1Y15U5qgj5dxgo_og-13" value="TODO: IPs" style="" parent="0" visible="0"/>
                 <mxCell id="DdFnPqEl9rYPizCc3Tz8-2" value="IPs: Configuration" parent="0" visible="0"/>
                 <mxCell id="5" style="edgeStyle=none;curved=1;html=1;entryX=0.153;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#0000CC;fontSize=36;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;startArrow=box;startFill=0;strokeWidth=5;disableMultiStroke=1;exitX=0.153;exitY=0.047;exitDx=0;exitDy=0;exitPerimeter=0;" parent="DdFnPqEl9rYPizCc3Tz8-2" source="c_t1Y15U5qgj5dxgo_og-3" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -592,7 +591,9 @@
                 <mxCell id="8fqLkBK-yTTwI8CVXc9W-18" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://learn.microsoft.com/en-us/azure/load-balancer/media/load-balancer-ha-ports-overview/nvahathmb.png;" parent="DdFnPqEl9rYPizCc3Tz8-1" vertex="1">
                     <mxGeometry x="5760" y="-400" width="2404.3" height="860" as="geometry"/>
                 </mxCell>
+                <mxCell id="c_t1Y15U5qgj5dxgo_og-13" value="TODO: IPs" style="" parent="0" visible="0"/>
                 <mxCell id="tt325VsgRbrumN79zzgM-1" value="TODO: Packet-captures" parent="0" visible="0"/>
+                <mxCell id="8" value="TODO: Gateway Load Balancer" parent="0"/>
             </root>
         </mxGraphModel>
     </diagram>

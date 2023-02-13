@@ -21,16 +21,17 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
   **[Part 1](#join-us-for-live-sessions)** (Hub-Spoke with ARS(Azure Route Server), Azure Virtual WAN, Load Balancing, DNS in Azure, NVA HA and Private Endpoint)
 
 
-<span style="color:green">
-Future Sessions Coming soon, stay tuned....
-</span>
+
+```python
+Future sessions coming soon, stay tuned....
+```
 
 
 **Part 2** (Networking in Cross Functional Solution Areas) (AKS, Azure Data Factory, APIM, App Services)
 
 **Part 3** (Advanced Networking) (IPv6, ExpressRoute Designs, AVS, AVD)
 
-
+--
 # Join us for live sessions
 
 

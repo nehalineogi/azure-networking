@@ -145,7 +145,7 @@ This design includes the following layers:
 # Design Areas (Cross Functional - Part 2)
 
 
-- Networking in Azure Kubnernetes Services
+## Networking in Azure Kubnernetes Services
 ![aks-design](design-gifs/aks-design.gif)
 
 This design includes the following layers
@@ -159,34 +159,34 @@ This design includes the following layers
 - Multi-region with Non-relational or NoSQL (Cosmos DB, MongoDB) (Multi Master) (catalog db)
 
 
-- Networking with Azure Data Factory
+## Networking with Azure Data Factory
+This design includes the following layers
+- Azure ADF  (Data movement and orchestration)
+- Azure Synapse
+- Azure Datalake or blob storage
+- SQL MI (source and destination)
+- Third Party Cloud (GCP)
+- Hybrid SQL Server On-premise
+- Cosmos DB, SQL DB (source and destination)
+- OSS Databases (postgreSQL, mysql, mariadb)
 
-    - Azure ADF  (Data movement and orchestration)
-    - Azure Synapse
-    - Azure Datalake or blob storage
-    - SQL MI (source and destination)
-    - Third Party Cloud (GCP)
-    - Hybrid SQL Server On-premise
-    - Cosmos DB, SQL DB (source and destination)
-    - OSS Databases (postgreSQL, mysql, mariadb)
 
 
+## Azure API Management (APIM)
+## Azure App Service Networking
 
-- Azure API Management (APIM)
-- Azure App Service Networking
+# Design Areas (Part 3 - Upcoming)
 
-# Design Areas (Part 3)
-
-- Azure VMWare Solutions - Network design
+## Azure VMWare Solutions - Network design
     - AVS with NVA in Azure VNET (with ARS)
     - Multi-region design with NVA in Azure NVET (with ARS)
     - AVS with NVA behind NSX
     - Azure Site Recovery (From AVS to Azure)
     - HCX Scenarios
-- Azure Virtual Desktop - Network design
-- IPv6 in Azure
-- AzFW deep dive
-- ExpressRoute designs
+## Azure Virtual Desktop - Network design
+## IPv6 in Azure
+## AzFW deep dive
+## ExpressRoute designs
 
 
 

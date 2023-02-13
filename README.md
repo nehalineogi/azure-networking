@@ -44,9 +44,9 @@ Note: **Invites will go out the week of Feb 13th**
 
 | Sesssion Name                                         | Date                        | Guest Speaker(s) | Presenter(s) | Agenda
 |-------------------------------------------------------|------------------------------|------------------------------------------------|---------------------|---------------------|
-| [Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET | Tommy Falgout (Sr. Cloud Solution Architect), Jose Moreno (Principal Customer Engineer)   | Nehali Neogi | TBD |
-| [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET  | Mays Algebary (Global Black Belt, Networking)  | Nehali Neogi | TBD |
-| [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET  | Marc De Droog (Global Black Belt, Networking)                                         | Nehali Neogi | TBD |
+| [Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET | Tommy Falgout (Sr. Cloud Solution Architect), Jose Moreno (Principal Customer Engineer), Heather Sze (Global Black Belt, Networking)   | Nehali Neogi | TBD |
+| [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET  | Mays Algebary (Global Black Belt, Networking),  | Nehali Neogi | TBD |
+| [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET  | Marc De Droog (Global Black Belt, Networking), Shruthi Vijaya Nair (Global Black Belt, Networking)                                       | Nehali Neogi | TBD |
 | [DNS Options in Azure](#dns-in-azure)                 | Thu, Mar 16th 2023 12-1pm ET | Daniel Mauser (Global Black Belt, Networking)  | Nehali Neogi | TBD |
 | [NVA high availabilty options](#nva-high-availability)| Thu, Mar 23rd 2023 12-1pm ET | Jose Moreno (Principal Customer Engineer)      | Nehali Neogi | TBD |
 | [Private Endpoints](#private-endpoints)               | Thu, Mar 30th,2023 12-1pm ET | Shruthi Vijaya Nair (Global Black Belt, Networking)                                            | Nehali Neogi | TBD |
@@ -151,7 +151,7 @@ This design includes the following layers:
 - Use case with AFD
 - Use case with AKS
 
-# Upcoming designs <span style="color:red"> (Work In Progress...)</span>
+# Upcoming designs (Work In Progress...)
 
 # Design Areas (Cross Functional - Part 2)
 
@@ -189,11 +189,11 @@ This design includes the following layers
 # Design Areas (Part 3 - Upcoming)
 
 ## Azure VMWare Solutions - Network design
-    - AVS with NVA in Azure VNET (with ARS)
-    - Multi-region design with NVA in Azure NVET (with ARS)
-    - AVS with NVA behind NSX
-    - Azure Site Recovery (From AVS to Azure)
-    - HCX Scenarios
+- AVS with NVA in Azure VNET (with ARS)
+- Multi-region design with NVA in Azure NVET (with ARS)
+- AVS with NVA behind NSX
+- Azure Site Recovery (From AVS to Azure)
+- HCX Scenarios
 ## Azure Virtual Desktop - Network design
 ## IPv6 in Azure
 ## AzFW deep dive

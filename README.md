@@ -21,8 +21,6 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
   **[Part 1](#join-us-for-live-sessions)** (Hub-Spoke with ARS(Azure Route Server), Azure Virtual WAN, Load Balancing, DNS in Azure, NVA HA and Private Endpoint)
 
 
-Future Sessions Coming soon, stay tuned*
-
 <span style="color:green">
 Future Sessions Coming soon, stay tuned....
 </span>

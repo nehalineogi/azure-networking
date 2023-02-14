@@ -29,7 +29,7 @@ Future sessions coming soon, stay tuned....
 
 **Part 2** (Networking in Cross Functional Solution Areas) (AKS, Azure Data Factory, APIM, App Services)
 
-**Part 3** (Advanced Networking) (IPv6, ExpressRoute Designs, AVS, AVD)
+**Part 3** (Advanced Networking and Security) (IPv6, AzFW, DDoS, ExpressRoute Designs, AVS, AVD)
 
 --
 # Join us for live sessions
@@ -45,8 +45,8 @@ Note: **Invites will go out the week of Feb 13th**
 | Sesssion Name                                         | Date                        | Guest Speaker(s) | Presenter(s) | Agenda
 |-------------------------------------------------------|------------------------------|------------------------------------------------|---------------------|---------------------|
 | [Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET | Tommy Falgout (Sr. Cloud Solution Architect), Jose Moreno (Principal Customer Engineer), Heather Sze (Global Black Belt, Networking)   | David O'Keefe(Partner Technology Strategist),Nehali Neogi (Cloud Solution Architect)| TBD |
-| [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET  | Mays Algebary (Global Black Belt, Networking), Shruthi Vijaya Nair (Global Black Belt)  | Nehali Neogi | TBD |
-| [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET  | Marc De Droog (Global Black Belt, Networking) Networking)                                       | Nehali Neogi | TBD |
+| [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET  | Mays Algebary (Global Black Belt, Networking), Shruthi Vijaya Nair (Global Black Belt, Networking)  | Nehali Neogi | TBD |
+| [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET  | Marc De Droog (Global Black Belt, Networking)                                       | Nehali Neogi | TBD |
 | [DNS Options in Azure](#dns-in-azure)                 | Thu, Mar 16th 2023 12-1pm ET | Daniel Mauser (Global Black Belt, Networking)  | Nehali Neogi | TBD |
 | [NVA high availabilty options](#nva-high-availability)| Thu, Mar 23rd 2023 12-1pm ET | Jose Moreno (Principal Customer Engineer)      | Nehali Neogi | TBD |
 | [Private Endpoints](#private-endpoints)               | Thu, Mar 30th,2023 12-1pm ET | Shruthi Vijaya Nair (Global Black Belt, Networking)                                            | Nehali Neogi | TBD |

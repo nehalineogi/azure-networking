@@ -46,8 +46,6 @@ Note: **Invites will go out the week of Feb 13th**
 |-------------------------------------------------------|------------------------------|------------------------------------------------|---------------------|---------------------|
 | [Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET | Tommy Falgout (Sr. Cloud Solution Architect), Jose Moreno (Principal Customer Engineer), Heather Sze (Global Black Belt, Networking)   | David O'Keefe(Partner Technology Strategist),Nehali Neogi (Cloud Solution Architect)| TBD |
 | [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET  | Mays Algebary (Global Black Belt, Networking), Shruthi Vijaya Nair (Global Black Belt, Networking)  | Nehali Neogi | TBD |
-| [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET  | Marc De Droog (Global Black Belt, Networking)                                       | Nehali Neogi | TBD |
-| [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET  | Mays Algebary (Global Black Belt, Networking), Shruthi Vijaya Nair (Global Black Belt)  | Nehali Neogi | TBD |
 | [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET  | Marc De Droog (Global Black Belt, Networking)                                     | Nehali Neogi | TBD |
 | [DNS Options in Azure](#dns-in-azure)                 | Thu, Mar 16th 2023 12-1pm ET | Daniel Mauser (Global Black Belt, Networking)  | Nehali Neogi | TBD |
 | [NVA high availabilty options](#nva-high-availability)| Thu, Mar 23rd 2023 12-1pm ET | Jose Moreno (Principal Customer Engineer)      | Nehali Neogi | TBD |

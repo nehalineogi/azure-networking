@@ -85,14 +85,13 @@ Download [draw.io diagram](diagrams/vwan.drawio). More information on how to ope
 In this session we walk through the vWAN architectures. This design includes the following layers:
  - Hybrid Connectivity Architecture
  - Single region default flows with Azure vWAN
+ - Multi region default flows with Azure vWAN
  - Secured vWAN
+ - BGP Endpoint feature use case
  - Use case for routing intent
  - Use case for NVA in indirect spokes
  - Use case for Custom Routing
- - Multiregin design
- - Configuratin snippets
- - Concepts
- - Limitations
+ - Multiregion with ExR Boe-tie design
 
 
 ## Load balancing in Azure

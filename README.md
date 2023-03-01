@@ -35,21 +35,21 @@ Future sessions coming soon, stay tuned....
 # Join us for live sessions
 
 
-We have limited spots available so if you are interested to join live sesssion please fillout [a form](https://forms.office.com/r/MM5MgmN1iA) with your role, email ID and session of interest. We will serve the request on the first come first serve basis. This will be a virtual teams meeting. Join us to learn, **connect with your peers in the industry** and share your use cases and design variations.  If you are a partner and would like to be a guest speaker to present a 5 min story do let me know.  Note: We are also looking to do in-person session at the Microsoft Technology Center (MTC) in Burlington,MA in the future so stay tuned...
+We have limited spots available so if you are interested to join live sesssion please fillout [a form](https://forms.office.com/r/MM5MgmN1iA) with your role, email ID and session of interest. We will serve the request on the first come first serve basis. This will be a virtual teams meeting. Join us to learn, **connect with your peers in the industry** and share your use cases and design variations.  If you are a partner and would like to be a guest speaker to present a story do let me know.  Note: We are also looking to do in-person session at the Microsoft Technology Center (MTC) in Burlington,MA in the future so stay tuned...
 
 
 **Part 1: Upcoming sessions:**
 
-Note: **Invites will go out the week of Feb 13th**
+Note: **Invites will go out two weeks before the session**
 
-| Sesssion Name                                         | Date                        | Guest Speaker(s) | Presenter(s) | Agenda
-|-------------------------------------------------------|------------------------------|------------------------------------------------|---------------------|---------------------|
-| [Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET | Tommy Falgout (Sr. Cloud Solution Architect), Jose Moreno (Principal Customer Engineer), Heather Sze (Global Black Belt, Networking)   | David O'Keefe(Partner Technology Strategist),Nehali Neogi (Cloud Solution Architect)| [Session-1](Agenda/sesssion1.md) |
-| [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET  | Mays Algebary (Global Black Belt, Networking), Shruthi Vijaya Nair (Global Black Belt, Networking)  | Nehali Neogi | TBD |
-| [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET  | Marc De Droog (Global Black Belt, Networking)                                     | Nehali Neogi | TBD |
-| [DNS Options in Azure](#dns-in-azure)                 | Thu, Mar 16th 2023 12-1pm ET | Daniel Mauser (Global Black Belt, Networking)  | Nehali Neogi | TBD |
-| [NVA high availabilty options](#nva-high-availability)| Thu, Mar 23rd 2023 12-1pm ET | Jose Moreno (Principal Customer Engineer)      | Nehali Neogi | TBD |
-| [Private Endpoints](#private-endpoints)               | Thu, Mar 30th,2023 12-1pm ET | Shruthi Vijaya Nair (Global Black Belt, Networking)                                            | Nehali Neogi | TBD |
+| Sesssion Name                                         | Date                        | Guest Speaker(s)  | Notes
+|-------------------------------------------------------|------------------------------|------------------------------------------------|---------------------|
+| [Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET | Tommy Falgout (Sr. Cloud Solution Architect), Jose Moreno (Principal Customer Engineer), Heather Sze (Global Black Belt, Networking)   |  [Agenda and FAQ](Agenda/session1.md) [Feedback form](https://forms.office.com/r/mZ418DCScx) |
+| [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET  | Mays Algebary (Global Black Belt, Networking), John Guo (Cloud Solution Architect, Checkpoint) |  [Agenda and FAQ](Agenda/session2.md) [Feedback Form](https://forms.microsoft.com/r/htdTjn6QT1) |
+| [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET  | Marc De Droog (Global Black Belt, Networking)  |  [Agenda and FAQ](Agenda/session3.md) |
+| [DNS Options in Azure](#dns-in-azure)                 | Thu, Mar 16th 2023 12-1pm ET | Daniel Mauser (Global Black Belt, Networking)  |  [Agenda and FAQ](Agenda/session4.md) |
+| [NVA high availabilty options](#nva-high-availability)| Thu, Mar 23rd 2023 12-1pm ET | Jose Moreno (Principal Customer Engineer)      |  [Agenda and FAQ](Agenda/session5.md) |
+| [Private Endpoints](#private-endpoints)               | Thu, Mar 30th,2023 12-1pm ET | Shruthi Vijaya Nair (Global Black Belt, Networking)|  [Agenda and FAQ](Agenda/session6.md) |
 
 
 

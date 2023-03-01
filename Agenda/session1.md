@@ -22,7 +22,9 @@ Your feedback in important to us please take a few minutes survery [here](https:
 
 3. Future sessions signup link [here](https://www.linkedin.com/feed/update/urn:li:activity:7024859847699365888/)
 
-4. Exisiting Vision diagrams can be easily imported to drawio using link [her(https://drawio-app.com/import-and-export-vsdx-files/)
+
+4. Additional Videos for using drawio for network diagraming on Nehali's youtube channel [here](https://www.youtube.com/channel/UC5x8jb_AMMAqMuFcMfX8RcA).
+
 5. Useful Blog links:  
 
  

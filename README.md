@@ -2,6 +2,13 @@
 
 The purpose of this repo is to deliver **layered, reusable and github friendly** network architecture diagrams for Cloud Solutions Architects to run effective Azure design and skilling sessions. The repository will include tips and tools for effective story telling that explain the **why behind the design options based on requirements** and the art of the possible.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region, secure design, cross functional networking areas and AKS networking. The content is based on **real customer and partner design sessions** with collaboration from cross-functional architects.  The networking complexity is broken down into **layers** with **one diagram** per design area using [draw.io](https://app.diagrams.net/) now [diagrams.net](https://www.diagrams.net/). This repo will include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
 
+# [Youtube Channel](https://www.youtube.com/channel/UC5x8jb_AMMAqMuFcMfX8RcA)
+
+### Playlist - Azure Networking Series
+
+1. Part-1: Creating Network Diagrams Using draw.io
+2. Part-2: Hub-spoke-design (Single Region)
+3. Part-3: Hub-spoke-design (Multi Region)
 
 # Scope: Reusable and Layered Network Diagrams
 

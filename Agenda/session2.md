@@ -28,4 +28,7 @@ Your feedback in important to us. Please take a few minutes survery [here](https
 
 [Marc's vWAN Micro Hack](https://github.com/mddazure/azure-vwan-microhack)
  
+ May's Presentation:
+ 
 [Daniel's blog](https://github.com/dmauser/azure-vmware-solution)
+[Daniel's Blog](https://github.com/dmauser/azure-expressroute/tree/main/er-to-er-transit/ars#UDR-requirement-on-GatewaySubnet)

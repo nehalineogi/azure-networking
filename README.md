@@ -10,6 +10,8 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 2. Part-2: Hub-spoke-design (Single Region)
 3. Part-3: Hub-spoke-design (Multi Region)
 
+
+
 # Scope: Reusable and Layered Network Diagrams
 
 **Target Audience**:  Cloud Solution Architects, Network Architects, Cloud Infrastructure Architects, Solution Engineers
@@ -53,7 +55,7 @@ Note: **Invites will go out two weeks before the session**
 |-------------------------------------------------------|------------------------------|------------------------------------------------|---------------------|
 | [Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET | Tommy Falgout (Sr. Cloud Solution Architect), Jose Moreno (Principal Customer Engineer), Heather Sze (Global Black Belt, Networking)   |  [Agenda and FAQ](Agenda/session1.md) [Feedback form](https://forms.office.com/r/mZ418DCScx) |
 | [ vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET  | Mays Algebary (Global Black Belt, Networking), John Guo (Cloud Solution Architect, Checkpoint) |  [Agenda and FAQ](Agenda/session2.md) [Feedback Form](https://forms.microsoft.com/r/htdTjn6QT1) |
-| [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET  | Marc De Droog (Global Black Belt, Networking)  |  [Agenda and FAQ](Agenda/session3.md) |
+| [Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET  | Marc De Droog (Global Black Belt, Networking), John Guo(Cloud Solution Architect, Checkpoint) |  [Agenda and FAQ](Agenda/session3.md) [Feedback Form](https://forms.microsoft.com/r/HNhm2a7ghu)|
 | [DNS Options in Azure](#dns-in-azure)                 | Thu, Mar 16th 2023 12-1pm ET | Daniel Mauser (Global Black Belt, Networking)  |  [Agenda and FAQ](Agenda/session4.md) |
 | [NVA high availabilty options](#nva-high-availability)| Thu, Mar 23rd 2023 12-1pm ET | Jose Moreno (Principal Customer Engineer)      |  [Agenda and FAQ](Agenda/session5.md) |
 | [Private Endpoints](#private-endpoints)               | Thu, Mar 30th,2023 12-1pm ET | Shruthi Vijaya Nair (Global Black Belt, Networking)|  [Agenda and FAQ](Agenda/session6.md) |
@@ -108,9 +110,11 @@ Download [draw.io diagram](diagrams/load-balancing.drawio). More information on 
 ![lb-design](design-gifs/lb-design.GIF)
 In this session we walk through the load balancing architectures. This design includes the following layers
  - Azure load balancer (layer 4)
- - Azure applicatin Gateway (layer 7)
- - Azure Traffic Manager
+ - Azure application Gateway (layer 7)
+ - Cross Region Load Balancer
+ - Azure Traffic Manager (Global)
  - Azure Front door (AFD)
+ - Azure Gateway Load Balancer
  - Multi-region design
  - Use case for Private endpoint with AFD
 

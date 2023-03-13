@@ -1,9 +1,12 @@
 <mxfile host="65bd71144e">
     <diagram name="vWAN" id="NxYmKDOF7gZatoSxxhLE">
-        <mxGraphModel dx="1956" dy="1945" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+        <mxGraphModel dx="4145" dy="3213" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0Zcb1wvKVoteUL0pYanl-0"/>
                 <mxCell id="0Zcb1wvKVoteUL0pYanl-1" value="Background" style="" parent="0Zcb1wvKVoteUL0pYanl-0"/>
+                <mxCell id="225" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 35px;&quot;&gt;&lt;b&gt;4000&lt;br&gt;From NVA -&amp;gt; EndPoint&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0Zcb1wvKVoteUL0pYanl-1">
+                    <mxGeometry x="-405" y="-255" width="420" height="105" as="geometry"/>
+                </mxCell>
                 <mxCell id="0Zcb1wvKVoteUL0pYanl-37" value="Base:vWAN-hub-spoke" style="" parent="0Zcb1wvKVoteUL0pYanl-0"/>
                 <mxCell id="0Zcb1wvKVoteUL0pYanl-40" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=#FFFF66;labelBorderColor=#FF0000;comic=0;fillStyle=auto;sketchStyle=rough;strokeColor=#3399FF;strokeWidth=5;fontFamily=Comic Sans MS;fontSize=45;fontColor=#000000;fillColor=#CCE5FF;gradientColor=none;dashGap=0;zigzagOffset=0;dashOffset=0;fixDash=0;sketch=1;curveFitting=1;jiggle=1;disableMultiStroke=1;disableMultiStrokeFill=1;hachureGap=-1;fillWeight=-1;snapToPoint=1;fontStyle=1" parent="0Zcb1wvKVoteUL0pYanl-37" vertex="1">
                     <mxGeometry x="60" y="-90" width="720" height="405" as="geometry"/>
@@ -343,7 +346,7 @@
                 <mxCell id="223" value="Region-2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=42;fontFamily=Comic Sans MS;fontStyle=1;labelBackgroundColor=#FFFF99;" parent="Gj4-7rek51OEj5r49d8h-14" vertex="1">
                     <mxGeometry x="2700" y="-645" width="210" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="121" value="Base: (Optional)IPs" parent="0Zcb1wvKVoteUL0pYanl-0"/>
+                <mxCell id="121" value="Base: (Optional)IPs" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0"/>
                 <mxCell id="130" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Comic Sans MS&amp;quot;; font-size: 35px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;10.11.0.0/16&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=35;fontFamily=Architects Daughter;fontColor=#009900;labelBackgroundColor=none;" parent="121" vertex="1">
                     <mxGeometry x="120" y="-435" width="285" height="75" as="geometry"/>
                 </mxCell>
@@ -400,7 +403,7 @@
                 </mxCell>
                 <mxCell id="urDw_3JVZcir2qkkAjf6-234" value="Scenario-1 (Default Design)" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0"/>
                 <mxCell id="37" value="&lt;font style=&quot;font-size: 45px;&quot;&gt;&lt;b&gt;Scenario-1&amp;nbsp; Default vWAN multi-region &lt;br&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;font-size: 45px;&quot;&gt;&lt;b&gt;ANY to ANY IP Connectivity/Connectivity&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 45px;&quot;&gt;&lt;b&gt;Inter-hub Connectivity over Inter-hub peering&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;Internet using default outbound NAT&lt;/li&gt;&lt;li&gt;ER to ER requires global reach&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255, 255, 153);&quot;&gt;Branch-to-branch - use case&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255, 255, 153);&quot;&gt;Marc De Droog's&amp;nbsp; VWAN learning lab.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Comic Sans MS;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" parent="urDw_3JVZcir2qkkAjf6-234" vertex="1">
-                    <mxGeometry x="1140" y="1095" width="1095" height="525" as="geometry"/>
+                    <mxGeometry x="1260" y="1995" width="1095" height="525" as="geometry"/>
                 </mxCell>
                 <mxCell id="Gj4-7rek51OEj5r49d8h-6" value=" Default Flows-Region-1" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0"/>
                 <mxCell id="Gj4-7rek51OEj5r49d8h-8" style="edgeStyle=none;curved=1;sketch=0;jumpStyle=none;jumpSize=2;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.244;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;dashed=1;strokeColor=#00CC00;strokeWidth=6;fontFamily=Comic Sans MS;fontSize=35;fontColor=#000000;startArrow=classic;startFill=1;endArrow=classic;endFill=1;targetPerimeterSpacing=1;fontStyle=1" parent="Gj4-7rek51OEj5r49d8h-6" edge="1">
@@ -894,7 +897,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="87" value="&lt;font style=&quot;font-size: 35px;&quot; color=&quot;#ff0000&quot;&gt;0/0&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" parent="164" vertex="1">
-                    <mxGeometry x="871" y="264" width="90" height="60" as="geometry"/>
+                    <mxGeometry x="930" y="315" width="90" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="107" value="&lt;font style=&quot;font-size: 35px;&quot; color=&quot;#ff0000&quot;&gt;0/0&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" parent="164" vertex="1">
                     <mxGeometry x="3226" y="375" width="90" height="60" as="geometry"/>
@@ -1559,16 +1562,40 @@
                 <mxCell id="125" value="TODO: AppGW-Integration" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0"/>
                 <mxCell id="nJIof_JBiuA4ikxRBGKq-214" value="TODO: Multiple ISPs" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0"/>
                 <mxCell id="nJIof_JBiuA4ikxRBGKq-223" value="TODO: Limits-SKUs" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0"/>
+                <mxCell id="227" value="Limits:ExR GW&lt;br&gt;Per HUB: 8 Circuits Per HUB&lt;br&gt;Throughput: ExR GW: 20G (Scale Units)&lt;br&gt;VHUB Router: 50 G (For VNET to VNET) Scale Units (Routing Infra Unit)&lt;br&gt;S2S GW: 20G Aggregated througput&lt;br&gt;Per Connections: 1G/Tunnel (2 Tunnels - 2G)&amp;nbsp;&lt;br&gt;P2S - 200G" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;fontFamily=Comic Sans MS;" vertex="1" parent="nJIof_JBiuA4ikxRBGKq-223">
+                    <mxGeometry x="1035" y="-450" width="1230" height="315" as="geometry"/>
+                </mxCell>
+                <mxCell id="226" value="4000 or 10,000(Premium)&lt;br&gt;From Azure -&amp;gt; OnPrem" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;fontFamily=Comic Sans MS;" vertex="1" parent="nJIof_JBiuA4ikxRBGKq-223">
+                    <mxGeometry x="885" y="150" width="450" height="105" as="geometry"/>
+                </mxCell>
                 <mxCell id="nJIof_JBiuA4ikxRBGKq-224" value="TODO: Monitoring Metrics" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0"/>
                 <mxCell id="mUGTGZqbymHyvS_auv7g-220" value="TODO: Concepts : Associations and Propagations" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0"/>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="FC8VFlhNxr3N3S8m1IU2" name="multi-region">
-        <mxGraphModel dx="6100" dy="3213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+        <mxGraphModel dx="6943" dy="3917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="gq20AflOzGUiXyepUNg9-3" value="Background" parent="0"/>
+                <mxCell id="BuJbftlIwJ1Is3CPJ4NM-1" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;&lt;span style=&quot;font-size: 35px;&quot;&gt;Internet&lt;/span&gt;&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;glass=0;labelBackgroundColor=default;sketch=0;fillStyle=auto;strokeColor=#000000;strokeWidth=4;fontFamily=Comic Sans MS;fontSize=35;fontColor=#000000;fillColor=none;gradientColor=none;opacity=70;fontStyle=1" vertex="1" parent="gq20AflOzGUiXyepUNg9-3">
+                    <mxGeometry x="880" y="-650" width="735" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="BuJbftlIwJ1Is3CPJ4NM-2" style="edgeStyle=none;html=1;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=35;exitX=0.995;exitY=0.433;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="gq20AflOzGUiXyepUNg9-3" source="geVuiIi3xMaHr7d8kFE6-37" target="geVuiIi3xMaHr7d8kFE6-18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BuJbftlIwJ1Is3CPJ4NM-3" style="edgeStyle=none;html=1;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.021;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=35;" edge="1" parent="gq20AflOzGUiXyepUNg9-3" source="geVuiIi3xMaHr7d8kFE6-18" target="geVuiIi3xMaHr7d8kFE6-50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BuJbftlIwJ1Is3CPJ4NM-4" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.112;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=35;curved=1;dashed=1;strokeColor=#009900;strokeWidth=3;" edge="1" parent="gq20AflOzGUiXyepUNg9-3" source="geVuiIi3xMaHr7d8kFE6-37" target="geVuiIi3xMaHr7d8kFE6-50">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1010" y="670"/>
+                            <mxPoint x="1710" y="680"/>
+                            <mxPoint x="2350" y="670"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="1" value="Base-mulit-region" parent="0"/>
                 <mxCell id="phMpMH9Cit8DxEahdX4U-2" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=35;disableMultiStroke=1;strokeWidth=5;" parent="1" vertex="1">
                     <mxGeometry x="2385" y="585.25" width="515" height="144.75" as="geometry"/>
@@ -1630,8 +1657,8 @@
                 <mxCell id="geVuiIi3xMaHr7d8kFE6-17" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;&lt;span style=&quot;font-size: 35px;&quot;&gt;P2S VPN&lt;br style=&quot;font-size: 35px;&quot;&gt;GW&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
                     <mxGeometry x="339" y="131" width="180" height="105" as="geometry"/>
                 </mxCell>
-                <mxCell id="geVuiIi3xMaHr7d8kFE6-18" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;&lt;span style=&quot;font-size: 35px;&quot;&gt;Internet&lt;/span&gt;&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;glass=0;labelBackgroundColor=default;sketch=0;fillStyle=auto;strokeColor=#000000;strokeWidth=4;fontFamily=Comic Sans MS;fontSize=35;fontColor=#000000;fillColor=none;gradientColor=none;opacity=70;fontStyle=1" parent="1" vertex="1">
-                    <mxGeometry x="870" y="-660" width="735" height="165" as="geometry"/>
+                <mxCell id="geVuiIi3xMaHr7d8kFE6-18" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;&lt;span style=&quot;font-size: 35px;&quot;&gt;MPLS&lt;/span&gt;&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;glass=0;labelBackgroundColor=default;sketch=0;fillStyle=auto;strokeColor=#000000;strokeWidth=4;fontFamily=Comic Sans MS;fontSize=35;fontColor=#000000;fillColor=none;gradientColor=none;opacity=70;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1360" y="970" width="735" height="165" as="geometry"/>
                 </mxCell>
                 <mxCell id="geVuiIi3xMaHr7d8kFE6-19" style="edgeStyle=none;curved=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#3399FF;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=35;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeWidth=3;fontStyle=1" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -1844,7 +1871,7 @@
                         <mxPoint x="2587" y="727.75" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="UVjZMW11ouWMep9pGfjX-3" value="Scenario-1 (default Design)" parent="0" visible="0"/>
+                <mxCell id="UVjZMW11ouWMep9pGfjX-3" value="Scenario-1 (default Design)" parent="0"/>
                 <mxCell id="QCABe6U66GUARptCeZ2L-1" value="Scenario 1: ExR Boe-Tie Design&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Reduandant Path Hybrid Connectivity&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. Options:&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ExR Boe-tie Design&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;VPN Boe-Tie-Design&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ExR with VPN Failover&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 153);&quot;&gt; Routing Preference&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=53;fontFamily=Comic Sans MS;fontColor=#000000;labelBackgroundColor=none;" parent="UVjZMW11ouWMep9pGfjX-3" vertex="1">
                     <mxGeometry x="1290" y="1355" width="1000" height="590" as="geometry"/>
                 </mxCell>
@@ -1867,7 +1894,7 @@
                 <mxCell id="Yn9zSwomzwTshD5HnlM5-5" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 35px;&quot;&gt;&lt;b&gt;ASN: 12076&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;fontFamily=Comic Sans MS;fontColor=#FF0000;fontStyle=1;labelBackgroundColor=#FFFF33;" parent="1U2SFr_NVQfLcnEladwk-1" vertex="1">
                     <mxGeometry x="2550" y="670" width="240" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="gq20AflOzGUiXyepUNg9-1" value="Inter-hub" parent="0" visible="0"/>
+                <mxCell id="gq20AflOzGUiXyepUNg9-1" value="Inter-hub" parent="0"/>
                 <mxCell id="_pE8QliobWC26cAxcaCa-2" style="edgeStyle=none;curved=1;sketch=0;html=1;exitX=0.448;exitY=1.042;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF00FF;strokeWidth=5;fontSize=45;fontFamily=Comic Sans MS;fontColor=#00994D;hachureGap=4;jiggle=2;curveFitting=1;startArrow=none;startFill=0;endFill=1;dashPattern=1 1;exitPerimeter=0;" parent="gq20AflOzGUiXyepUNg9-1" source="geVuiIi3xMaHr7d8kFE6-63" target="geVuiIi3xMaHr7d8kFE6-2" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
@@ -1890,7 +1917,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="gq20AflOzGUiXyepUNg9-4" value="AS-Path" parent="0" visible="0"/>
+                <mxCell id="gq20AflOzGUiXyepUNg9-4" value="AS-Path" parent="0"/>
                 <mxCell id="gq20AflOzGUiXyepUNg9-5" style="edgeStyle=none;curved=1;sketch=0;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.122;entryY=1.042;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#FF8000;strokeWidth=5;fontFamily=Comic Sans MS;fontSize=45;fontColor=#00994D;hachureGap=4;jiggle=2;curveFitting=1;startArrow=classic;startFill=1;endFill=1;" parent="gq20AflOzGUiXyepUNg9-4" source="geVuiIi3xMaHr7d8kFE6-2" target="geVuiIi3xMaHr7d8kFE6-63" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">

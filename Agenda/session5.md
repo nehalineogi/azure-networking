@@ -12,7 +12,7 @@
 
 # [Feedback Form](https://forms.microsoft.com/r/cJ55nC20KM)
 
-Your feedback in important to us. Please take a few minutes survery [here](https://forms.microsoft.com/r/cJ55nC20KM)
+Your feedback in important to us. Please take a few minutes survey [here](https://forms.microsoft.com/r/cJ55nC20KM)
 
 
 # FAQs/Links

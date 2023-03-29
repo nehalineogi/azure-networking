@@ -22,3 +22,27 @@ Your feedback in important to us. Please take a few minutes survey [here](https:
 Nehali's Youtube Channel:
 
 https://www.youtube.com/channel/UC5x8jb_AMMAqMuFcMfX8RcA
+
+
+Private Endpoint DNS Configuration
+
+https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns
+
+TCP Proxy v2
+
+https://learn.microsoft.com/en-us/azure/private-link/private-link-service-overview#getting-connection-information-using-tcp-proxy-v2
+
+https://www.haproxy.org/download/1.8/doc/proxy-protocol.txt
+
+https://github.com/fguerri/AzureVNetIntegrationPatterns/blob/master/README.md#vnet-integration-patterns-for-dedicated-services-1
+
+VNET Integration:
+
+https://learn.microsoft.com/en-us/azure/app-service/overview-vnet-integration
+
+https://github.com/fguerri/AzureVNetIntegrationPatterns/blob/master/README.md#vnet-integration-patterns-for-dedicated-services-1
+
+
+Dedicated services:
+
+https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-for-azure-services

@@ -12,6 +12,8 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 4. Part-4: Azure Virtual WAN (vWAN)
 5. Part-5: Load Balancing in Azure (to be uploaded...stay tuned)
 6. Part-6: Load Balancing demos
+7. Part-7: DNS Options in Azure
+8. Part-8: NVA High Availability Options in Azure
 
 
 

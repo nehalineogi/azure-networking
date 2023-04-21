@@ -46,3 +46,7 @@ https://github.com/fguerri/AzureVNetIntegrationPatterns/blob/master/README.md#vn
 Dedicated services:
 
 https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-for-azure-services
+
+Private Link AFD:
+https://learn.microsoft.com/en-us/azure/frontdoor/private-link
+https://github.com/nehalineogi/azure-cross-solution-network-architectures/blob/main/aks/README-private-cluster-with-AFD.md

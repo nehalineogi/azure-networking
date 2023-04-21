@@ -1,0 +1,140 @@
+
+#https://learn.microsoft.com/en-us/azure/openshift/tutorial-create-cluster
+
+#TODO
+# 1. Optional Elements
+
+
+# Register Providers
+az provider register -n Microsoft.RedHatOpenShift --wait
+az provider register -n Microsoft.Compute --wait
+az provider register -n Microsoft.Storage --wait
+az provider register -n Microsoft.Authorization --wait
+
+# Define variables
+LOCATION=eastus                 # the location of your cluster
+RESOURCEGROUP=aro-rg            # the name of the resource group where you want to create your cluster
+CLUSTER=cluster                 # the name of your cluster
+
+
+# Create RG
+az group create \
+  --name $RESOURCEGROUP \
+  --location $LOCATION
+
+# Create VNET
+  az network vnet create \
+   --resource-group $RESOURCEGROUP \
+   --name aro-vnet \
+   --address-prefixes 10.0.0.0/22
+
+
+
+# Create master subnet
+  az network vnet subnet create \
+  --resource-group $RESOURCEGROUP \
+  --vnet-name aro-vnet \
+  --name master-subnet \
+  --address-prefixes 10.0.0.0/23
+
+
+  # Create worker subnet
+  az network vnet subnet create \
+  --resource-group $RESOURCEGROUP \
+  --vnet-name aro-vnet \
+  --name worker-subnet \
+  --address-prefixes 10.0.2.0/23
+
+  # Create Cluster
+
+  az aro create \
+  --resource-group $RESOURCEGROUP \
+  --name $CLUSTER \
+  --vnet aro-vnet \
+  --master-subnet master-subnet \
+  --worker-subnet worker-subnet
+
+
+  # Connect to Cluster and get kubeadmin credentials
+  az aro list-credentials \
+  --name $CLUSTER \
+  --resource-group $RESOURCEGROUP
+
+  {
+  "kubeadminPassword": "dHgBT-mTARf-ML8FZ-Uxmbm",
+  "kubeadminUsername": "kubeadmin"
+}
+
+# ARO Console URL
+  az aro show \
+    --name $CLUSTER \
+    --resource-group $RESOURCEGROUP \
+    --query "consoleProfile.url" -o tsv
+
+   
+https://console-openshift-console.apps.r86uizg0.eastus.aroapp.io/
+
+mkdir openshift
+tar -zxvf openshift-client-linux.tar.gz -C openshift
+echo 'export PATH=$PATH:~/openshift' >> ~/.bashrc && source ~/.bashrc
+
+#Connect to Openshift CLI
+apiServer=$(az aro show -g $RESOURCEGROUP -n $CLUSTER --query apiserverProfile.url -o tsv)
+https://console-openshift-console.apps.r86uizg0.eastus.aroapp.io/
+
+#
+oc login $apiServer -u kubeadmin -p dHgBT-mTARf-ML8FZ-Uxmbm
+
+#
+#
+#
+oc new-project demoproject
+oc nn-app nginx
+oc new-project workshop
+#
+oc new-app bitnami/mongodb \
+  -e MONGODB_USERNAME=ratingsuser \
+  -e MONGODB_PASSWORD=ratingspassword \
+  -e MONGODB_DATABASE=ratingsdb \
+  -e MONGODB_ROOT_USER=root \
+  -e MONGODB_ROOT_PASSWORD=ratingspassword
+
+  #
+
+  oc get all
+
+  #
+  #
+  oc get svc mongodb
+  #
+  #
+  #
+  oc new-app https://github.com/nehalineogi/mslearn-aks-workshop-ratings-api.git --strategy=source --name=rating-api
+  oc new-app https://github.com/<your GitHub username>/mslearn-aks-workshop-ratings-api --strategy=source --name=rating-api
+
+
+  #
+  # pull secret
+  #
+  oc get secrets pull-secret -n openshift-config -o template='{{index .data ".dockerconfigjson"}}' | base64 -d > pull-secret.json
+
+  cat pull-secret.json | jq
+
+oc set data secret/pull-secret -n openshift-config --from-file=.dockerconfigjson=./pull-secret.json
+
+oc exec -n openshift-apiserver $(oc get pod -n openshift-apiserver -o jsonpath="{.items[0].metadata.name}") -- cat /var/lib/kubelet/config.json
+
+#
+#
+#
+oc edit configs.samples.operator.openshift.io/cluster -o yaml
+oc edit operatorhub cluster -o yaml
+oc get catalogsource -A
+
+
+
+oc set env deploy/rating-api MONGODB_URI=mongodb://ratingsuser:ratingspassword@mongodb.workshop.svc.cluster.local:27017/ratingsdb
+oc get svc rating-api
+
+oc get bc/rating-api -o=jsonpath='{.spec.triggers..github.secret}'
+oc describe bc/rating-api

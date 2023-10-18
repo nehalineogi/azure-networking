@@ -1,9 +1,12 @@
 <mxfile host="65bd71144e" pages="18">
     <diagram id="xAm_WjqhbKw9Kvs9WwH9" name="LB">
-        <mxGraphModel dx="14133" dy="5980" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="10505" dy="6395" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="95" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iMTBweCIgd2lkdGg9IjEwcHgiIHZpZXdCb3g9IjAgMCAxMCAxMCI+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2U9IiNDMEMwQzAiIGQ9IloiLz48L3N2Zz4=;" vertex="1" parent="1">
+                    <mxGeometry width="10" height="10" as="geometry"/>
+                </mxCell>
                 <mxCell id="mN-0i87dnHJpf8PUKJab-6" value="hub-spoke" parent="0"/>
                 <mxCell id="IGSSY49y2xvMNObxVk84-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=5;sketch=1;curveFitting=1;jiggle=2;disableMultiStrokeFill=1;disableMultiStroke=1;fillStyle=solid;gradientColor=#ffd966;opacity=60;fontSize=40;" parent="mN-0i87dnHJpf8PUKJab-6" vertex="1">
                     <mxGeometry x="-90" y="-180" width="660" height="480" as="geometry"/>

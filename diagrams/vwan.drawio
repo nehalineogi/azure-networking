@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="vWAN" id="NxYmKDOF7gZatoSxxhLE">
-        <mxGraphModel dx="9321" dy="5440" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+        <mxGraphModel dx="4400" dy="4298" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0Zcb1wvKVoteUL0pYanl-0"/>
                 <mxCell id="0Zcb1wvKVoteUL0pYanl-1" value="Background" style="" parent="0Zcb1wvKVoteUL0pYanl-0"/>
@@ -179,7 +179,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="Gj4-7rek51OEj5r49d8h-14" value="Base: Second-Region" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0"/>
+                <mxCell id="Gj4-7rek51OEj5r49d8h-14" value="Base: Second-Region" parent="0Zcb1wvKVoteUL0pYanl-0"/>
                 <mxCell id="Gj4-7rek51OEj5r49d8h-36" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=#FFFF66;labelBorderColor=#FF0000;comic=0;sketch=1;jiggle=2;fillStyle=auto;curveFitting=1;sketchStyle=rough;strokeColor=#FF8000;strokeWidth=5;fontFamily=Comic Sans MS;fontSize=45;fillColor=#FFE6CC;disableMultiStrokeFill=1;disableMultiStroke=1;hachureGap=-1;fillWeight=-1;fontStyle=1" parent="Gj4-7rek51OEj5r49d8h-14" vertex="1">
                     <mxGeometry x="1740" y="570" width="345" height="390" as="geometry"/>
                 </mxCell>
@@ -404,7 +404,7 @@
                 <mxCell id="nJIof_JBiuA4ikxRBGKq-221" value="&lt;span style=&quot;font-size: 35px;&quot;&gt;10.15.1.4&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" parent="121" vertex="1">
                     <mxGeometry x="-586" y="99" width="210" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="urDw_3JVZcir2qkkAjf6-234" value="Scenario-1 (Default Design)" style="" parent="0Zcb1wvKVoteUL0pYanl-0"/>
+                <mxCell id="urDw_3JVZcir2qkkAjf6-234" value="Scenario-1 (Default Design)" style="" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0"/>
                 <mxCell id="37" value="&lt;font style=&quot;font-size: 45px;&quot;&gt;&lt;b&gt;Scenario-1&amp;nbsp; Default vWAN multi-region &lt;br&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;font-size: 45px;&quot;&gt;&lt;b&gt;ANY to ANY IP Connectivity/Connectivity&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 45px;&quot;&gt;&lt;b&gt;Inter-hub Connectivity over Inter-hub peering&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;Internet using default outbound NAT&lt;/li&gt;&lt;li&gt;ER to ER requires global reach&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255, 255, 153);&quot;&gt;Branch-to-branch - use case&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255, 255, 153);&quot;&gt;Marc De Droog's&amp;nbsp; VWAN learning lab.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Comic Sans MS;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" parent="urDw_3JVZcir2qkkAjf6-234" vertex="1">
                     <mxGeometry x="1260" y="1995" width="1095" height="525" as="geometry"/>
                 </mxCell>
@@ -660,7 +660,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="4" value="Scenario-2:Secured-vwan-hub-NS" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0"/>
+                <mxCell id="4" value="Scenario-2:Secured-vwan-hub-NS" parent="0Zcb1wvKVoteUL0pYanl-0"/>
                 <mxCell id="15" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Firewalls.svg;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="4" vertex="1">
                     <mxGeometry x="323" width="71" height="60" as="geometry"/>
                 </mxCell>
@@ -678,7 +678,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="165" value="NS-Flows" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0"/>
+                <mxCell id="165" value="NS-Flows" parent="0Zcb1wvKVoteUL0pYanl-0"/>
                 <mxCell id="8" style="edgeStyle=none;curved=1;sketch=0;hachureGap=1;jiggle=1;curveFitting=1;html=1;exitX=0.091;exitY=-0.034;exitDx=0;exitDy=0;entryX=0.372;entryY=0.888;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#FF00FF;fontColor=#000000;shadow=0;strokeWidth=6;targetPerimeterSpacing=1;fillColor=#CCE5FF;glass=0;labelBorderColor=#FF0000;comic=0;fillStyle=auto;gradientColor=none;disableMultiStroke=1;disableMultiStrokeFill=1;fillWeight=2;dashed=1;exitPerimeter=0;" parent="165" source="0Zcb1wvKVoteUL0pYanl-13" target="AaTsj4VFo2ENV-WCoRB4-0" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
@@ -1680,7 +1680,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="FC8VFlhNxr3N3S8m1IU2" name="multi-region">
-        <mxGraphModel dx="8480" dy="3368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+        <mxGraphModel dx="6607" dy="3497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="gq20AflOzGUiXyepUNg9-3" value="Background" parent="0"/>
@@ -2023,7 +2023,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="gq20AflOzGUiXyepUNg9-4" value="AS-Path" parent="0" visible="0"/>
+                <mxCell id="gq20AflOzGUiXyepUNg9-4" value="AS-Path" parent="0"/>
                 <mxCell id="gq20AflOzGUiXyepUNg9-5" style="edgeStyle=none;curved=1;sketch=0;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.122;entryY=1.042;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#FF8000;strokeWidth=5;fontFamily=Comic Sans MS;fontSize=45;fontColor=#00994D;hachureGap=4;jiggle=2;curveFitting=1;startArrow=classic;startFill=1;endFill=1;" parent="gq20AflOzGUiXyepUNg9-4" source="geVuiIi3xMaHr7d8kFE6-2" target="geVuiIi3xMaHr7d8kFE6-63" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
@@ -2046,7 +2046,7 @@
                         <mxPoint x="1280" y="140" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Yn9zSwomzwTshD5HnlM5-8" value="Branch-to-remote-hub" parent="0" visible="0"/>
+                <mxCell id="Yn9zSwomzwTshD5HnlM5-8" value="Branch-to-remote-hub" parent="0"/>
                 <mxCell id="Yn9zSwomzwTshD5HnlM5-9" style="edgeStyle=none;curved=1;sketch=0;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;dashed=1;strokeColor=#FF00FF;strokeWidth=6;fontFamily=Comic Sans MS;fontSize=35;fontColor=#FF00FF;startArrow=classic;startFill=1;" parent="Yn9zSwomzwTshD5HnlM5-8" target="geVuiIi3xMaHr7d8kFE6-63" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">

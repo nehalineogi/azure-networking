@@ -275,8 +275,11 @@ Special thank you to my colleagues
 - [Heather Tze](https://github.com/hsze)
 - [Mays Algebary](https://github.com/malgebary)
 - [Daniel Mauser](https://github.com/dmauser)
+- Shruthi Nair
 - [Jose Moreno](https://github.com/erjosito)
 - [Sowmyan Soman Chullikkattil](https://github.com/sowsan)
 - [Mike Richter](https://github.com/michaelsrichter)
 - [Mike Shelton](https://www.linkedin.com/in/mshelt)
 - [Tommy Falgout](https://github.com/lastcoolnameleft)
+- [Amanda Wong](https://github.com/wongamanda)
+- Israel Ekpo

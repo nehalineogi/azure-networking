@@ -156,7 +156,7 @@ This design includes the following layers:
 # Design Areas (Cross Functional - Part 2)
 ## Azure AI Studio - Network design
 ![aistudio-design](design-gifs/aistudio-design.gif)
-- Use case and the why? AI Studio Prompt flow with Managed VNET and Private endpoints
+- AI Studio Prompt flow with Managed VNET and Private endpoints
 - Short Demo with AI Studio Playground
 - Azure AI Studio Architecture Components (PaaS and IaaS)
 - Key Concepts (Private Endpoints, Webapp, Embedding and Vector Database, Managed EP, AI Models and Prompt flow)
@@ -165,11 +165,12 @@ This design includes the following layers:
 
 ## Azure VMWare Solutions - Network design
 ![avs-design](design-gifs/avs-design.gif)
-- AVS with NVA in Azure VNET (with ARS)
-- Multi-region design with NVA in Azure NVET (with ARS)
-- AVS with NVA behind NSX
-- Azure Site Recovery (From AVS to Azure)
-- HCX Scenarios
+- On-Prem Connectivity Using Global Reach
+- VPN ER Transit using ARS
+- NVA in Azure VNET (with ARS)
+- Transite VNET design with NVA in Azure NVET (with ARS)
+- NVA in AVS
+- Secured vWAN HUB Design with Routing Intent
 
 ## Networking in Azure Kubernetes Service (AKS)
 ![aks-design](design-gifs/aks-design.gif)

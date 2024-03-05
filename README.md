@@ -199,14 +199,34 @@ This design includes the following layers
 
 
 ## Azure API Management (APIM)
+- APIM Big Picture view
+- Default mode
+- External network mode
+- Internal network mode
+- Internal network mode with Azure Application Gateway
+- Internal network mode with AKS Backend API
+- APIM with Azure firewall/NVA
+- APIM Identity - AAD and B2C Integration
+- APIM Multi-region Architecture
+- Self hosted gateway
+- LetsEncrypt Certificates and APIM Custom Domain
+- Azure Private DNS Zones integration
+- Network Troubleshooting
+
 ## Azure Container Apps and App Service Networking
+
+- Private Endpoint Integration
+- Service Endpoint
+- VNET Integration
+- NAT Gateway Integration
+- Azure Private DNS Zone Planning
 
 # Design Areas (Part 3 - Future)
 
-## Azure Virtual Desktop - Network design
-## IPv6 in Azure
-## AzFW deep dive
-## ExpressRoute designs
+- Azure Virtual Desktop - Network design
+- IPv6 in Azure
+- AzFW deep dive
+- ExpressRoute designs
 
 
 

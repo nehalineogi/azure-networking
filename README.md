@@ -33,8 +33,8 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 ### Cross Functional Networking -  Upcoming live sessions
 
 1. Azure AI Studio Networking  (Webinar Registration Link here)
-2. AVS Networking (Webinar Link Coming soon)
-3. AKS Networking
+2. AVS Networking (Webinar Registration Link here)
+3. AKS Networking  (Webinar Registration link here)
 4. ADF and SQL MI Networking
 5. APIM Networking
 6. Azure Container Apps, Web Apps Networking

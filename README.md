@@ -14,7 +14,7 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 - Build Reusable and github friendly network architecture diagram templates
 - Layered diagrams to run effective Azure Design and skilling sessions 
 - Real world use cases dervied from working with Microsoft customers
-- Level 100 to level 500 scenarios in one diagram
+- Level 100 to level 400 scenarios in one diagram
 - Understand the why behind the design decision
 - Minimize lab time
 - Growth mindset

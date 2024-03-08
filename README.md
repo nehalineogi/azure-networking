@@ -148,7 +148,7 @@ This design includes the following layers:
 - Use case with AKS
 
 # Design Areas (Cross Functional - Part 2)
-## Azure AI Studio - Network design
+## Azure AI Studio Network design
 ![aistudio-design](design-gifs/aistudio-design.gif)
 - AI Studio Prompt flow with Managed VNET and Private endpoints
 - Short Demo with AI Studio Playground
@@ -157,7 +157,7 @@ This design includes the following layers:
 - Traffic flows with managed VNET with Private Endpoints
 
 
-## Azure VMWare Solutions - Network design
+## Azure VMWare Solutions Network design
 ![avs-design](design-gifs/avs-design.gif)
 - On-Prem Connectivity Using Global Reach
 - VPN ER Transit using ARS

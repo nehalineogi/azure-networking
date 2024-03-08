@@ -29,18 +29,18 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 
 **Part 3** (Advanced Networking and Security) (IPv6, AzFW, DDoS, ExpressRoute Designs, AVD)
 
-# Part 2
-### Cross Functional Networking -  Upcoming live sessions
+# Part 2 (Upcoming live sessions)
+### Cross Functional Networking 
 
-1. Azure AI Studio Networking  (Webinar Registration Link here)
+1. Azure AI Studio Networking - March 28th 2024  [Webinar Registration Link here](https://msit.events.teams.microsoft.com/event/0a8c1351-b4d6-47e1-8924-06d505a53439@72f988bf-86f1-41af-91ab-2d7cd011db47)
 2. AVS Networking (Webinar Registration Link here)
 3. AKS Networking  (Webinar Registration link here)
 4. ADF and SQL MI Networking
 5. APIM Networking
 6. Azure Container Apps, Web Apps Networking
 
-# Part 1
-### Core Networking - recording links available
+# Part 1 (Completed)
+### Core Networking -recording links available
 
 | Sesssion Name                                         | Date  /Previous Recordings                      | Guest Speaker(s)  | Notes
 |-------------------------------------------------------|------------------------------|------------------------------------------------|---------------------|

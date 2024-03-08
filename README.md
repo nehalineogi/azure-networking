@@ -19,18 +19,9 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 - Minimize lab time
 - Growth mindset
 
-# Three Part Series
-
-**[Part 1](#Part-1)** (**Core Networking**)Hub-Spoke Design,ARS, Azure Virtual WAN, Load Balancing, DNS in Azure, NVA HA and Private Endpoint)
-
-**Upcoming Sessions**
-
-**[Part 2](#Part-2)** (**Networking in Cross Functional Solution Areas**) (Azure AI Studio, AVS, AKS, Azure Data Factory, APIM, AppServices)
-
-**Part 3** (Advanced Networking and Security) (IPv6, AzFW, DDoS, ExpressRoute Designs, AVD)
 
 # Part 2 (Upcoming live sessions)
-### Cross Functional Networking 
+### Cross Functional Networking (Azure AI Studio, AVS, AKS, Azure Data Factory, APIM, AppServices)
 
 1. Azure AI Studio Networking - March 28th 2024  [Webinar Registration Link here](https://msit.events.teams.microsoft.com/event/0a8c1351-b4d6-47e1-8924-06d505a53439@72f988bf-86f1-41af-91ab-2d7cd011db47)
 2. AVS Networking (Webinar Registration Link here)
@@ -40,7 +31,8 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 6. Azure Container Apps, Web Apps Networking
 
 # Part 1 (Completed)
-### Core Networking -recording links available
+### (**Core Networking**)Hub-Spoke Design,ARS, Azure Virtual WAN, Load Balancing, DNS in Azure, NVA HA and Private Endpoint)
+### Recording links available
 
 | Sesssion Name                                         | Date  /Previous Recordings                      | Guest Speaker(s)  | Notes
 |-------------------------------------------------------|------------------------------|------------------------------------------------|---------------------|
@@ -51,6 +43,8 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 | [Session-5: NVA high availabilty options](#nva-high-availability)| Thu, Mar 23rd 2023 12-1pm ET [Session-5 Recording](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTIyNjY5NjgtZTFlYi00NzY2LWJkMjctZjU4ODA2OWUxMjI3%40thread.v2/0?context=%7B%22Tid%22%3A%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2C%22Oid%22%3A%22a1a1b5e6-a149-4bcb-ba81-9fbea3a44230%22%2C%22IsBroadcastMeeting%22%3Atrue%2C%22role%22%3A%22a%22%7D&btype=a&role=a) | Jose Moreno (Principal Customer Engineer)      |  [Agenda and FAQ](Agenda/session5.md) [Feedback Form](https://forms.microsoft.com/r/cJ55nC20KM)|
 | [Session-6: Private Endpoints](#private-endpoints)               | Thu, Mar 30th,2023 12-1pm ET [Recording link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTQ1MmE1ZGQtY2EzYS00ZDJlLTgzZmItNWI0MTk3MGE2ZGU1%40thread.v2/0?context=%7B%22Tid%22%3A%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2C%22Oid%22%3A%22a1a1b5e6-a149-4bcb-ba81-9fbea3a44230%22%2C%22IsBroadcastMeeting%22%3Atrue%2C%22role%22%3A%22a%22%7D&btype=a&role=a) | Daniel Mauser (Global Black Belt, Networking)  Shruthi Vijaya Nair (Global Black Belt, Networking)|  [Agenda and FAQ](Agenda/session6.md) [Feedback Form](https://forms.microsoft.com/r/THgJBiZHcR) |
 
+# Part 3: (FY 2025)
+### (Advanced Networking and Security) (IPv6, AzFW, DDoS, ExpressRoute Designs, AVD)
 
 # Design Areas (Core Networking Part 1)
 ## Azure Hub-Spoke Design

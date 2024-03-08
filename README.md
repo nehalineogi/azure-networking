@@ -4,7 +4,7 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 
 # Youtube Channel (The Art of the Possible Series)
 ### [Part-1 Playlist](https://www.youtube.com/channel/UC5x8jb_AMMAqMuFcMfX8RcA) - Core Networking Series
-### [Part-2 Playlist](https://www.youtube.com/channel/UC5x8jb_AMMAqMuFcMfX8RcA) - Cross Functional Networking Series
+### Part-2 Playlist - Cross Functional Networking Series - Coming soon
 
 # Scope: Reusable and Layered Network Diagrams
 

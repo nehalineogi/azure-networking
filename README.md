@@ -149,6 +149,7 @@ This design includes the following layers:
 
 # Design Areas (Cross Functional - Part 2)
 ## Azure AI Studio Network design
+Download [draw.io diagram](diagrams/azure-ai.drawio). More information on how to open .drawio files [here](#installation).
 ![aistudio-design](design-gifs/aistudio-design.gif)
 - AI Studio Prompt flow with Managed VNET and Private endpoints
 - Short Demo with AI Studio Playground
@@ -157,16 +158,18 @@ This design includes the following layers:
 - Traffic flows with managed VNET with Private Endpoints
 
 
-## Azure VMWare Solutions Network design
+## Azure VMware Solutions Network design
+Download [draw.io diagram](diagrams/AVS.drawio). More information on how to open .drawio files [here](#installation).
 ![avs-design](design-gifs/avs-design.gif)
 - On-Prem Connectivity Using Global Reach
 - VPN ER Transit using ARS
-- NVA in Azure VNET (with ARS)
-- Transite VNET design with NVA in Azure NVET (with ARS)
-- NVA in AVS
+- Network Virtual Appliance (NVA) in Azure VNET (with ARS)
+- Transit VNET design with NVA in Azure NVET (with ARS)
+- Deploy third party Virtual Apppliance using NSX-T segments within AVS
 - Secured vWAN HUB Design with Routing Intent
 
 ## AKS Networking
+Download [draw.io diagram](diagrams/aks.drawio). More information on how to open .drawio files [here](#installation).
 ![aks-design](design-gifs/aks-design.gif)
 
 This design includes the following layers

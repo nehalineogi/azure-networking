@@ -3,7 +3,7 @@
 The purpose of this repo is to deliver **layered, reusable and github friendly** network architecture diagrams for Cloud Solutions Architects to run effective Azure design and skilling sessions. The content is based on **real customer and partner design sessions** with collaboration from cross-functional architects. The repository will include tips and tools for effective story telling that explain the **why behind the design options based on requirements** and the art of the possible.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region, secure design, cross functional networking areas and AKS networking.   The networking complexity is broken down into **layers** with **one diagram** per design area using [draw.io](https://app.diagrams.net/) now [diagrams.net](https://www.diagrams.net/). This repo will include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
 
 # Youtube Channel (The Art of the Possible Series)
-### [Drawio basics and layered network diagrams Playlist](https://www.youtube.com/channel/UC5x8jb_AMMAqMuFcMfX8RcA)
+### [Drawio basics and layered network diagrams playlist](https://www.youtube.com/channel/UC5x8jb_AMMAqMuFcMfX8RcA)
 
 
 # Scope: Reusable and Layered Network Diagrams
@@ -31,7 +31,7 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 
    
 # Part 2 (FY 2024 - Upcoming live sessions)
-### Cross Functional Networking (Azure AI Studio, AVS, AKS, Azure Data Factory, APIM, AppServices)
+### Cross Functional Networking
 
 1. [Azure AI Studio Networking](#Azure-AI-Studio-Network-design)- March 28th 2024  [Webinar Registration Link here](https://msit.events.teams.microsoft.com/event/0a8c1351-b4d6-47e1-8924-06d505a53439@72f988bf-86f1-41af-91ab-2d7cd011db47)
 2. [AVS Networking](#Azure-VMWare-Solutions-Network-design) (Webinar Registration Link -coming soon)

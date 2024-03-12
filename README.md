@@ -1,10 +1,10 @@
 # Azure Networking: The Art of The Possible and the *why*
 
-The purpose of this repo is to deliver **layered, reusable and github friendly** network architecture diagrams for Cloud Solutions Architects to run effective Azure design and skilling sessions. The repository will include tips and tools for effective story telling that explain the **why behind the design options based on requirements** and the art of the possible.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region, secure design, cross functional networking areas and AKS networking. The content is based on **real customer and partner design sessions** with collaboration from cross-functional architects.  The networking complexity is broken down into **layers** with **one diagram** per design area using [draw.io](https://app.diagrams.net/) now [diagrams.net](https://www.diagrams.net/). This repo will include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
+The purpose of this repo is to deliver **layered, reusable and github friendly** network architecture diagrams for Cloud Solutions Architects to run effective Azure design and skilling sessions. The content is based on **real customer and partner design sessions** with collaboration from cross-functional architects. The repository will include tips and tools for effective story telling that explain the **why behind the design options based on requirements** and the art of the possible.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region, secure design, cross functional networking areas and AKS networking.   The networking complexity is broken down into **layers** with **one diagram** per design area using [draw.io](https://app.diagrams.net/) now [diagrams.net](https://www.diagrams.net/). This repo will include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
 
 # Youtube Channel (The Art of the Possible Series)
-### [Part-1 Playlist](https://www.youtube.com/channel/UC5x8jb_AMMAqMuFcMfX8RcA) - Core Networking Series
-### Part-2 Playlist - Cross Functional Networking Series - Coming soon
+### [Drawio basics and layered network diagrams Playlist](https://www.youtube.com/channel/UC5x8jb_AMMAqMuFcMfX8RcA)
+
 
 # Scope: Reusable and Layered Network Diagrams
 
@@ -19,32 +19,36 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 - Minimize lab time
 - Growth mindset
 
+# Part 1 (FY 2023 - Completed)
+### Recording links available
+0. [How to create layered drawio diagrams](https://www.youtube.com/watch?v=-5tKnS03I5Y&t=998s)
+2. [Azure Hub and Spoke Designs](https://nnstorage101.blob.core.windows.net/public-recordings/Session-1-Azure-Hub-spoke-architecture.mp4)
+3. [Azure Virtual WAN (vWAN) designs](https://nnstorage101.blob.core.windows.net/public-recordings/session-2-Azure-vWAN-designs.mp4)
+4. [Load Balancing in Azure](https://nnstorage101.blob.core.windows.net/public-recordings/session-3-load-balancing-in-azure.mp4)
+5. [DNS Options in Azure](https://nnstorage101.blob.core.windows.net/public-recordings/Session-4-dns-options-in-azure.mp4)
+6. [NVA High Availability in Azure](https://nnstorage101.blob.core.windows.net/public-recordings/session-5-nva-ha-in-azure.mp4)
+7. [Private Endpoint and Private Link Service in Azure](https://nnstorage101.blob.core.windows.net/public-recordings/session-6-private-endpoint.mp4)
 
-# Part 2 (Upcoming live sessions)
+   
+# Part 2 (FY 2024 - Upcoming live sessions)
 ### Cross Functional Networking (Azure AI Studio, AVS, AKS, Azure Data Factory, APIM, AppServices)
 
 1. [Azure AI Studio Networking](#Azure-AI-Studio-Network-design)- March 28th 2024  [Webinar Registration Link here](https://msit.events.teams.microsoft.com/event/0a8c1351-b4d6-47e1-8924-06d505a53439@72f988bf-86f1-41af-91ab-2d7cd011db47)
-2. [AVS Networking](#Azure-VMWare-Solutions-Network-design) (Webinar Registration Link here)
-3. [AKS Networking](#AKS-Networking)  (Webinar Registration link here)
+2. [AVS Networking](#Azure-VMWare-Solutions-Network-design) (Webinar Registration Link -coming soon)
+3. [AKS Networking](#AKS-Networking)  (Webinar Registration link here- coming Soon)
 4. ADF and SQL MI Networking
 5. APIM Networking
 6. Azure Container Apps, Web Apps Networking
 
-# Part 1 (Completed)
-### (**Core Networking**)Hub-Spoke Design,ARS, Azure Virtual WAN, Load Balancing, DNS in Azure, NVA HA and Private Endpoint)
-### Recording links available
 
-| Sesssion Name                                         | Date  /Previous Recordings                      | Guest Speaker(s)  | Notes
-|-------------------------------------------------------|------------------------------|------------------------------------------------|---------------------|
-| [Session-1: Azure Hub-Spoke Design](#azure-hub-spoke-design)     | Thu, Feb 23rd 2023 12-1pm ET [Session-1 Recording](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTI3MzMxNjAtZTg1Zi00NzhmLTg5ZTAtODExMjI5NmIyNjhi%40thread.v2/0?context=%7B%22Tid%22%3A%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2C%22Oid%22%3A%22a1a1b5e6-a149-4bcb-ba81-9fbea3a44230%22%2C%22IsBroadcastMeeting%22%3Atrue%2C%22role%22%3A%22a%22%7D&btype=a&role=a)| Tommy Falgout (Sr. Cloud Solution Architect), Jose Moreno (Principal Customer Engineer), Heather Sze (Global Black Belt, Networking)   |  [Agenda and FAQ](Agenda/session1.md) [Feedback form](https://forms.office.com/r/mZ418DCScx) |
-| [Session-2:  vWAN - Azure Virtual WAN](#vwan-azure-virtual-wan)  | Thu, Mar 2nd 2023 12-1pm ET [Session-2 Recording](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTJlNmJlNzYtZDU1NC00OGU1LTllODEtYjE4NjhmZGY5MTAz%40thread.v2/0?context=%7B%22Tid%22%3A%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2C%22Oid%22%3A%22a1a1b5e6-a149-4bcb-ba81-9fbea3a44230%22%2C%22IsBroadcastMeeting%22%3Atrue%2C%22role%22%3A%22a%22%7D&btype=a&role=a) | Mays Algebary (Global Black Belt, Networking), John Guo (Cloud Solution Architect, Check Point) |  [Agenda and FAQ](Agenda/session2.md) [Feedback Form](https://forms.microsoft.com/r/htdTjn6QT1) |
-| [Session-3:  Load balancing in Azure](#load-balancing-in-azure)   | Thu, Mar 9th 2023 12-1pm ET [Session-3 Recording](https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2U0ZDMzMjUtMjdmMS00MzViLTk4ZjMtYjU2Y2ExZDgzZDE4%40thread.v2/0?context=%7B%22Tid%22%3A%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2C%22Oid%22%3A%22a1a1b5e6-a149-4bcb-ba81-9fbea3a44230%22%2C%22IsBroadcastMeeting%22%3Atrue%2C%22role%22%3A%22a%22%7D&btype=a&role=a)  | Marc De Droog (Global Black Belt, Networking), John Guo(Cloud Solution Architect, Check Point) |  [Agenda and FAQ](Agenda/session3.md) [Feedback Form](https://forms.microsoft.com/r/HNhm2a7ghu)|
-| [Session-4: DNS Options in Azure](#dns-in-azure)                 | Thu, Mar 16th 2023 12-1pm ET [Session-4 Recording](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjdiNzA1YzItMjY3Mi00NmNkLTg2OWMtZDVmZmNlNWYwMDgz%40thread.v2/0?context=%7B%22Tid%22%3A%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2C%22Oid%22%3A%22a1a1b5e6-a149-4bcb-ba81-9fbea3a44230%22%2C%22IsBroadcastMeeting%22%3Atrue%2C%22role%22%3A%22a%22%7D&btype=a&role=a) | Daniel Mauser (Global Black Belt, Networking)  |  [Agenda and FAQ](Agenda/session4.md) [Feedback Form](https://forms.microsoft.com/r/9HSZnXTPSQ) |
-| [Session-5: NVA high availabilty options](#nva-high-availability)| Thu, Mar 23rd 2023 12-1pm ET [Session-5 Recording](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTIyNjY5NjgtZTFlYi00NzY2LWJkMjctZjU4ODA2OWUxMjI3%40thread.v2/0?context=%7B%22Tid%22%3A%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2C%22Oid%22%3A%22a1a1b5e6-a149-4bcb-ba81-9fbea3a44230%22%2C%22IsBroadcastMeeting%22%3Atrue%2C%22role%22%3A%22a%22%7D&btype=a&role=a) | Jose Moreno (Principal Customer Engineer)      |  [Agenda and FAQ](Agenda/session5.md) [Feedback Form](https://forms.microsoft.com/r/cJ55nC20KM)|
-| [Session-6: Private Endpoints](#private-endpoints)               | Thu, Mar 30th,2023 12-1pm ET [Recording link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTQ1MmE1ZGQtY2EzYS00ZDJlLTgzZmItNWI0MTk3MGE2ZGU1%40thread.v2/0?context=%7B%22Tid%22%3A%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2C%22Oid%22%3A%22a1a1b5e6-a149-4bcb-ba81-9fbea3a44230%22%2C%22IsBroadcastMeeting%22%3Atrue%2C%22role%22%3A%22a%22%7D&btype=a&role=a) | Daniel Mauser (Global Black Belt, Networking)  Shruthi Vijaya Nair (Global Black Belt, Networking)|  [Agenda and FAQ](Agenda/session6.md) [Feedback Form](https://forms.microsoft.com/r/THgJBiZHcR) |
-
-# Part 3: (FY 2025)
-### (Advanced Networking and Security) (IPv6, AzFW, DDoS, ExpressRoute Designs, AVD)
+# Part 3: (FY 2025 - Future topics)
+### (Advanced Networking and Security) 
+1. IPv6 in Azure
+2. Azure Network Security (AzFW, DDoS)
+3. ExpressRoute Designs
+4. AVD (Azure Virtual Desktop)
+5. Azure IoT Networking
+6. SAP on Azure
 
 # Design Areas (Core Networking Part 1)
 ## Azure Hub-Spoke Design

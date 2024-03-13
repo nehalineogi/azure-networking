@@ -227,15 +227,6 @@ This design includes the following layers
 - NAT Gateway Integration
 - Azure Private DNS Zone Planning
 
-# Design Areas (Part 3 - Future)
-
-- Azure Virtual Desktop - Network design
-- IPv6 in Azure
-- AzFW deep dive
-- ExpressRoute designs
-
-
-
 
 # Tooling - Draw.io (now diagrams.net)
 ## Features

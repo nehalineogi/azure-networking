@@ -8,9 +8,10 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 
 # Scope: Reusable and Layered Network Diagrams
 
-**Target Audience**:  Cloud Solution Architects, Network Architects, Cloud Infrastructure Architects, Solution Engineers
+### Target Audience:  
+Cloud Solution Architects, Network Architects, Cloud Infrastructure Architects, Solution Engineers
 
-**Scope**
+### Scope
 - Build Reusable and github friendly network architecture diagram templates
 - Layered diagrams to run effective Azure Design and skilling sessions 
 - Real world use cases dervied from working with Microsoft customers
@@ -20,7 +21,10 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 - Growth mindset
 
 # Part 1 (FY 2023 - Completed)
+
+### Download all drawio diagrams [here](/diagrams)
 ### Recording links available
+
 0. [How to create layered drawio diagrams](https://www.youtube.com/watch?v=-5tKnS03I5Y&t=998s)
 2. [Azure Hub and Spoke Designs](https://nnstorage101.blob.core.windows.net/public-recordings/Session-1-Azure-Hub-spoke-architecture.mp4)
 3. [Azure Virtual WAN (vWAN) designs](https://nnstorage101.blob.core.windows.net/public-recordings/session-2-Azure-vWAN-designs.mp4)
@@ -31,6 +35,7 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 
    
 # Part 2 (FY 2024 - Upcoming live sessions)
+### Download all drawio diagrams [here](/diagrams)
 ### Cross Functional Networking
 
 1. [Azure AI Studio Networking](#Azure-AI-Studio-Network-design)- March 28th 2024  [Webinar Registration Link here](https://msit.events.teams.microsoft.com/event/0a8c1351-b4d6-47e1-8924-06d505a53439@72f988bf-86f1-41af-91ab-2d7cd011db47)

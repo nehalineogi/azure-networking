@@ -22,7 +22,19 @@ Your feedback in important to us please take a few minutes survery [here](https:
    
    [sample app](https://github.com/microsoft/sample-app-aoai-chatGPT)
 
-7. Useful Networking Blog links:  
+6. Private Endpoint and DNS Links
+
+   [Daniel's Blog on Private Endpoints](https://github.com/dmauser/PrivateLink)
+   
+   [Previous recording's of Nehali's Session](https://github.com/nehalineogi/azure-networking/tree/main?tab=readme-ov-file#part-1-fy-2023---completed)
+8. AI Studio Networking and ML Studio Networking links
+
+   [AI Studio Networking](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/configure-managed-network?tabs=azure-cli)
+   
+   [ML Studio Networking](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-network-isolation-planning?view=azureml-api-2)
+   
+
+10. Useful Networking Blog links:  
 
  
 [Heathers blog](https://github.com/hsze/MultiRegion-HubSpoke-ERBowTie-ARS)

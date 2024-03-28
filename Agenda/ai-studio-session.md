@@ -12,15 +12,17 @@ Your feedback in important to us please take a few minutes survery [here](https:
 
 2. All drawio diagrams are under the diagrams folder in github repo link [here](https://github.com/nehalineogi/azure-networking)
 
-3. Future sessions signup link [here](https://www.linkedin.com/feed/update/urn:li:activity:7024859847699365888/)
+3. Future sessions signup will be annonced on [Nehali's LinkedIn](https://www.linkedin.com/in/nehalineogi/) posts every month. Sign uplinks will also be updated on github repo here link [here](https://github.com/nehalineogi/azure-networking?tab=readme-ov-file#part-2-fy-2024---upcoming-live-sessions)
 
 
 4. Additional Videos for using drawio for network diagraming on Nehali's youtube channel [here](https://www.youtube.com/channel/UC5x8jb_AMMAqMuFcMfX8RcA).
 
-
 5. Useful AI Studio Links
+   [openai demo](https://github.com/Azure-Samples/azure-search-openai-demo)
+   
+   [sample app](https://github.com/microsoft/sample-app-aoai-chatGPT)
 
-6. Useful Networking Blog links:  
+7. Useful Networking Blog links:  
 
  
 [Heathers blog](https://github.com/hsze/MultiRegion-HubSpoke-ERBowTie-ARS)

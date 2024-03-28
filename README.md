@@ -38,7 +38,7 @@ Cloud Solution Architects, Network Architects, Cloud Infrastructure Architects, 
 ### Download all drawio diagrams [here](/diagrams)
 ### Cross Functional Networking
 
-1. [Azure AI Studio Networking](#Azure-AI-Studio-Network-design)- March 28th 2024  [Webinar Registration Link here](https://msit.events.teams.microsoft.com/event/0a8c1351-b4d6-47e1-8924-06d505a53439@72f988bf-86f1-41af-91ab-2d7cd011db47)
+1. [Azure AI Studio Networking](#Azure-AI-Studio-Network-design)- March 28th 2024  Completed - [Recording link](https://nnstorage101.blob.core.windows.net/public-recordings/Session-7-AzureAI-Studio-Enterprise-RAG-with-Managed-VNET.mp4)
 2. [AVS Networking](#Azure-VMWare-Solutions-Network-design) (April 25th 2024 Webinar Registration Link -coming soon)
 3. [AKS Networking](#AKS-Networking)  (Webinar Registration link here- coming Soon)
 4. ADF and SQL MI Networking

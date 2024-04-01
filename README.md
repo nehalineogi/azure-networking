@@ -26,12 +26,12 @@ Cloud Solution Architects, Network Architects, Cloud Infrastructure Architects, 
 ### Recording links available
 
 0. [How to create layered drawio diagrams](https://www.youtube.com/watch?v=-5tKnS03I5Y&t=998s)
-2. [Azure Hub and Spoke Designs](https://nnstorage101.blob.core.windows.net/public-recordings/Session-1-Azure-Hub-spoke-architecture.mp4)
-3. [Azure Virtual WAN (vWAN) designs](https://nnstorage101.blob.core.windows.net/public-recordings/session-2-Azure-vWAN-designs.mp4)
-4. [Load Balancing in Azure](https://nnstorage101.blob.core.windows.net/public-recordings/session-3-load-balancing-in-azure.mp4)
-5. [DNS Options in Azure](https://nnstorage101.blob.core.windows.net/public-recordings/Session-4-dns-options-in-azure.mp4)
-6. [NVA High Availability in Azure](https://nnstorage101.blob.core.windows.net/public-recordings/session-5-nva-ha-in-azure.mp4)
-7. [Private Endpoint and Private Link Service in Azure](https://nnstorage101.blob.core.windows.net/public-recordings/session-6-private-endpoint.mp4)
+2. [Azure Hub and Spoke Designs](https://nnstorage99.blob.core.windows.net/public-recordings/Session-1-Azure-Hub-spoke-architecture.mp4)
+3. [Azure Virtual WAN (vWAN) designs](https://nnstorage99.blob.core.windows.net/public-recordings/session-2-Azure-vWAN-designs.mp4)
+4. [Load Balancing in Azure](https://nnstorage99.blob.core.windows.net/public-recordings/session-3-load-balancing-in-azure.mp4)
+5. [DNS Options in Azure](https://nnstorage99.blob.core.windows.net/public-recordings/Session-4-dns-options-in-azure.mp4)
+6. [NVA High Availability in Azure](https://nnstorage99.blob.core.windows.net/public-recordings/session-5-nva-ha-in-azure.mp4)
+7. [Private Endpoint and Private Link Service in Azure](https://nnstorage99.blob.core.windows.net/public-recordings/session-6-private-endpoint.mp4)
 
    
 # Part 2 (FY 2024 - Upcoming live sessions)

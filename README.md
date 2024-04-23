@@ -45,15 +45,6 @@ Cloud Solution Architects, Network Architects, Cloud Infrastructure Architects, 
 4. ADF and SQL MI Networking (June 2024)
 5. Azure IoT Networking (July 2024)
 6. Azure Container Apps, Web Apps Networking (August 2024)
-=======
-1. [Azure AI Studio Networking](#Azure-AI-Studio-Network-design)- March 28th 2024  Completed - [Recording link](https://nnstorage99.blob.core.windows.net/public-recordings/Session-7-AzureAI-Studio-Enterprise-RAG-with-Managed-VNET.mp4)
-2. [AVS Networking](#Azure-VMWare-Solutions-Network-design) (April 25th 2024)  [Webinar Registration Link](https://msit.events.teams.microsoft.com/event/fd652a29-af51-4adf-94de-497938bf7988@72f988bf-86f1-41af-91ab-2d7cd011db47)
-3. [AKS Networking](#AKS-Networking)  (Webinar Registration link here- coming Soon)
-4. ADF and SQL MI Networking
-5. APIM Networking
-6. Azure Container Apps, Web Apps Networking
-
-
 
 # Part 3: (FY 2025 - Future topics)
 ### (Advanced Networking and Security) 

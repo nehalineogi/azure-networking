@@ -38,21 +38,21 @@ Cloud Solution Architects, Network Architects, Cloud Infrastructure Architects, 
 ### Download all drawio diagrams [here](/diagrams)
 ### Cross Functional Networking
 
-1. [Azure AI Studio Networking](#Azure-AI-Studio-Network-design)- March 28th 2024  Completed - [Recording link](https://nnstorage99.blob.core.windows.net/public-recordings/Session-7-AzureAI-Studio-Enterprise-RAG-with-Managed-VNET.mp4)
-2. [AVS Networking](#Azure-VMWare-Solutions-Network-design) (April 25th 2024 Webinar Registration Link -coming soon)
-3. [AKS Networking](#AKS-Networking)  (Webinar Registration link here- coming Soon)
-4. ADF and SQL MI Networking
-5. APIM Networking
-6. Azure Container Apps, Web Apps Networking
+1. [Azure AI Studio Networking](#Azure-AI-Studio-Network-design)- March 28th 2024  Completed - [Recording link](https://nnstorage99.blob.core.windows.net/public-recordings/Session-7-AzureAI-Studio-Enterprise-RAG-with-Managed-VNET.mp4)    [FAQ link](Agenda/ai-studio-session.md)
+2. [AVS Networking](#Azure-VMWare-Solutions-Network-design) (April 25th 2024 Webinar) [Registration Link](https://lnkd.in/eGfsgfND)  [FAQ link](Agenda/avs-session.md)
+3. [AKS Networking](#AKS-Networking)  (May 2024 - Webinar Registration link to be posted on [linkedin](https://www.linkedin.com/in/nehalineogi/))
+4. ADF and SQL MI Networking (June 2024)
+5. Azure IoT Networking (July 2024)
+6. Azure Container Apps, Web Apps Networking (August 2024)
 
 
 # Part 3: (FY 2025 - Future topics)
 ### (Advanced Networking and Security) 
-1. IPv6 in Azure
+1. APIM Networking
 2. Azure Network Security (AzFW, DDoS)
 3. ExpressRoute Designs
 4. AVD (Azure Virtual Desktop)
-5. Azure IoT Networking
+5. IPv6 in Azure
 6. SAP on Azure
 
 # Design Areas (Core Networking Part 1)
@@ -281,3 +281,4 @@ Special thank you to my colleagues
 - [Tommy Falgout](https://github.com/lastcoolnameleft)
 - [Amanda Wong](https://github.com/wongamanda)
 - Israel Ekpo
+- [Jason Medina](https://github.com/jasonamedina)

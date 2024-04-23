@@ -1,10 +1,10 @@
-<mxfile host="Electron" modified="2024-03-08T19:16:09.963Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="JjP-ugB46k5uwVcN2-5N" version="23.1.5" type="device" pages="3">
+<mxfile host="Electron" modified="2024-04-11T16:49:59.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="yYgI9YOFkiO8luI6WMso" version="24.1.0" type="device" pages="3">
   <diagram name="vWAN" id="NxYmKDOF7gZatoSxxhLE">
-    <mxGraphModel dx="10633" dy="5753" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="5688" dy="4358" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0Zcb1wvKVoteUL0pYanl-0" />
         <mxCell id="0Zcb1wvKVoteUL0pYanl-1" value="Background" style="" parent="0Zcb1wvKVoteUL0pYanl-0" />
-        <mxCell id="0Zcb1wvKVoteUL0pYanl-37" value="Base:vWAN-hub-spoke" style="" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0" />
+        <mxCell id="0Zcb1wvKVoteUL0pYanl-37" value="Base:vWAN-hub-spoke" style="" parent="0Zcb1wvKVoteUL0pYanl-0" />
         <mxCell id="0Zcb1wvKVoteUL0pYanl-40" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=#FFFF66;labelBorderColor=#FF0000;comic=0;fillStyle=auto;sketchStyle=rough;strokeColor=#3399FF;strokeWidth=5;fontFamily=Architects Daughter;fontSize=45;fontColor=#000000;fillColor=#CCE5FF;gradientColor=none;dashGap=0;zigzagOffset=0;dashOffset=0;fixDash=0;sketch=1;curveFitting=1;jiggle=1;disableMultiStroke=1;disableMultiStrokeFill=1;hachureGap=-1;fillWeight=-1;snapToPoint=1;fontStyle=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="0Zcb1wvKVoteUL0pYanl-37" vertex="1">
           <mxGeometry x="60" y="-90" width="720" height="405" as="geometry" />
         </mxCell>
@@ -85,7 +85,7 @@
         <mxCell id="230" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Kubernetes_Services.svg;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="0Zcb1wvKVoteUL0pYanl-37" vertex="1">
           <mxGeometry x="637" y="-405.41" width="90" height="79.41" as="geometry" />
         </mxCell>
-        <mxCell id="0Zcb1wvKVoteUL0pYanl-28" value="Base: S2S-Branches" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0" />
+        <mxCell id="0Zcb1wvKVoteUL0pYanl-28" value="Base: S2S-Branches" parent="0Zcb1wvKVoteUL0pYanl-0" />
         <mxCell id="0Zcb1wvKVoteUL0pYanl-29" style="edgeStyle=none;curved=1;sketch=0;jumpStyle=none;jumpSize=2;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shadow=0;strokeColor=#7EA6E0;strokeWidth=4;fontFamily=Architects Daughter;fontSize=45;fontColor=#000000;startArrow=diamond;startFill=0;endArrow=diamond;endFill=0;targetPerimeterSpacing=1;fontStyle=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="0Zcb1wvKVoteUL0pYanl-28" source="0Zcb1wvKVoteUL0pYanl-30" target="0Zcb1wvKVoteUL0pYanl-49" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="285" as="targetPoint" />
@@ -120,7 +120,7 @@
         <mxCell id="TmatCtbO5n7KlbIE31FC-225" value="&lt;b&gt;S2S&lt;br&gt;VPN&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=42;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="0Zcb1wvKVoteUL0pYanl-28" vertex="1">
           <mxGeometry x="-97" y="430" width="105" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="0Zcb1wvKVoteUL0pYanl-23" value="Base: P2S-branches" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0" />
+        <mxCell id="0Zcb1wvKVoteUL0pYanl-23" value="Base: P2S-branches" parent="0Zcb1wvKVoteUL0pYanl-0" />
         <mxCell id="0Zcb1wvKVoteUL0pYanl-24" style="edgeStyle=none;curved=1;sketch=0;jumpStyle=none;jumpSize=2;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shadow=0;strokeColor=#7EA6E0;strokeWidth=4;fontFamily=Architects Daughter;fontSize=45;fontColor=#000000;startArrow=diamond;startFill=0;endArrow=diamond;endFill=0;targetPerimeterSpacing=1;fontStyle=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="0Zcb1wvKVoteUL0pYanl-23" source="0Zcb1wvKVoteUL0pYanl-25" target="0Zcb1wvKVoteUL0pYanl-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -136,7 +136,7 @@
         <mxCell id="258" value="&lt;b&gt;S2S&lt;br&gt;VPN&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=42;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="0Zcb1wvKVoteUL0pYanl-23" vertex="1">
           <mxGeometry x="533" y="405" width="105" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="0Zcb1wvKVoteUL0pYanl-12" value="Base: ExR-branch" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0" />
+        <mxCell id="0Zcb1wvKVoteUL0pYanl-12" value="Base: ExR-branch" parent="0Zcb1wvKVoteUL0pYanl-0" />
         <mxCell id="0Zcb1wvKVoteUL0pYanl-13" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=#FFFF66;labelBorderColor=#FF0000;comic=0;sketch=1;jiggle=2;fillStyle=auto;curveFitting=1;sketchStyle=rough;strokeColor=#B266FF;strokeWidth=5;fontFamily=Architects Daughter;fontSize=45;fillColor=#e1d5e7;disableMultiStroke=1;disableMultiStrokeFill=1;fontStyle=1;hachureGap=-1;fillWeight=-1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="0Zcb1wvKVoteUL0pYanl-12" vertex="1">
           <mxGeometry x="1140" y="600" width="390" height="375" as="geometry" />
         </mxCell>
@@ -1354,7 +1354,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="186" value="Scenario-4-Indirect Spokes" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0" />
+        <mxCell id="186" value="Scenario-4-Indirect Spokes" parent="0Zcb1wvKVoteUL0pYanl-0" />
         <mxCell id="202" style="edgeStyle=none;shape=connector;curved=1;rounded=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;html=1;exitX=0.8;exitY=1.185;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;strokeColor=#00994D;strokeWidth=5;fontFamily=Comic Sans MS;fontSize=45;fontColor=#00994D;startArrow=classic;startFill=1;endArrow=classic;endFill=1;exitPerimeter=0;flowAnimation=1;" parent="186" source="195" target="197" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -1764,6 +1764,8 @@
         <mxCell id="nJIof_JBiuA4ikxRBGKq-224" value="TODO: Monitoring Metrics" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0" />
         <mxCell id="mUGTGZqbymHyvS_auv7g-220" value="TODO: Concepts :Custom Routing Associations and Propagations" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0" />
         <mxCell id="F7hvUS1lUHRzxcnR8NTa-264" value="TODO:P2S" parent="0Zcb1wvKVoteUL0pYanl-0" visible="0" />
+        <mxCell id="Z-RR_HS2pt2eao-_MPcN-263" value="Hub-routing-preference" parent="0Zcb1wvKVoteUL0pYanl-0" />
+        <mxCell id="Z-RR_HS2pt2eao-_MPcN-264" value="Route-map" parent="0Zcb1wvKVoteUL0pYanl-0" />
       </root>
     </mxGraphModel>
   </diagram>

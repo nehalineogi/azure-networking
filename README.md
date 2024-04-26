@@ -40,8 +40,8 @@ Cloud Solution Architects, Network Architects, Cloud Infrastructure Architects, 
 
 
 1. [Azure AI Studio Networking](#Azure-AI-Studio-Network-design)- March 28th 2024  Completed - [Recording link](https://nnstorage99.blob.core.windows.net/public-recordings/Session-7-AzureAI-Studio-Enterprise-RAG-with-Managed-VNET.mp4)    [FAQ link](Agenda/ai-studio-session.md) [Feedback link](https://forms.office.com/r/CcNEguNC4q)
-)
-2. [AVS Networking](#Azure-VMWare-Solutions-Network-design) April 25th 2024 Webinar -Completed  [Recording link](https://nnstorage101.blob.core.windows.net/public-recordings/Session-8-Azure-VMware-Solution-Networking.mp4) [FAQ link](Agenda/avs-session.md) [Feedback link](https://forms.office.com/r/TKHiJbFSrn)
+
+2. [AVS Networking](#Azure-VMWare-Solutions-Network-design) April 25th 2024 Webinar -Completed  [Recording link](https://nnstorage99.blob.core.windows.net/public-recordings/Session-8-Azure-VMware-Solution-Networking.mp4) [Feedback link](https://forms.office.com/r/TKHiJbFSrn)
 3. [AKS Networking](#AKS-Networking)  (May 2024 - Webinar Registration link to be posted on [linkedin](https://www.linkedin.com/in/nehalineogi/))
 4. ADF and SQL MI Networking (June 2024)
 5. Azure IoT Networking (July 2024)

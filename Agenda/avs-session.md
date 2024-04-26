@@ -39,7 +39,7 @@ Sign up for AVS Pros - link [here](https://aka.ms/AVSPros)
 
 
 8. Jason's blog links
-
+   [Dual Region](https://techcommunity.microsoft.com/t5/itops-talk-blog/dual-region-azure-vmware-solution-design-with-global-reach-using/ba-p/4120511)
    [AVS Scenarios](https://github.com/jasonamedina/AVS-Scenario-2)
 
    [NSX Firewall Patterns](https://github.com/Azure/Enterprise-Scale-for-AVS/tree/main/BrownField/Networking/Concepts/Nsx-Firewall-Patterns)

@@ -1,0 +1,329 @@
+#
+# hhttps://learn.microsoft.com/en-us/azure/aks/limit-egress-traffic
+# https://learn.microsoft.com/en-us/azure/aks/egress-outboundtype#outbound-type-of-userdefinedrouting
+#
+#
+# For firewall
+#
+PREFIX="aks-egress"
+RG="${PREFIX}-rg"
+LOC="eastus"
+PLUGIN=azure
+AKSCLUSTER="${PREFIX}"
+VNET_NAME="${PREFIX}-vnet"
+AKSSUBNET_NAME="aks-subnet"
+# DO NOT CHANGE FWSUBNET_NAME - This is currently a requirement for Azure Firewall.
+FWSUBNET_NAME="AzureFirewallSubnet"
+FWNAME="${PREFIX}-fw"
+FWPUBLICIP_NAME="${PREFIX}-fwpublicip"
+FWIPCONFIG_NAME="${PREFIX}-fwconfig"
+FWROUTE_TABLE_NAME="${PREFIX}-fwrt"
+FWROUTE_NAME="${PREFIX}-fwrn"
+FWROUTE_NAME_INTERNET="${PREFIX}-fwinternet"
+#
+# For NAT Gateway
+#
+NATGW="myNATGateway"
+NATGWIP_NAME="myNATGatewayIP"
+#
+# More variables
+#
+# This command creates an Azure Container Registry in the specified resource group
+MYACR=nnacr98                # Azure Container Registry name
+#MYACR=<your-acr-name>           # Azure Container Registry name
+#
+# AKS DNS Variable
+#
+AKSDNS=nnaks-overlay99       # AKS DNS name
+#AKSDNS=<your-aks-dns-prefix>    # DNS name prefix for the AKS cluster
+
+
+# Create Resource Group
+
+az group create --name $RG --location $LOC
+
+# Dedicated virtual network with AKS subnet
+
+az network vnet create \
+    --resource-group $RG \
+    --name $VNET_NAME \
+    --location $LOC \
+    --address-prefixes 10.42.0.0/16 \
+    --subnet-name $AKSSUBNET_NAME \
+    --subnet-prefix 10.42.1.0/24
+
+# Dedicated subnet for Azure Firewall (Firewall name cannot be changed)
+
+az network vnet subnet create \
+    --resource-group $RG \
+    --vnet-name $VNET_NAME \
+    --name $FWSUBNET_NAME \
+    --address-prefix 10.42.2.0/24
+
+#
+# Create NAT GW
+#
+
+az network public-ip create -g $RG -n $FWPUBLICIP_NAME -l $LOC --sku "Standard"
+az network public-ip create -g $RG -n $NATGWIP_NAME -l $LOC --sku "Standard"
+
+SUBNETID=$(az network vnet subnet show -g $RG --vnet-name $VNET_NAME --name $AKSSUBNET_NAME --query id -o tsv)
+echo $SUBNETID
+az network nat gateway create --resource-group $RG --name $NATGW --location $LOC --public-ip-addresses $NATGWIP_NAME
+az network vnet subnet update --resource-group $RG --vnet-name $VNET_NAME --name $AKSSUBNET_NAME --nat-gateway $NATGW
+echo $SUBNETID
+
+# Install Azure Firewall preview CLI extension
+
+az extension add --name azure-firewall
+
+# Deploy Azure Firewall
+# to leverage the FQDN rules we need the DNS proxy enabled on the firewall
+#
+
+az network firewall create -g $RG -n $FWNAME -l $LOC --enable-dns-proxy true
+
+#
+# Configure Firewall IP Config
+# It Takes time
+
+az network firewall ip-config create -g $RG -f $FWNAME -n $FWIPCONFIG_NAME --public-ip-address $FWPUBLICIP_NAME --vnet-name $VNET_NAME
+
+
+# Capture Firewall IP Address for Later Use
+
+FWPUBLIC_IP=$(az network public-ip show -g $RG -n $FWPUBLICIP_NAME --query "ipAddress" -o tsv)
+FWPRIVATE_IP=$(az network firewall show --resource-group $RG --name $FWNAME --query "ipConfigurations[0].privateIPAddress" -o tsv)
+
+echo $FWPUBLIC_IP
+echo $FWPRIVATE_IP
+
+
+# Create UDR and add a route for Azure Firewall
+
+az network route-table create -g $RG -l $LOC --name $FWROUTE_TABLE_NAME
+az network route-table route create -g $RG --name $FWROUTE_NAME --route-table-name $FWROUTE_TABLE_NAME --address-prefix 0.0.0.0/0 --next-hop-type VirtualAppliance --next-hop-ip-address $FWPRIVATE_IP
+az network route-table route create -g $RG --name $FWROUTE_NAME_INTERNET --route-table-name $FWROUTE_TABLE_NAME --address-prefix $FWPUBLIC_IP/32 --next-hop-type Internet
+#
+#
+#
+
+#
+# Add FW Network Rules
+# Takes Time
+#
+
+az network firewall network-rule create -g $RG -f $FWNAME --collection-name 'aksfwnr' -n 'apiudp' --protocols 'UDP' --source-addresses '*' --destination-addresses "AzureCloud.$LOC" --destination-ports 1194 --action allow --priority 100
+az network firewall network-rule create -g $RG -f $FWNAME --collection-name 'aksfwnr' -n 'apitcp' --protocols 'TCP' --source-addresses '*' --destination-addresses "AzureCloud.$LOC" --destination-ports 9000
+az network firewall network-rule create -g $RG -f $FWNAME --collection-name 'aksfwnr' -n 'time' --protocols 'UDP' --source-addresses '*' --destination-fqdns 'ntp.ubuntu.com' --destination-ports 123
+
+# fw rule for docker images 
+az network firewall network-rule create --resource-group $RG --firewall-name $FWNAME --collection-name 'aksfwnr' --name 'ghcr' --protocols 'TCP' --source-addresses '*' --destination-fqdns ghcr.io pkg-containers.githubusercontent.com --destination-ports '443'
+az network firewall network-rule create --resource-group $RG --firewall-name $FWNAME --collection-name 'aksfwnr' --name 'docker' --protocols 'TCP' --source-addresses '*' --destination-fqdns docker.io registry-1.docker.io production.cloudflare.docker.com gcr.io mcr.microsoft.com --destination-ports '443'
+
+# Add FW Application Rules
+az network firewall application-rule create -g $RG -f $FWNAME --collection-name 'aksfwar' -n 'fqdn' --source-addresses '*' --protocols 'http=80' 'https=443' --fqdn-tags "AzureKubernetesService" --action allow --priority 100
+
+# Associate route table with next hop to Firewall to the AKS subnet
+
+az network vnet subnet update -g $RG --vnet-name $VNET_NAME --name $AKSSUBNET_NAME --route-table $FWROUTE_TABLE_NAME
+
+#
+# ********************Start here - Setup variables**************************
+#
+#
+# Create ACR in RG
+#
+
+
+az acr create --resource-group $RG --name $MYACR --sku Basic
+#
+# Capture firewall IPs
+#
+FWPUBLIC_IP=$(az network public-ip show -g $RG -n $FWPUBLICIP_NAME --query "ipAddress" -o tsv)
+FWPRIVATE_IP=$(az network firewall show --resource-group $RG --name $FWNAME --query "ipConfigurations[0].privateIPAddress" -o tsv)
+
+echo $FWPUBLIC_IP
+echo $FWPRIVATE_IP
+
+#
+# Capture VNET and Subnet IDs
+#
+SUBNETID=$(az network vnet subnet show -g $RG --vnet-name $VNET_NAME --name $AKSSUBNET_NAME --query id -o tsv)
+echo $SUBNETID
+
+VNET_ID=$(az network vnet show -g $RG --name $VNET_NAME --query id -o tsv)
+
+echo $VNET_ID
+
+
+
+# Create IDENTITY
+# This will be the identity assigned to the AKS cluster.
+IDENTITY=nnidentity          # Managed identity name
+az identity create --name $IDENTITY --resource-group $RG
+az identity list --resource-group $RG
+
+# Save the principal ID in a variable
+principal_id=$(az identity list --resource-group $RG --query '[0].principalId' -o tsv)
+echo $principal_id
+
+# Save the id of the managed identity in a variable
+identity_id=$(az identity list --resource-group $RG --query "[?name=='$IDENTITY'].id" -o tsv)
+echo $identity_id
+
+
+#
+# The command assigns the "Network Contributor" role to the specified principal within the scope of the specified Virtual Network. 
+# This grants the principal permissions to manage network resources within that VNet.
+az role assignment create --assignee $principal_id --scope $VNET_ID --role "Network Contributor"
+az role assignment list --assignee $principal_id --scope $VNET_ID --role "Network Contributor"
+
+
+# Create AKS cluster
+#
+# --name sets the name of the AKS cluster.
+# --dns-name-prefix sets the prefix for the DNS name of the AKS cluster's API server and unique within the Azure Region
+# --node-public-ip-prefix /subscriptions/<subscription-id>/resourcegroups/MyResourceGroup3/providers/Microsoft.Network/publicIPPrefixes/MyPublicIPPrefix \
+
+#
+# User Defined Routing (Firewall/NVA)
+# highly recommended to use USER assigned identity (option --assign-identity)
+#  --enable-managed-identity \ need network contributor role and it takes time
+# Note: Default outbound type is LoadBalancer
+#
+az aks create \
+    --resource-group $RG \
+    --name $AKSCLUSTER \
+    --node-count 3 \
+    --generate-ssh-keys \
+    --enable-addons monitoring \
+    --dns-name-prefix $AKSDNS \
+    --network-plugin $PLUGIN \
+    --outbound-type userDefinedRouting \
+    --api-server-authorized-ip-ranges $FWPUBLIC_IP \
+    --service-cidr 10.101.0.0/16 \
+    --dns-service-ip 10.101.0.10 \
+    --docker-bridge-address 172.20.0.1/16 \
+    --vnet-subnet-id $SUBNETID \
+    --assign-identity $identity_id \
+    --attach-acr $MYACR \
+    --max-pods 30 \
+    --verbose
+
+#
+# NAT Gateway
+# Two: Outbound type of managedNatGateway or userAssignedNatGateway
+#https://learn.microsoft.com/en-us/azure/aks/egress-outboundtype#outbound-type-of-managednatgateway-or-userassignednatgateway
+# 
+
+az aks create \
+    --resource-group $RG \
+    --name $AKSCLUSTER \
+    --node-count 3 \
+    --generate-ssh-keys \
+    --enable-addons monitoring \
+    --dns-name-prefix $AKSDNS \
+    --network-plugin $PLUGIN \
+    --outbound-type userAssignedNATGateway  \
+    --service-cidr 10.101.0.0/16 \
+    --dns-service-ip 10.101.0.10 \
+    --docker-bridge-address 172.20.0.1/16 \
+    --vnet-subnet-id $SUBNETID \
+    --assign-identity $identity_id \
+    --attach-acr $MYACR \
+    --max-pods 30 \
+    --verbose
+
+
+
+
+#
+az aks get-credentials --resource-group $RG --name $AKSCLUSTER
+k get nodes -o wide
+#
+# error firewall deployment only
+#
+[nehali@nehali-1019 k8s]$ k get nodes -o wide
+The connection to the server aks-egress-aks-egress-rg-e20d9b-4hesto2n.hcp.eastus.azmk8s.io:443 was refused - did you specify the right host or port?
+#
+# Retrieve your (user kubectl) IP address
+#
+CURRENT_IP=$(dig @resolver1.opendns.com ANY myip.opendns.com +short)
+echo $CURRENT_IP
+
+
+# Add to AKS approved list
+# takes time
+az aks update -g $RG -n $AKSCLUSTER --api-server-authorized-ip-ranges $FWPUBLIC_IP/32,$CURRENT_IP/32
+k get nodes -o wide
+
+# NAT GW 52.170.75.215
+k apply -f network-tools-pod.yaml
+k exec -it  network-tools -- sh 
+curl ifconfig.me
+
+#  root@network-tools:/ ]$ curl ifconfig.me
+# Action: Deny. Reason: No rule matched. Proceeding with default action.
+#
+# sample deployment
+
+# Deploy Application
+#
+kubectl apply -f https://raw.githubusercontent.com/Azure-Samples/aks-store-demo/main/aks-store-quickstart.yaml
+k get service -o wide --watch
+SERVICE_IP=$(kubectl get svc store-front -o jsonpath='{.status.loadBalancer.ingress[*].ip}')
+echo $SERVICE_IP
+curl -I http://135.237.50.233
+#
+
+# Curl Load balancer will fail
+#
+# [nehali@nehali-laptop colors-ns]$ curl 48.217.22.241
+# curl: (28) Failed to connect to 48.217.22.241 port 80 after 134400 ms: Couldn't connect to server
+# Inbound DNAT Rule
+#
+az network firewall nat-rule create --collection-name exampleset --destination-addresses $FWPUBLIC_IP --destination-ports 80 --firewall-name $FWNAME --name inboundrule --protocols Any --resource-group $RG --source-addresses '*' --translated-port 80 --action Dnat --priority 100 --translated-address $SERVICE_IP
+# 
+# Application IP now on firewall not the LB!!!!!
+#
+curl -I http://48.217.207.41 # this will fails as this is the LB IP
+echo $FWPUBLIC_IP
+curl -I http://40.114.4.52
+#
+
+# Extra sample deployment
+k create ns demo-ns
+k apply -f deployment.yaml
+k apply -f service-external-lb.yaml 
+k get nodes,pods,service -o wide -n demo-ns
+k get events -n demo-ns
+#
+#
+# DNAT rule
+#
+kubectl get services -n demo-ns
+SERVICE_IP=$(kubectl get svc nginx-service -n demo-ns -o jsonpath='{.status.loadBalancer.ingress[*].ip}')
+echo $SERVICE_IP
+az network firewall nat-rule create --collection-name exampleset --destination-addresses $FWPUBLIC_IP --destination-ports 80 --firewall-name $FWNAME --name inboundrule --protocols Any --resource-group $RG --source-addresses '*' --translated-port 80 --action Dnat --priority 100 --translated-address $SERVICE_IP
+
+Troubleshooting:
+ az aks create -g $RG -n $AKSCLUSTER -l $LOC \
+>   --node-count 3 --generate-ssh-keys \
+>   --network-plugin $PLUGIN \
+>   --outbound-type userDefinedRouting \
+>   --service-cidr 10.41.0.0/16 \
+>   --dns-service-ip 10.41.0.10 \
+>   --docker-bridge-address 172.17.0.1/16 \
+>   --vnet-subnet-id $SUBNETID \
+>   --enable-managed-identity \
+>   --api-server-authorized-ip-ranges $FWPUBLIC_IP
+It is highly recommended to use USER assigned identity (option --assign-identity) when you want to bring your ownsubnet, which will have no latency for the role assignment to take effect. When using SYSTEM assigned identity, azure-cli will grant Network Contributor role to the system assigned identity after the cluster is created, and the role assignment will take some time to take effect, see https://docs.microsoft.com/en-us/azure/aks/use-managed-identity, proceed to create cluster with system assigned identity? (y/N): y
+It is highly recommended to use USER assigned identity (option --assign-identity) when you want to bring your ownsubnet, which will have no latency for the role assignment to take effect. When using SYSTEM assigned identity, azure-cli will grant Network Contributor role to the system assigned identity after the cluster is created, and the role assignment will take some time to take effect, see https://docs.microsoft.com/en-us/azure/aks/use-managed-identity, proceed to create cluster with system assigned identity?
+#
+#
+#
+# Cleanup
+#
+
+az group delete -g $RG

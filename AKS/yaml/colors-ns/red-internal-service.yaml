@@ -1,0 +1,15 @@
+apiVersion: apps/v1
+kind: Service
+apiVersion: v1
+metadata:
+  name: red-service-internal
+  namespace: colors-ns
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+spec:
+  type: LoadBalancer
+  selector:
+    app: red
+  ports:
+    - port: 8080
+      targetPort: 8080

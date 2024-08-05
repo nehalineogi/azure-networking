@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blue-deployment
+  namespace: colors-ns
+  labels:
+    app: blue
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: blue
+  template:
+    metadata:
+      labels:
+        app: blue
+    spec:
+      containers:
+        - name: blue-app
+          image: hashicorp/http-echo
+          args:
+            - "-text=blue"
+            - "-listen=:8080"
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: blue-service-external
+  namespace: colors-ns
+spec:
+  type: LoadBalancer
+  selector:
+    app: blue
+  ports:
+    - port: 8080

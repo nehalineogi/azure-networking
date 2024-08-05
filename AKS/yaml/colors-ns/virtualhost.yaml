@@ -1,0 +1,33 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: colors-virtual-host-ingress
+  namespace: colors-ns
+  annotations:
+    appgw.ingress.kubernetes.io/backend-path-prefix: /
+    kubernetes.io/ingress.class: azure/application-gateway
+spec:
+  rules:
+    - host: aksred.penguintrails.com
+      http:
+        paths:
+          - backend:
+              serviceName: red-service-cluster-ip
+              servicePort: 8080
+    - host: aksgreen.penguintrails.com
+      http:
+        paths:
+          - backend:
+              serviceName: green-service-cluster-ip
+              servicePort: 8080
+    - host: aksblue.penguintrails.com
+      http:
+        paths:
+          - backend:
+              serviceName: blue-service-cluster-ip
+              servicePort: 8080
+    - http:
+        paths:
+          - backend:
+              serviceName: red-service
+              servicePort: 8080

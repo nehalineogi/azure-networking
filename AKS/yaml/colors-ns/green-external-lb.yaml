@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: green-deployment
+  namespace: colors-ns
+  labels:
+    app: green
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: green
+  template:
+    metadata:
+      labels:
+        app: green
+    spec:
+      containers:
+        - name: green-app
+          image: hashicorp/http-echo
+          args:
+            - "-text=green"
+            - "-listen=:8080"
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: green-service-external
+  namespace: colors-ns
+spec:
+  type: LoadBalancer
+  selector:
+    app: green
+  ports:
+    - port: 8080

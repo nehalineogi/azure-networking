@@ -1,0 +1,38 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: colors-virtual-host-ingress
+  namespace: colors-ns
+spec:
+  ingressClassName: webapprouting.kubernetes.azure.com
+  rules:
+    - host: aksred.penguintrails.com
+      http:
+        paths:
+          - pathType: Prefix
+            path: "/"
+            backend:
+              service:
+                name: red-service-cluster-ip
+                port:
+                  number: 8080
+    - host: aksgreen.penguintrails.com
+      http:
+        paths:
+          - pathType: Prefix
+            path: "/"
+            backend:
+              service:
+                name: green-service-cluster-ip
+                port:
+                  number: 8080
+    - host: aksblue.penguintrails.com
+      http:
+        paths:
+          - pathType: Prefix
+            path: "/"
+            backend:
+              service:
+                name: blue-service-cluster-ip
+                port:
+                  number: 8080

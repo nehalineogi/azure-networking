@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-04-13T11:31:46.390Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="DCr3Ybh7lvXVq8lEnmqI" version="24.1.0" type="device" pages="2">
+<mxfile host="Electron" modified="2024-05-29T12:51:10.952Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="B-Pk7nEgzbSfGorcunGe" version="24.4.0" type="device" pages="2">
   <diagram id="xAm_WjqhbKw9Kvs9WwH9" name="LB">
-    <mxGraphModel dx="11480" dy="6752" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="9204" dy="4956" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -555,7 +555,7 @@
           </mxCell>
         </UserObject>
         <UserObject label="Without floating IP (downstream VM sees the destination of VM IP: 172.16.2.5)&#xa;&#xa;&#xa;root@green-vm:/home/nehali# tcpdump -ni eth0 host  43.250.165.83 and not port&#xa;tcpdump: can&#39;t parse filter expression: syntax error&#xa;root@green-vm:/home/nehali# tcpdump -ni eth0 host  43.250.165.83 and not port ssh&#xa;tcpdump: verbose output suppressed, use -v or -vv for full protocol decode&#xa;listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes&#xa;14:57:32.434105 IP 43.250.165.83.11472 &gt; 172.16.2.5.80: Flags [S], seq 3188324337, win 64240, options [mss 1452,nop,wscale 8,nop,nop,sackOK], length 0&#xa;14:57:32.434167 IP 172.16.2.5.80 &gt; 43.250.165.83.11472: Flags [S.], seq 3928289693, ack 3188324338, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0&#xa;14:57:32.449927 IP 43.250.165.83.11125 &gt; 172.16.2.5.80: Flags [S], seq 2661440386, win 64240, options [mss 1452,nop,wscale 8,nop,nop,sackOK], length 0&#xa;14:57:32.449984 IP 172.16.2.5.80 &gt; 43.250.165.83.11125: Flags [S.], seq 1609240628, ack 2661440387, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0&#xa;14:57:32.649804 IP 43.250.165.83.11472 &gt; 172.16.2.5.80: Flags [.], ack 1, win 258, length 0&#xa;&#xa;&#xa;&#xa;&#xa;With Floating IP:&#xa;&#xa;&#xa;Downstream VM sees the destination of VM IP  ARPing for the LB Front End IP:20.231.246.252 &#xa;&#xa;&#xa;root@east-vm:/home/nehali# tcpdump -ni eth0 port 8080 and host 108.49.51.39&#xa;tcpdump: verbose output suppressed, use -v or -vv for full protocol decode&#xa;listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes&#xa;18:25:41.469349 IP 108.49.51.39.52144 &gt; 20.231.246.252.8080: Flags [F.], seq 3131709609, ack 2796331918, win 513, length 0&#xa;18:25:41.469449 IP 108.49.51.39.52145 &gt; 20.231.246.252.8080: Flags [F.], seq 1099916216, ack 3018572411, win 513, length 0&#xa;18:25:41.469525 IP 20.231.246.252.8080 &gt; 108.49.51.39.52144: Flags [F.], seq 1, ack 1, win 502, length 0&#xa;18:25:41.469703 IP 20.231.246.252.8080 &gt; 108.49.51.39.52145: Flags [F.], seq 1, ack 1, win 502, length 0&#xa;18:25:41.470226 IP 108.49.51.39.52180 &gt; 20.231.246.252.8080: Flags [S], seq 142804851, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0" link="https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-floating-ip" id="q6J8b0H01IcHz_YbDfeW-111">
-          <mxCell style="text;whiteSpace=wrap;fontFamily=Courier New;fontSize=30;" vertex="1" parent="mN-0i87dnHJpf8PUKJab-7">
+          <mxCell style="text;whiteSpace=wrap;fontFamily=Courier New;fontSize=30;" parent="mN-0i87dnHJpf8PUKJab-7" vertex="1">
             <mxGeometry x="2160" y="90" width="2460" height="1305" as="geometry" />
           </mxCell>
         </UserObject>
@@ -1445,7 +1445,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3-H0RD8TjxpWz5I4o4OI" name="FW+AppGW ">
-    <mxGraphModel dx="14880" dy="5652" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="15683" dy="5098" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1918,7 +1918,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="68ZfJFJPEalxRP8uKYh1-2" value="Firewall+ELB+working" parent="0" />
+        <mxCell id="68ZfJFJPEalxRP8uKYh1-2" value="Firewall+ELB+working" parent="0" visible="0" />
         <mxCell id="68ZfJFJPEalxRP8uKYh1-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.39;exitY=0.887;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeWidth=2;strokeColor=#FF0000;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="68ZfJFJPEalxRP8uKYh1-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-2570" y="-1844" as="sourcePoint" />
@@ -2158,7 +2158,7 @@
         <mxCell id="68ZfJFJPEalxRP8uKYh1-37" value="&lt;b style=&quot;font-size: 35px;&quot;&gt;Internal LB&lt;br&gt;&lt;br style=&quot;font-size: 35px;&quot;&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;fontFamily=Architects Daughter;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="TmRFse7yeHPmB9-np3hE-28" vertex="1">
           <mxGeometry x="-3144" y="-270" width="210" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="TmRFse7yeHPmB9-np3hE-27" value="FW in Front of APP GW" parent="0" visible="0" />
+        <mxCell id="TmRFse7yeHPmB9-np3hE-27" value="FW in Front of APP GW" parent="0" />
         <UserObject label="" tags="" id="e6LOuas12nvaeWsrR1vB-64">
           <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Web_Application_Firewall_Policies_WAF.svg;rounded=0;glass=0;labelBackgroundColor=default;labelBorderColor=#FF0000;fillStyle=auto;strokeColor=#000000;strokeWidth=4;fontFamily=Architects Daughter;fontColor=#000000;fillColor=none;gradientColor=none;opacity=70;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="TmRFse7yeHPmB9-np3hE-27" vertex="1">
             <mxGeometry x="-2505" y="-1027" width="67" height="67" as="geometry" />
@@ -2211,26 +2211,12 @@
         <mxCell id="68ZfJFJPEalxRP8uKYh1-50" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Web_Application_Firewall_Policies_WAF.svg;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillWeight=-1;hachureGap=-1;hachureAngle=-41;jiggle=2;disableMultiStroke=1;disableMultiStrokeFill=1;fillStyle=auto;curveFitting=1;sketchStyle=rough;strokeColor=#6c8ebf;strokeWidth=3;fontFamily=Architects Daughter;fontColor=#FF3333;fillColor=#A9C4EB;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="TmRFse7yeHPmB9-np3hE-27" vertex="1">
           <mxGeometry x="-2028" y="-1865" width="68" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="68ZfJFJPEalxRP8uKYh1-51" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;dashed=1;strokeWidth=4;strokeColor=#FF8000;" parent="TmRFse7yeHPmB9-np3hE-27" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2265" y="-2055" as="sourcePoint" />
-            <mxPoint x="-2859" y="-355" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-1965" y="-1815" />
-              <mxPoint x="-2369" y="-1560" />
-              <mxPoint x="-2445" y="-1275" />
-              <mxPoint x="-2384" y="-1005" />
-              <mxPoint x="-2354" y="-945" />
-              <mxPoint x="-1679" y="-675" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 35px;&quot;&gt;&lt;b style=&quot;font-size: 35px;&quot;&gt;Insert XFF Header&lt;/b&gt;&lt;/font&gt;" tags="" id="68ZfJFJPEalxRP8uKYh1-52">
           <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;sketch=1;curveFitting=1;jiggle=2;fontSize=35;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="TmRFse7yeHPmB9-np3hE-27" vertex="1">
             <mxGeometry x="-2092" y="-1785" width="330" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="68ZfJFJPEalxRP8uKYh1-1" value="Untitled Layer" parent="0" visible="0" />
+        <mxCell id="68ZfJFJPEalxRP8uKYh1-1" value="FWwith APPGW and AFD" parent="0" visible="0" />
         <mxCell id="e6LOuas12nvaeWsrR1vB-23" value="&lt;b style=&quot;font-size: 35px;&quot;&gt;App GW (HTTP/HTTPS)&lt;br style=&quot;font-size: 35px;&quot;&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;fontFamily=Architects Daughter;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="68ZfJFJPEalxRP8uKYh1-1" vertex="1">
           <mxGeometry x="-845" y="-960" width="420" height="60" as="geometry" />
         </mxCell>
@@ -2254,6 +2240,20 @@
         </mxCell>
         <mxCell id="e6LOuas12nvaeWsrR1vB-33" value="&lt;b style=&quot;font-size: 35px;&quot;&gt;App GW (HTTP/HTTPS)&lt;br style=&quot;font-size: 35px;&quot;&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;fontFamily=Architects Daughter;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="68ZfJFJPEalxRP8uKYh1-1" vertex="1">
           <mxGeometry x="-645" y="-645" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68ZfJFJPEalxRP8uKYh1-51" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;dashed=1;strokeWidth=4;strokeColor=#FF8000;" parent="68ZfJFJPEalxRP8uKYh1-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2265" y="-2055" as="sourcePoint" />
+            <mxPoint x="-2859" y="-355" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1965" y="-1815" />
+              <mxPoint x="-2369" y="-1560" />
+              <mxPoint x="-2445" y="-1275" />
+              <mxPoint x="-2384" y="-1005" />
+              <mxPoint x="-2354" y="-945" />
+              <mxPoint x="-1679" y="-675" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="68ZfJFJPEalxRP8uKYh1-23" value="Untitled Layer" parent="0" />
       </root>

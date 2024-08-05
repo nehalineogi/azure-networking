@@ -2,8 +2,14 @@
 
 The purpose of this repo is to deliver **layered, reusable and github friendly** network architecture diagrams for Cloud Solutions Architects to run effective Azure design and skilling sessions. The content is based on **real customer and partner design sessions** with collaboration from cross-functional architects. The repository will include tips and tools for effective story telling that explain the **why behind the design options based on requirements** and the art of the possible.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region, secure design, cross functional networking areas and AKS networking.   The networking complexity is broken down into **layers** with **one diagram** per design area using [draw.io](https://app.diagrams.net/) now [diagrams.net](https://www.diagrams.net/). This repo will include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
 
-# Youtube Channel (The Art of the Possible Series)
-### [Drawio basics and layered network diagrams playlist](https://www.youtube.com/channel/UC5x8jb_AMMAqMuFcMfX8RcA)
+# [My YouTube Channel](https://www.youtube.com/@nehalineogi) - [Subscribe here](https://www.youtube.com/@nehalineogi)
+
+# Playlists
+
+### [Drawio Basics and layered network diagrams playlist](https://www.youtube.com/channel/UC5x8jb_AMMAqMuFcMfX8RcA)
+### [Azure Networking Series: The Art of the Possible](https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE)
+### [AKS Networking Series: The Art of the Possible](https://www.youtube.com/playlist?list=PLb4hYfatvJJiIzPftv85zYFq7PXnUY2Zg)
+### [Public facing webinars](https://studio.youtube.com/playlist/PLb4hYfatvJJiRWkn5JPg1KtWFV5lfHl-o/edit)
 
 
 # Scope: Reusable and Layered Network Diagrams
@@ -20,43 +26,40 @@ Cloud Solution Architects, Network Architects, Cloud Infrastructure Architects, 
 - Minimize lab time
 - Growth mindset
 
-# Part 1 (FY 2023 - Completed)
+# Download all drawio diagrams [here](/diagrams)
+# All Recordings Links
 
-### Download all drawio diagrams [here](/diagrams)
-### Recording links available
-
-0. [How to create layered drawio diagrams](https://www.youtube.com/watch?v=-5tKnS03I5Y&t=998s)
+1. [How to create layered drawio diagrams](https://www.youtube.com/watch?v=-5tKnS03I5Y&t=998s)
 2. [Azure Hub and Spoke Designs](https://nnstorage99.blob.core.windows.net/public-recordings/Session-1-Azure-Hub-spoke-architecture.mp4)
 3. [Azure Virtual WAN (vWAN) designs](https://nnstorage99.blob.core.windows.net/public-recordings/session-2-Azure-vWAN-designs.mp4)
 4. [Load Balancing in Azure](https://nnstorage99.blob.core.windows.net/public-recordings/session-3-load-balancing-in-azure.mp4)
 5. [DNS Options in Azure](https://nnstorage99.blob.core.windows.net/public-recordings/Session-4-dns-options-in-azure.mp4)
 6. [NVA High Availability in Azure](https://nnstorage99.blob.core.windows.net/public-recordings/session-5-nva-ha-in-azure.mp4)
 7. [Private Endpoint and Private Link Service in Azure](https://nnstorage99.blob.core.windows.net/public-recordings/session-6-private-endpoint.mp4)
+8. [Azure AI Studio Networking](https://nnstorage99.blob.core.windows.net/public-recordings/Session-7-AzureAI-Studio-Enterprise-RAG-with-Managed-VNET.mp4)
+9. [AVS Networking](https://nnstorage99.blob.core.windows.net/public-recordings/Session-8-Azure-VMware-Solution-Networking.mp4)
+10. [AKS Networking YouTube Playlist](https://www.youtube.com/watch?v=h1urodp0GFc&list=PLb4hYfatvJJiIzPftv85zYFq7PXnUY2Zg&index=2)
 
-   
-# Part 2 (FY 2024 - Upcoming live sessions)
-### Download all drawio diagrams [here](/diagrams)
-### Cross Functional Networking
+##### Upcoming videos in this playlist: [Subscribe here](https://www.youtube.com/@nehalineogi)
+    1. BYO CNI Discussion with our Partner Isovalent
+    2. Q&A and Field Experience discussion with my peers from App Dev teams
+
+11. Upcoming Playlist -Azure ML Studio Networking. [Subscribe here](https://www.youtube.com/@nehalineogi)
 
 
-1. [Azure AI Studio Networking](#Azure-AI-Studio-Network-design)- March 28th 2024  Completed - [Recording link](https://nnstorage99.blob.core.windows.net/public-recordings/Session-7-AzureAI-Studio-Enterprise-RAG-with-Managed-VNET.mp4)    [FAQ link](Agenda/ai-studio-session.md) [Feedback link](https://forms.office.com/r/CcNEguNC4q)
+Future Topics that i'm thinking about - No particular order....
 
-2. [AVS Networking](#Azure-VMWare-Solutions-Network-design) April 25th 2024 Webinar -Completed  [Recording link](https://nnstorage99.blob.core.windows.net/public-recordings/Session-8-Azure-VMware-Solution-Networking.mp4) [Feedback link](https://forms.office.com/r/TKHiJbFSrn)
-3. [AKS Networking](#AKS-Networking)  (May 2024 - Webinar Registration link to be posted on [linkedin](https://www.linkedin.com/in/nehalineogi/))
-4. ADF and SQL MI Networking (June 2024)
-5. Azure IoT Networking (July 2024)
-6. Azure Container Apps, Web Apps Networking (August 2024)
-
-# Part 3: (FY 2025 - Future topics)
-### (Advanced Networking and Security) 
 1. APIM Networking
 2. Azure Network Security (AzFW, DDoS)
 3. ExpressRoute Designs
 4. AVD (Azure Virtual Desktop)
 5. IPv6 in Azure
 6. SAP on Azure
+7. ADF and SQL MI Networking
+8. Azure IoT Networking
+9. Azure Container Apps, Web Apps Networking (August 2024)
 
-# Design Areas (Core Networking Part 1)
+# Design Areas (Core Networking)
 ## Azure Hub-Spoke Design
 
 Download [draw.io diagram](diagrams/hub-spoke.drawio). More information on how to open .drawio files [here](#installation).
@@ -157,7 +160,7 @@ This design includes the following layers:
 - Use case with Azure Front Door (AFD) with Private Endpoint
 - Use case with AKS
 
-# Design Areas (Cross Functional - Part 2)
+# Design Areas (Cross Functional)
 ## Azure AI Studio Network design
 Download [draw.io diagram](diagrams/azure-ai.drawio). More information on how to open .drawio files [here](#installation).
 ![aistudio-design](design-gifs/aistudio-design.gif)
@@ -181,20 +184,43 @@ Download [draw.io diagram](diagrams/AVS.drawio). More information on how to open
 
 ## AKS Networking
 Download [draw.io diagram](diagrams/aks.drawio). More information on how to open .drawio files [here](#installation).
-![aks-design](design-gifs/aks-design.gif)
+![aks-design](design-gifs/aks-cni.gif)
+![aks-design](design-gifs/aks-ingress.gif)
 
 This design includes the following layers
 
 - Azure CNI
 - Azure Kubenet
 - Azure CNI Overlay
-- IPv6 in AKS
-- Azure Data platform integration (Example: SQL MI integration, SQL DB, Cosmos DB, OSS DB (mysql, postgreSQL), blob storage)
-- Multi-region with Relational DB(SQLMI, SQL DB, OSS DB) (Single Master) (Shopping cart)
-- Multi-region with Non-relational or NoSQL (Cosmos DB, MongoDB) (Multi Master) (catalog db)
+- Dual Stack (IPv6 and IPv4) in AKS
+- Nginx ingress
+- App GW Ingress
+- AzFW Firewall egress
+- NAT Gateway egress
+- Furture Topics in this series...
+
+    BYO CNI (Cilium/Isovalent)
+
+    AGC (Application Gateway for Containers)
+
+    AKS Private Cluster
+
+    Multi-region Designs with Azure Front Door
+
+    App-Dev Integration
+            - Azure Data platform integration (Example: SQL MI integration, SQL DB, Cosmos DB, OSS DB (mysql, postgreSQL), blob storage)
+            - Multi-region with Relational DB(SQLMI, SQL DB, OSS DB) (Single Master) (Shopping cart)
+            - Multi-region with Non-relational or NoSQL (Cosmos DB, MongoDB) (Multi Master) (catalog db)
 
 
-## Networking with Azure Data Factory
+## Upcoming : ML Studio Networking
+This design includes the following layers
+- Public Networking
+- BYO VNET
+- Managed VNET
+
+
+## Future: Networking with Azure Data Factory
 This design includes the following layers
 - Azure ADF  (Data movement and orchestration)
 - Azure Synapse
@@ -206,7 +232,7 @@ This design includes the following layers
 - OSS Databases (postgreSQL, mysql, mariadb)
 
 
-## Azure API Management (APIM)
+## Future: Azure API Management (APIM)
 - APIM Big Picture view
 - Default mode
 - External network mode
@@ -221,7 +247,7 @@ This design includes the following layers
 - Azure Private DNS Zones integration
 - Network Troubleshooting
 
-## Azure Container Apps and App Service Networking
+## Future: Azure Container Apps and App Service Networking
 
 - Private Endpoint Integration
 - Service Endpoint

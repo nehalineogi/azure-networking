@@ -10,6 +10,7 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 ### [Azure Networking Series: The Art of the Possible](https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE)
 ### [AKS Networking Series: The Art of the Possible](https://www.youtube.com/playlist?list=PLb4hYfatvJJiIzPftv85zYFq7PXnUY2Zg)
 ### [Public facing webinars](https://studio.youtube.com/playlist/PLb4hYfatvJJiRWkn5JPg1KtWFV5lfHl-o/edit)
+### [ML and AI Studio Networking](https://www.youtube.com/watch?v=-hYf5MCkok8&list=PLb4hYfatvJJjn9x8hiy6qzzO1snMb613G&index=7)
 
 
 # Scope: Reusable and Layered Network Diagrams

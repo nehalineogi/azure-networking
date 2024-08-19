@@ -153,3 +153,34 @@ docker stop $(docker ps -aq)
 
 # Remove all containers
 docker rm $(docker ps -aq)
+
+#
+#ipvlan network
+#
+docker network create --driver ipvlan --subnet 10.1.1.0/24 --opt parent=eth0 --opt ipvlan_mode=l3 ipvlan-net
+docker network inspect ipvlan-net
+#run a container with alpine image
+# attach nic on the host (secodary IP private and public)
+docker run -d --net=ipvlan-net --ip=10.1.1.10 --name purple1 alpine sh -c "while true; do sleep 3600; done"
+docker run -d --net=ipvlan-net --ip=10.1.1.11 --name purple2 alpine sh -c "while true; do sleep 3600; done"
+#cleanup
+# Stop and remove all running containers
+docker stop $(docker ps -aq) && docker rm $(docker ps -aq)
+docker network rm ipvlan-net
+
+# different subnet
+# allow inbound nsg on 10.1.1.5
+docker network create --driver ipvlan \
+    --subnet 192.168.1.0/24 --subnet 192.168.2.0/24 \
+    --opt parent=eth0 \
+    --opt ipvlan_mode=l3 ipvlan-net
+docker network inspect ipvlan-net
+# attach nic on the host (secodary IP private and public)
+docker run -d --net=ipvlan-net --ip=192.168.1.10 --name purple1 alpine sh -c "while true; do sleep 3600; done"
+docker run -d --net=ipvlan-net --ip=192.168.2.10 --name purple2 alpine sh -c "while true; do sleep 3600; done"
+docker exec -it purple1 sh
+ping purple2 (works)
+ping 10.1.1.5 (works with return route and inbound NSG on destination 10.1.1.5)
+ping 8.8.8.8 (needs 0/0 via NVA - NVA does the source NAT)
+docker network rm ipvlan-net
+

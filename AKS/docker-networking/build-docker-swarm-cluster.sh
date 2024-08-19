@@ -80,3 +80,7 @@ ping container on the other docker host
 export RESOURCE_GROUP_NAME=docker-rg
 echo $RESOURCE_GROUP_NAME
 az group delete --name $RESOURCE_GROUP_NAME --yes --no-wait
+
+#remove docker network
+docker network rm green-overlay
+

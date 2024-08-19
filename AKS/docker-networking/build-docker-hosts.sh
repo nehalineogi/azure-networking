@@ -23,11 +23,7 @@ export PUB_KEY=~/.ssh/id_rsa.pub
 # Get the current public IP of the user
 MY_IP=$(curl -s ifconfig.me)
 
-# Verify Azure login
-if ! az account show > /dev/null 2>&1; then
-  echo "Error: Azure CLI is not logged in. Please run 'az login' to log in."
-  exit 1
-fi
+
 
 # Create resource group
 az group create --name $RESOURCE_GROUP_NAME --location $LOCATION

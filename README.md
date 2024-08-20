@@ -2,7 +2,7 @@
 
 The purpose of this repo is to deliver **layered, reusable and github friendly** network architecture diagrams for Cloud Solutions Architects to run effective Azure design and skilling sessions. The content is based on **real customer and partner design sessions** with collaboration from cross-functional architects. The repository will include tips and tools for effective story telling that explain the **why behind the design options based on requirements** and the art of the possible.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region, secure design, cross functional networking areas and AKS networking.   The networking complexity is broken down into **layers** with **one diagram** per design area using [draw.io](https://app.diagrams.net/) now [diagrams.net](https://www.diagrams.net/). This repo will include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
 
-# [My YouTube Channel](https://www.youtube.com/@nehalineogi) - [Subscribe here](https://www.youtube.com/@nehalineogi)
+# [My YouTube Channel](https://www.youtube.com/@nehalineogi)
 
 # Playlists
 
@@ -31,24 +31,21 @@ Cloud Solution Architects, Network Architects, Cloud Infrastructure Architects, 
 # All Recordings Links
 
 1. [How to create layered drawio diagrams](https://www.youtube.com/watch?v=-5tKnS03I5Y&t=998s)
-2. [Azure Hub and Spoke Designs](https://nnstorage99.blob.core.windows.net/public-recordings/Session-1-Azure-Hub-spoke-architecture.mp4)
-3. [Azure Virtual WAN (vWAN) designs](https://nnstorage99.blob.core.windows.net/public-recordings/session-2-Azure-vWAN-designs.mp4)
-4. [Load Balancing in Azure](https://nnstorage99.blob.core.windows.net/public-recordings/session-3-load-balancing-in-azure.mp4)
-5. [DNS Options in Azure](https://nnstorage99.blob.core.windows.net/public-recordings/Session-4-dns-options-in-azure.mp4)
-6. [NVA High Availability in Azure](https://nnstorage99.blob.core.windows.net/public-recordings/session-5-nva-ha-in-azure.mp4)
-7. [Private Endpoint and Private Link Service in Azure](https://nnstorage99.blob.core.windows.net/public-recordings/session-6-private-endpoint.mp4)
-8. [Azure AI Studio Networking](https://nnstorage99.blob.core.windows.net/public-recordings/Session-7-AzureAI-Studio-Enterprise-RAG-with-Managed-VNET.mp4)
-9. [AVS Networking](https://nnstorage99.blob.core.windows.net/public-recordings/Session-8-Azure-VMware-Solution-Networking.mp4)
-10. [AKS Networking YouTube Playlist](https://www.youtube.com/watch?v=h1urodp0GFc&list=PLb4hYfatvJJiIzPftv85zYFq7PXnUY2Zg&index=2)
-
-##### Upcoming videos in this playlist: [Subscribe here](https://www.youtube.com/@nehalineogi)
-    1. BYO CNI Discussion with our Partner Isovalent
-    2. Q&A and Field Experience discussion with my peers from App Dev teams
-
-11. Upcoming Playlist -Azure ML Studio Networking. [Subscribe here](https://www.youtube.com/@nehalineogi)
+2. [Azure Hub and Spoke Designs- Single Region](https://youtu.be/eSh414_RJWw)
+3. [Azure Hub and Spoke Designs-Multi Region](https://youtu.be/99TUUZoBjec)
+3. [Azure Virtual WAN (vWAN) designs](https://youtu.be/6-7ki0D1IX8)
+4. [Load Balancing in Azure](https://youtu.be/4YXW7_R0qw4)
+5. [DNS Options in Azure](https://youtu.be/U6lAG53wLRU)
+6. [NVA High Availability in Azure](https://youtu.be/XFIY77ZoYBk)
+7. [Private Endpoint and Private Link Service in Azure](https://youtu.be/AQoe0FsISso)
+8. [Azure AI Studio Networking](https://youtu.be/wdHcJKTwSYs)
+9. [AVS Networking](https://youtu.be/qhbYAbL_fPc)
+10. [AKS Networking Series - YouTube Playlist](https://www.youtube.com/watch?v=h1urodp0GFc&list=PLb4hYfatvJJiIzPftv85zYFq7PXnUY2Zg&index=2)
+11. [AI and ML Studio Networking Series - YouTube Playlist](https://www.youtube.com/playlist?list=PLb4hYfatvJJjn9x8hiy6qzzO1snMb613G)
 
 
-Future Topics that i'm thinking about - No particular order....
+
+Future Topics and Series that i'm thinking about - No particular order....
 
 1. APIM Networking
 2. Azure Network Security (AzFW, DDoS)
@@ -58,7 +55,7 @@ Future Topics that i'm thinking about - No particular order....
 6. SAP on Azure
 7. ADF and SQL MI Networking
 8. Azure IoT Networking
-9. Azure Container Apps, Web Apps Networking (August 2024)
+9. Azure Container Apps, Web Apps Networking
 
 # Design Areas (Core Networking)
 ## Azure Hub-Spoke Design
@@ -165,12 +162,31 @@ This design includes the following layers:
 ## Azure AI Studio Network design
 Download [draw.io diagram](diagrams/azure-ai.drawio). More information on how to open .drawio files [here](#installation).
 ![aistudio-design](design-gifs/aistudio-design.gif)
+This design includes the following layers (Note: AI Studio TAB)
 - AI Studio Prompt flow with Managed VNET and Private endpoints
 - Short Demo with AI Studio Playground
 - Azure AI Studio Architecture Components (PaaS and IaaS)
 - Key Concepts (Private Endpoints, Webapp, Embedding and Vector Database, Managed EP, AI Models and Prompt flow)
 - Traffic flows with managed VNET with Private Endpoints
 - [FAQ and Feedback Links](Agenda/ai-studio-session.md)
+
+## ML Studio Networking
+Download [draw.io diagram](diagrams/azure-ai.drawio). More information on how to open .drawio files [here](#installation).
+![mlstudio-design](design-gifs/ml-studio-design.gif)
+
+
+This design includes the following layers (Note: ML Studio TAB)
+
+- Public Networking
+- BYO VNET
+- Managed VNET (Private with Internet Outbound)
+- Managed VNET (Private with Approved Outbound)
+- All traffic flows (inbound/outbound)
+
+Upcoming topics in this series:
+- Powerapp and power platform integration
+- BYO Data
+
 
 
 ## Azure VMware Solutions Network design
@@ -214,11 +230,7 @@ This design includes the following layers
             - Multi-region with Non-relational or NoSQL (Cosmos DB, MongoDB) (Multi Master) (catalog db)
 
 
-## Upcoming : ML Studio Networking
-This design includes the following layers
-- Public Networking
-- BYO VNET
-- Managed VNET
+
 
 
 ## Future: Networking with Azure Data Factory

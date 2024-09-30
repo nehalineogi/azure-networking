@@ -12,6 +12,8 @@ The purpose of this repo is to deliver **layered, reusable and github friendly**
 ### [Public facing webinars](https://studio.youtube.com/playlist/PLb4hYfatvJJiRWkn5JPg1KtWFV5lfHl-o/edit)
 ### [ML and AI Studio Networking](https://www.youtube.com/watch?v=-hYf5MCkok8&list=PLb4hYfatvJJjn9x8hiy6qzzO1snMb613G&index=7)
 
+### [ISV Series: Security and SDWAN Partners in vWAN](https://www.youtube.com/playlist?list=PLb4hYfatvJJhNyUpS9LX4RtllDYXhtZ75)
+
 
 # Scope: Reusable and Layered Network Diagrams
 
@@ -230,7 +232,22 @@ This design includes the following layers
             - Multi-region with Non-relational or NoSQL (Cosmos DB, MongoDB) (Multi Master) (catalog db)
 
 
+## ISV Series: Security and SDWAN Partners in vWAN
+Download [draw.io diagram](diagrams/vwam.drawio). More information on how to open .drawio files [here](#installation).
+![isv-series](design-gifs/isv-1.png)
+![isv-series](design-gifs/isv-2.png)
 
+
+Vendor dedicated videos available:
+- Check Point Software CloudGuard Architecture (Part 1) with John Guo: https://lnkd.in/e-3yVSUJ
+- Check Point CloudGuard demo (Part 2) with John Guo: https://lnkd.in/erT53euA
+- Palo Alto Networks Cloud NGFW Architecture and demo with Anton Budilovskiy: https://lnkd.in/ecGqKTYm
+
+Stay tuned for upcoming videos in the playlist... 
+- Fortinet NGFW and SDWAN with Martin Twombly
+- Cisco SDWAN with Juan Ignacio Sterbenc Simarbir Singh
+- Cisco Meraki SDWAN with Juan
+- VMware SDWAN by Broadcom with Vivek Achar
 
 
 ## Future: Networking with Azure Data Factory

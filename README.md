@@ -2,19 +2,6 @@
 
 The purpose of this repo is to deliver **layered, reusable and github friendly** network architecture diagrams for Cloud Solutions Architects to run effective Azure design and skilling sessions. The content is based on **real customer and partner design sessions** with collaboration from cross-functional architects. The repository will include tips and tools for effective story telling that explain the **why behind the design options based on requirements** and the art of the possible.  The design areas include - Azure Networking, Hybrid connectivity architectures, routing, firewalling, load balancing, multi-region, secure design, cross functional networking areas and AKS networking.   The networking complexity is broken down into **layers** with **one diagram** per design area using [draw.io](https://app.diagrams.net/) now [diagrams.net](https://www.diagrams.net/). This repo will include configuration snippets to reduce the lab prep time and the need to leave the labs running for demos.
 
-# [My YouTube Channel](https://www.youtube.com/@nehalineogi)
-
-# Playlists
-
-### [Drawio Basics and layered network diagrams playlist](https://www.youtube.com/channel/UC5x8jb_AMMAqMuFcMfX8RcA)
-### [Azure Networking Series: The Art of the Possible](https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE)
-### [AKS Networking Series: The Art of the Possible](https://www.youtube.com/playlist?list=PLb4hYfatvJJiIzPftv85zYFq7PXnUY2Zg)
-### [Public facing webinars](https://studio.youtube.com/playlist/PLb4hYfatvJJiRWkn5JPg1KtWFV5lfHl-o/edit)
-### [ML and AI Studio Networking](https://www.youtube.com/watch?v=-hYf5MCkok8&list=PLb4hYfatvJJjn9x8hiy6qzzO1snMb613G&index=7)
-
-### [ISV Series: Security and SDWAN Partners in vWAN](https://www.youtube.com/playlist?list=PLb4hYfatvJJhNyUpS9LX4RtllDYXhtZ75)
-
-
 # Scope: Reusable and Layered Network Diagrams
 
 ### Target Audience:  
@@ -28,6 +15,21 @@ Cloud Solution Architects, Network Architects, Cloud Infrastructure Architects, 
 - Understand the why behind the design decision
 - Minimize lab time
 - Growth mindset
+
+# [My YouTube Channel](https://www.youtube.com/@nehalineogi)
+
+# Playlists
+
+### [Drawio Basics and layered network diagrams playlist](https://www.youtube.com/channel/UC5x8jb_AMMAqMuFcMfX8RcA)
+### [Azure Networking Series: The Art of the Possible](https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE)
+### [AKS Networking Series: The Art of the Possible](https://www.youtube.com/playlist?list=PLb4hYfatvJJiIzPftv85zYFq7PXnUY2Zg)
+### [Public facing webinars](https://studio.youtube.com/playlist/PLb4hYfatvJJiRWkn5JPg1KtWFV5lfHl-o/edit)
+### [ML and AI Studio Networking](https://www.youtube.com/watch?v=-hYf5MCkok8&list=PLb4hYfatvJJjn9x8hiy6qzzO1snMb613G&index=7)
+
+### [ISV Series: Security and SDWAN Partners in vWAN](https://www.youtube.com/playlist?list=PLb4hYfatvJJhNyUpS9LX4RtllDYXhtZ75)
+
+
+
 
 # Download all drawio diagrams [here](/diagrams)
 # All Recordings Links

@@ -1,0 +1,4 @@
+ID,Name,Age,Email,DateOfBirth,Country
+1,John Doe,29,john.doe@example.com,1994-05-12,USA
+2,Jane Smith,34,jane.smith@example.com,1989-02-20,Canada
+3,Bob Brown,41,bob.brown@example.com,1982-08-15,UK

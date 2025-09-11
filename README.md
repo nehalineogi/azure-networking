@@ -252,11 +252,11 @@ Full Playlist here: https://www.youtube.com/playlist?list=PLb4hYfatvJJhNyUpS9LX4
 - VMware SDWAN by Broadcom with Vivek Achar
 
 
-## Networking with Azure Data Factory (Work In Progress)
+## Data Series Networking (Work In Progress)
 Download [draw.io diagram](diagrams/data-architectures.drawio). More information on how to open .drawio files [here](#installation).
 
 This design includes the following layers
-- Azure ADF and Azure Fabric Networking  (Data movement and orchestration)  (Completed)
+- Azure ADF and Azure Fabric Networking  (Data movement and orchestration)  (Completed) Download [draw.io diagram](diagrams/data-architectures.drawio)
 - Azure Databricks (Coming up next!)
 - Azure Synapse
 - Azure Datalake or blob storage
@@ -344,5 +344,6 @@ Special thank you to my colleagues
 - [Amanda Wong](https://github.com/wongamanda)
 - Israel Ekpo
 - [Jason Medina](https://github.com/jasonamedina)
+
 
 

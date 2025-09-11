@@ -235,24 +235,24 @@ This design includes the following layers
 
 
 ## ISV Series: Security and SDWAN Partners in vWAN
-Download [draw.io diagram](diagrams/vwam.drawio). More information on how to open .drawio files [here](#installation).
+Download [draw.io diagram](diagrams/vwan.drawio). More information on how to open .drawio files [here](#installation).
 ![isv-series](design-gifs/isv-1.png)
 ![isv-series](design-gifs/isv-2.png)
 
 
 Vendor dedicated videos available:
-- Check Point Software CloudGuard Architecture (Part 1) with John Guo: https://lnkd.in/e-3yVSUJ
-- Check Point CloudGuard demo (Part 2) with John Guo: https://lnkd.in/erT53euA
-- Palo Alto Networks Cloud NGFW Architecture and demo with Anton Budilovskiy: https://lnkd.in/ecGqKTYm
 
-Stay tuned for upcoming videos in the playlist... 
+Full Playlist here: https://www.youtube.com/playlist?list=PLb4hYfatvJJhNyUpS9LX4RtllDYXhtZ75
+
+- Check Point Software CloudGuardwith John Guo
+- Palo Alto Networks Cloud NGFW Architecture and demo with Anton Budilovskiy and Salman Syed
 - Fortinet NGFW and SDWAN with Martin Twombly
 - Cisco SDWAN with Juan Ignacio Sterbenc Simarbir Singh
 - Cisco Meraki SDWAN with Juan
 - VMware SDWAN by Broadcom with Vivek Achar
 
 
-## Future: Networking with Azure Data Factory (Work In Progress)
+## Networking with Azure Data Factory (Work In Progress)
 Download [draw.io diagram](diagrams/data-architectures.drawio). More information on how to open .drawio files [here](#installation).
 
 This design includes the following layers
@@ -344,4 +344,5 @@ Special thank you to my colleagues
 - [Amanda Wong](https://github.com/wongamanda)
 - Israel Ekpo
 - [Jason Medina](https://github.com/jasonamedina)
+
 

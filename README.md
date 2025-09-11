@@ -252,9 +252,12 @@ Stay tuned for upcoming videos in the playlist...
 - VMware SDWAN by Broadcom with Vivek Achar
 
 
-## Future: Networking with Azure Data Factory
+## Future: Networking with Azure Data Factory (Work In Progress)
+Download [draw.io diagram](diagrams/data-architectures.drawio). More information on how to open .drawio files [here](#installation).
+
 This design includes the following layers
-- Azure ADF  (Data movement and orchestration)
+- Azure ADF and Azure Fabric Networking  (Data movement and orchestration)  (Completed)
+- Azure Databricks (Coming up next!)
 - Azure Synapse
 - Azure Datalake or blob storage
 - SQL MI (source and destination)
@@ -341,3 +344,4 @@ Special thank you to my colleagues
 - [Amanda Wong](https://github.com/wongamanda)
 - Israel Ekpo
 - [Jason Medina](https://github.com/jasonamedina)
+

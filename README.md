@@ -20,15 +20,17 @@ Cloud Solution Architects, Network Architects, Cloud Infrastructure Architects, 
 
 # Playlists
 
-### [Drawio Basics and layered network diagrams playlist](https://www.youtube.com/channel/UC5x8jb_AMMAqMuFcMfX8RcA)
-### [Azure Networking Series: The Art of the Possible](https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE)
-### [AKS Networking Series: The Art of the Possible](https://www.youtube.com/playlist?list=PLb4hYfatvJJiIzPftv85zYFq7PXnUY2Zg)
-### [Public facing webinars](https://studio.youtube.com/playlist/PLb4hYfatvJJiRWkn5JPg1KtWFV5lfHl-o/edit)
-### [ML and AI Studio Networking](https://www.youtube.com/watch?v=-hYf5MCkok8&list=PLb4hYfatvJJjn9x8hiy6qzzO1snMb613G&index=7)
+### [Drawio Basics and layered network diagrams playlist](https://youtu.be/-5tKnS03I5Y)
+### [AI Foundry Networking](https://www.youtube.com/playlist?list=PLb4hYfatvJJjLOs8TjjXgw-2BP2y0sWFc)
+### [Azure Networking Series](https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE)
+### [AKS Networking Series](https://www.youtube.com/playlist?list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE)
 
+### [ML Studio Networking](https://www.youtube.com/playlist?list=PLb4hYfatvJJjn9x8hiy6qzzO1snMb613G)
 ### [ISV Series: Security and SDWAN Partners in vWAN](https://www.youtube.com/playlist?list=PLb4hYfatvJJhNyUpS9LX4RtllDYXhtZ75)
+### [Azure VMware Solution Series](https://www.youtube.com/playlist?list=PLb4hYfatvJJiGinTehdteuv1EXm6dbLKf)
+### [Cross Functional Series](https://www.youtube.com/playlist?list=PLb4hYfatvJJj3QKHkwrdnQZCcJpYXso3X)
 
-
+### [Public facing webinars](https://studio.youtube.com/playlist/PLb4hYfatvJJiRWkn5JPg1KtWFV5lfHl-o/edit)
 
 
 # Download all drawio diagrams [here](/diagrams)
@@ -344,6 +346,7 @@ Special thank you to my colleagues
 - [Amanda Wong](https://github.com/wongamanda)
 - Israel Ekpo
 - [Jason Medina](https://github.com/jasonamedina)
+
 
 
 

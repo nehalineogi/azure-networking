@@ -34,34 +34,20 @@ Cloud Solution Architects, Network Architects, Cloud Infrastructure Architects, 
 
 
 # Download all drawio diagrams [here](/diagrams)
-# All Recordings Links
-
-1. [How to create layered drawio diagrams](https://www.youtube.com/watch?v=-5tKnS03I5Y&t=998s)
-2. [Azure Hub and Spoke Designs- Single Region](https://youtu.be/eSh414_RJWw)
-3. [Azure Hub and Spoke Designs-Multi Region](https://youtu.be/99TUUZoBjec)
-3. [Azure Virtual WAN (vWAN) designs](https://youtu.be/6-7ki0D1IX8)
-4. [Load Balancing in Azure](https://youtu.be/4YXW7_R0qw4)
-5. [DNS Options in Azure](https://youtu.be/U6lAG53wLRU)
-6. [NVA High Availability in Azure](https://youtu.be/XFIY77ZoYBk)
-7. [Private Endpoint and Private Link Service in Azure](https://youtu.be/AQoe0FsISso)
-8. [Azure AI Studio Networking](https://youtu.be/wdHcJKTwSYs)
-9. [AVS Networking](https://youtu.be/qhbYAbL_fPc)
-10. [AKS Networking Series - YouTube Playlist](https://www.youtube.com/watch?v=h1urodp0GFc&list=PLb4hYfatvJJiIzPftv85zYFq7PXnUY2Zg&index=2)
-11. [AI and ML Studio Networking Series - YouTube Playlist](https://www.youtube.com/playlist?list=PLb4hYfatvJJjn9x8hiy6qzzO1snMb613G)
 
 
 
-Future Topics and Series that i'm thinking about - No particular order....
+
+#Future Topics and Series that i'm thinking about - No particular order....
 
 1. APIM Networking
 2. Azure Network Security (AzFW, DDoS)
 3. ExpressRoute Designs
 4. AVD (Azure Virtual Desktop)
-5. IPv6 in Azure
 6. SAP on Azure
-7. ADF and SQL MI Networking
+7. SQL MI Networking
 8. Azure IoT Networking
-9. Azure Container Apps, Web Apps Networking
+
 
 # Design Areas (Core Networking)
 ## Azure Hub-Spoke Design
@@ -205,6 +191,44 @@ Download [draw.io diagram](diagrams/AVS.drawio). More information on how to open
 - Deploy third party Virtual Apppliance using NSX-T segments within AVS
 - Secured vWAN HUB Design with Routing Intent
 
+## Azure VMware Solutions HCX MON
+
+## 📺 Video Chapters – Azure VMware Solution: HCX MON Part-1
+Download [draw.io diagram](diagrams/AVS.drawio)
+- [00:00:00 – Welcome and Introductions](https://youtu.be/ryeu8IFg2pI?t=0)
+- [00:02:31 – HCX MON Lab – The Vision and Big Picture](https://youtu.be/ryeu8IFg2pI?t=151)
+- [00:11:54 – Deploy Simulated On-Prem (AVS SDDC) from Scratch](https://youtu.be/ryeu8IFg2pI?t=714)
+
+**AVS Side:**
+- [00:17:00 – Deploy AVS Side](https://youtu.be/ryeu8IFg2pI?t=1020)
+- [00:20:41 – Deploy ER Gateway](https://youtu.be/ryeu8IFg2pI?t=1241)
+- [00:23:44 – The Jump Host](https://youtu.be/ryeu8IFg2pI?t=1424)
+- [00:24:28 – Create a Connection](https://youtu.be/ryeu8IFg2pI?t=1468)
+- [00:27:48 – AVS: Inbound/Outbound Flows](https://youtu.be/ryeu8IFg2pI?t=1668)
+- [00:29:15 – NSX Concepts and IP Address Planning](https://youtu.be/ryeu8IFg2pI?t=1755)
+- [00:38:58 – Launch vCenter and NSX Manager](https://youtu.be/ryeu8IFg2pI?t=2338)
+- [00:40:57 – vCenter Overview](https://youtu.be/ryeu8IFg2pI?t=2457)
+- [00:50:28 – NSX Manager Overview](https://youtu.be/ryeu8IFg2pI?t=3028)
+- [01:02:54 – Segments, DHCP, DNS](https://youtu.be/ryeu8IFg2pI?t=3774)
+- [01:15:44 – Deploy VM](https://youtu.be/ryeu8IFg2pI?t=4544)
+- [01:20:00 – Run Validations and Troubleshooting](https://youtu.be/ryeu8IFg2pI?t=4800)
+- [01:30:08 – Enable HCX](https://youtu.be/ryeu8IFg2pI?t=5408)
+- [01:31:15 – Configure Simulated On-Prem Side](https://youtu.be/ryeu8IFg2pI?t=5475)
+- [01:52:15 – AVS Interconnect](https://youtu.be/ryeu8IFg2pI?t=6735)
+
+**HCX MON Demo:**
+- [01:59:34 – Enable VMware HCX (Simulated On-Prem)](https://youtu.be/ryeu8IFg2pI?t=7174)
+- [02:03:25 – Create HCX Site Pairs and Interconnect](https://youtu.be/ryeu8IFg2pI?t=7405)
+- [02:24:26 – L2 Extension – Architecture and Flows](https://youtu.be/ryeu8IFg2pI?t=8666)
+- [02:31:09 – L2 Extension – Troubleshooting](https://youtu.be/ryeu8IFg2pI?t=9069)
+- [02:52:01 – Enable MON](https://youtu.be/ryeu8IFg2pI?t=10321)
+- [02:58:10 – Asymmetric Routing](https://youtu.be/ryeu8IFg2pI?t=10690)
+- [03:01:25 – HCX Policy Routes](https://youtu.be/ryeu8IFg2pI?t=10885)
+- [03:11:26 – Test VM Migration](https://youtu.be/ryeu8IFg2pI?t=11486)
+- [03:20:10 – Unextend Network](https://youtu.be/ryeu8IFg2pI?t=12010)
+- [03:22:47 – DNS and DHCP Troubleshooting and Orchestration](https://youtu.be/ryeu8IFg2pI?t=12167)
+- [03:30:17 – Closing Thoughts and Thank You!](https://youtu.be/ryeu8IFg2pI?t=12617)
+
 ## AKS Networking
 Download [draw.io diagram](diagrams/aks.drawio). More information on how to open .drawio files [here](#installation).
 ![aks-design](design-gifs/aks-cni.gif)
@@ -254,11 +278,33 @@ Full Playlist here: https://www.youtube.com/playlist?list=PLb4hYfatvJJhNyUpS9LX4
 - VMware SDWAN by Broadcom with Vivek Achar
 
 
-## Data Series Networking (Work In Progress)
-Download [draw.io diagram](diagrams/data-architectures.drawio). More information on how to open .drawio files [here](#installation).
+## Data Series 
+### Azure Data Factory Networking
+Download [📐 draw.io diagram](diagrams/data-architectures.drawio).  
+More information on how to open `.drawio` files can be found [here](#installation).  
 
-This design includes the following layers
-- Azure ADF and Azure Fabric Networking  (Data movement and orchestration)  (Completed) Download [draw.io diagram](diagrams/data-architectures.drawio)
+---
+
+## 🎥 Azure ADF and Azure Fabric Networking (Data movement and orchestration)
+
+[Watch on YouTube](https://youtu.be/KLPRST4nNNU)
+
+
+- [00:00:00 – Welcome and introductions](https://youtu.be/KLPRST4nNNU?t=0)  
+- [00:01:59 – ADF Concepts - Network Perspective](https://youtu.be/KLPRST4nNNU?t=119)  
+- [00:07:41 – The Big Picture](https://youtu.be/KLPRST4nNNU?t=461)  
+- [00:10:11 – Scenario: AutoResolve Integration Runtime (Public Networking)](https://youtu.be/KLPRST4nNNU?t=611)  
+- [00:31:12 – Private Endpoint and DNS Deep dive](https://youtu.be/KLPRST4nNNU?t=18672)  
+- [01:02:43 – Scenario: Self Hosted IR (On-premises) (Private Networking)](https://youtu.be/KLPRST4nNNU?t=3763)  
+- [01:14:09 – P2S VPN and Private Endpoints](https://youtu.be/KLPRST4nNNU?t=4449)  
+- [01:35:05 – Validations and troubleshooting](https://youtu.be/KLPRST4nNNU?t=5705)  
+- [01:42:28 – Scenario: Self Hosted IR (Azure VM)](https://youtu.be/KLPRST4nNNU?t=6148)  
+- [01:51:35 – Scenario: Manage VNET IR](https://youtu.be/KLPRST4nNNU?t=6695)  
+- [02:12:27 – Fabric Data Factory Networking](https://youtu.be/KLPRST4nNNU?t=7947)  
+- [02:33:22 – Run Pipeline](https://youtu.be/KLPRST4nNNU?t=9202)  
+- [02:43:59 – Closing thoughts and thank you!](https://youtu.be/KLPRST4nNNU?t=9839)  
+  
+## Future
 - Azure Databricks (Coming up next!)
 - Azure Synapse
 - Azure Datalake or blob storage
@@ -346,6 +392,7 @@ Special thank you to my colleagues
 - [Amanda Wong](https://github.com/wongamanda)
 - Israel Ekpo
 - [Jason Medina](https://github.com/jasonamedina)
+
 
 
 

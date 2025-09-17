@@ -36,9 +36,7 @@ Cloud Solution Architects, Network Architects, Cloud Infrastructure Architects, 
 # Download all drawio diagrams [here](/diagrams)
 
 
-
-
-#Future Topics and Series that i'm thinking about - No particular order....
+# Future Topics and Series that i'm thinking about - No particular order....
 
 1. APIM Networking
 2. Azure Network Security (AzFW, DDoS)
@@ -392,6 +390,7 @@ Special thank you to my colleagues
 - [Amanda Wong](https://github.com/wongamanda)
 - Israel Ekpo
 - [Jason Medina](https://github.com/jasonamedina)
+
 
 
 

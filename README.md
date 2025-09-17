@@ -259,6 +259,24 @@ This design includes the following layers
             - Multi-region with Non-relational or NoSQL (Cosmos DB, MongoDB) (Multi Master) (catalog db)
 
 
+# Azure Container Apps and App Service Networking
+Download [draw.io diagram](diagrams/aks.drawio). More information on how to open .drawio files [here](#installation).
+## 📺 Video Chapters – Art of The Possible Series
+
+- [00:00:00 – Welcome to the Art of The Possible Series](https://youtu.be/2d9wqFisv6A?t=0)
+- [00:01:39 – Hybrid Cloud Architecture and draw.io](https://youtu.be/2d9wqFisv6A?t=99)
+- [00:03:39 – External Mode: Architecture and Portal Experience](https://youtu.be/2d9wqFisv6A?t=219)
+- [00:15:44 – External Mode: With Private Endpoint (Preview)](https://youtu.be/2d9wqFisv6A?t=944)
+- [00:21:08 – External Mode: With Front Door and Private Endpoint (Preview)](https://youtu.be/2d9wqFisv6A?t=1268)
+- [00:27:41 – External Mode: Azure Front Door Custom Domain](https://youtu.be/2d9wqFisv6A?t=1661)
+- [00:37:50 – Internal Mode: Architecture](https://youtu.be/2d9wqFisv6A?t=2270)
+- [00:58:02 – Internal Mode: With Application Gateway](https://youtu.be/2d9wqFisv6A?t=3482)
+- [01:12:12 – Internal Mode: With Application Gateway and Front Door](https://youtu.be/2d9wqFisv6A?t=4332)
+- [01:23:45 – Outbound from Container App (NAT GW and AzFW)](https://youtu.be/2d9wqFisv6A?t=5025)
+- [01:29:03 – Multi-region design](https://youtu.be/2d9wqFisv6A?t=5343)
+- [01:31:29 – Troubleshooting Tips…](https://youtu.be/2d9wqFisv6A?t=5489)
+- [01:34:15 – Closing Thoughts and Thank You…](https://youtu.be/2d9wqFisv6A?t=5655)
+
 ## ISV Series: Security and SDWAN Partners in vWAN
 Download [draw.io diagram](diagrams/vwan.drawio). More information on how to open .drawio files [here](#installation).
 ![isv-series](design-gifs/isv-1.png)
@@ -329,13 +347,7 @@ More information on how to open `.drawio` files can be found [here](#installatio
 - Azure Private DNS Zones integration
 - Network Troubleshooting
 
-## Future: Azure Container Apps and App Service Networking
 
-- Private Endpoint Integration
-- Service Endpoint
-- VNET Integration
-- NAT Gateway Integration
-- Azure Private DNS Zone Planning
 
 
 # Tooling - Draw.io (now diagrams.net)
@@ -391,6 +403,7 @@ Special thank you to my colleagues
 - [Amanda Wong](https://github.com/wongamanda)
 - Israel Ekpo
 - [Jason Medina](https://github.com/jasonamedina)
+
 
 
 

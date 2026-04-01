@@ -10,9 +10,15 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Videos-70+-ff0000?style=flat-square&logo=youtube&logoColor=white" />
-  <img src="https://img.shields.io/github/stars/nehalineogi/azure-networking?style=flat-square&color=gold&label=⭐%20Stars" />
-  <img src="https://img.shields.io/github/forks/nehalineogi/azure-networking?style=flat-square&color=4a90d9&label=Forks" />
   <img src="https://img.shields.io/badge/draw.io-Powered-orange?style=flat-square" />
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/@nehalineogi"><strong>📺 YouTube Channel</strong></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://diagrams.penguintrails.com"><strong>🌐 Interactive Diagram Gallery</strong></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/nehalineogi/azure-networking/tree/main/diagrams"><strong>⬇️ Download Diagrams</strong></a>
 </p>
 
 ---

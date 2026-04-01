@@ -9,12 +9,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Videos-70+-ff0000?style=flat-square&logo=youtube&logoColor=white" />
-  <img src="https://img.shields.io/badge/draw.io-Powered-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-222?style=flat-square&logo=github" />
-</p>
-
-<p align="center">
   <a href="https://www.youtube.com/@nehalineogi"><strong>📺 YouTube Channel</strong></a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="https://diagrams.penguintrails.com/gallery.html"><strong>🌐 Interactive Diagram Gallery</strong></a>

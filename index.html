@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Art of the Possible — Network Architecture Diagrams</title>
+  <style>
+    :root {
+      --navy: #0d1b2a;
+      --navy-light: #1b2e45;
+      --accent: #4a90d9;
+      --accent-light: #6aaee8;
+      --white: #ffffff;
+      --muted: #a8b8cc;
+      --card-bg: #152236;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background-color: var(--navy);
+      color: var(--white);
+      line-height: 1.7;
+    }
+
+    /* ── Header ── */
+    header {
+      background-color: var(--navy-light);
+      border-bottom: 2px solid var(--accent);
+      padding: 2.5rem 2rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    header h1 span { color: var(--accent); }
+
+    header p.tagline {
+      margin-top: 0.6rem;
+      font-size: 1.05rem;
+      color: var(--muted);
+    }
+
+    /* ── Hero ── */
+    .hero {
+      max-width: 860px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 1.6rem;
+      color: var(--accent-light);
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    /* ── Pillars ── */
+    .pillars {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+      justify-content: center;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--navy-light);
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      padding: 1.5rem 1.8rem;
+      flex: 1 1 260px;
+      max-width: 300px;
+    }
+
+    .card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      color: var(--accent-light);
+    }
+
+    .card p {
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+
+    /* ── What's Inside ── */
+    .section {
+      max-width: 860px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+
+    .section h2 {
+      font-size: 1.4rem;
+      color: var(--accent-light);
+      border-bottom: 1px solid var(--navy-light);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .section ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 0.7rem;
+    }
+
+    .section ul li::before {
+      content: "→ ";
+      color: var(--accent);
+      font-weight: bold;
+    }
+
+    .section ul li {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    /* ── CTA ── */
+    .cta {
+      text-align: center;
+      margin: 4rem auto 3rem;
+      padding: 0 2rem;
+    }
+
+    .cta a {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      text-decoration: none;
+      padding: 0.85rem 2.2rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 600;
+      transition: background 0.2s ease;
+    }
+
+    .cta a:hover { background: var(--accent-light); }
+
+    .cta p {
+      margin-top: 1rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      border-top: 1px solid var(--navy-light);
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.7rem; }
+      .hero h2  { font-size: 1.3rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The Art of the <span>Possible</span> &amp; the Why</h1>
+    <p class="tagline">Layered, reusable, GitHub-friendly network architecture diagrams for Cloud Solutions Architects</p>
+  </header>
+
+  <section class="hero">
+    <h2>Design Clarity at Every Layer</h2>
+    <p>
+      This project provides a curated library of cloud network architecture diagrams built for
+      reuse and collaboration. Each diagram is layered, version-controlled, and designed to communicate
+      both <em>what</em> is being built and <em>why</em> — helping architects align teams, accelerate decisions,
+      and explore what's possible.
+    </p>
+  </section>
+
+  <div class="pillars">
+    <div class="card">
+      <h3>🧩 Layered Design</h3>
+      <p>Diagrams are structured by concern — network, security, identity, connectivity — so you can mix and match layers.</p>
+    </div>
+    <div class="card">
+      <h3>♻️ Reusable Patterns</h3>
+      <p>Reference architectures that can be adapted across projects, customers, and cloud environments.</p>
+    </div>
+    <div class="card">
+      <h3>🐙 GitHub-Friendly</h3>
+      <p>Everything lives in source control. Diagrams are diff-able, forkable, and pull-request ready.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <h2>What's Inside</h2>
+    <ul>
+      <li>Hub-and-Spoke topologies</li>
+      <li>Azure Virtual WAN designs</li>
+      <li>ExpressRoute &amp; VPN patterns</li>
+      <li>Azure Firewall integration</li>
+      <li>DNS &amp; routing architectures</li>
+      <li>Azure Route Server patterns</li>
+      <li>Zero Trust network designs</li>
+      <li>Multi-region connectivity</li>
+    </ul>
+  </section>
+
+  <div class="cta">
+    <a href="https://github.com/nehalineogi/azure-networking.git" target="_blank" rel="noopener">View on GitHub →</a>
+    <p>Open an issue or PR to contribute a pattern</p>
+  </div>
+
+  <footer>
+    <p>Built for Cloud Solutions Architects &nbsp;·&nbsp; Maintained on GitHub &nbsp;·&nbsp; Open for contributions</p>
+  </footer>
+
+</body>
+</html>

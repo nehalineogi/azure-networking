@@ -3,11 +3,16 @@
 > Layered, reusable, and GitHub-friendly network architecture diagrams for Cloud Solution Architects — built from real customer and partner design sessions.
 
 <p align="center">
-  <a href="https://diagrams.penguintrails.com"><strong>🌐 Browse the Interactive Diagram Gallery →</strong></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://www.youtube.com/@nehalineogi"><strong>📺 YouTube Channel</strong></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#download-diagrams"><strong>⬇️ Download Diagrams</strong></a>
+  <a href="https://diagrams.penguintrails.com">
+    <img src="https://img.shields.io/badge/🌐%20Browse%20the%20Interactive%20Diagram%20Gallery-diagrams.penguintrails.com-0d6efd?style=for-the-badge" alt="Browse Gallery" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Videos-70+-ff0000?style=flat-square&logo=youtube&logoColor=white" />
+  <img src="https://img.shields.io/github/stars/nehalineogi/azure-networking?style=flat-square&color=gold&label=⭐%20Stars" />
+  <img src="https://img.shields.io/github/forks/nehalineogi/azure-networking?style=flat-square&color=4a90d9&label=Forks" />
+  <img src="https://img.shields.io/badge/draw.io-Powered-orange?style=flat-square" />
 </p>
 
 ---
@@ -34,9 +39,7 @@ Cloud Solution Architects · Network Architects · Cloud Infrastructure Architec
 
 ## ⬇️ Download Diagrams
 
-Browse and download all draw.io diagrams: **[/diagrams](diagrams/)** · or from the **[interactive gallery](https://diagrams.penguintrails.com)**.
-
-📁 **[Browse full repo structure](https://github.com/nehalineogi/azure-networking)**
+**[Browse the Interactive Gallery →](https://diagrams.penguintrails.com)**
 
 ---
 

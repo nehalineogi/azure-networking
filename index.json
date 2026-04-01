@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "The Art of the Possible — Azure Network Architecture Diagrams",
+    "description": "Layered, reusable, GitHub-friendly network architecture diagrams for Cloud Solutions Architects",
+    "repo": "https://github.com/nehalineogi/azure-networking",
+    "diagrams_path": "diagrams/",
+    "raw_base_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/",
+    "github_base_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/"
+  },
+  "diagrams": [
+    {
+      "id": "hub-spoke",
+      "title": "Hub and Spoke",
+      "filename": "hub-spoke.drawio",
+      "category": "Network Topology",
+      "tags": ["hub-spoke", "vnet-peering", "connectivity", "foundational"],
+      "description": "Classic hub-and-spoke topology with shared services hub, spoke VNets, and VNet peering. Covers routing, firewall integration, and spoke isolation patterns.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/hub-spoke.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/hub-spoke.drawio"
+    },
+    {
+      "id": "vwan",
+      "title": "Azure Virtual WAN",
+      "filename": "vwan.drawio",
+      "category": "Network Topology",
+      "tags": ["vwan", "virtual-wan", "hub", "connectivity", "branch"],
+      "description": "Azure Virtual WAN architectures including secured hubs, branch connectivity, and any-to-any routing patterns.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/vwan.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/vwan.drawio"
+    },
+    {
+      "id": "dns-in-azure",
+      "title": "DNS in Azure",
+      "filename": "dns-in-azure.drawio",
+      "category": "DNS & Name Resolution",
+      "tags": ["dns", "private-dns", "resolver", "private-endpoint", "name-resolution"],
+      "description": "Comprehensive DNS architecture patterns in Azure — Private DNS Zones, Azure DNS Private Resolver, conditional forwarding, and hybrid DNS flows.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/dns-in-azure.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/dns-in-azure.drawio"
+    },
+    {
+      "id": "private-ep",
+      "title": "Private Endpoints",
+      "filename": "private-EP.drawio",
+      "category": "DNS & Name Resolution",
+      "tags": ["private-endpoint", "private-link", "dns", "security", "paas"],
+      "description": "Private Endpoint patterns for PaaS services — DNS integration, spoke connectivity, hub-and-spoke flows, and on-premises resolution.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/private-EP.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/private-EP.drawio"
+    },
+    {
+      "id": "load-balancing",
+      "title": "Load Balancing",
+      "filename": "load-balancing.drawio",
+      "category": "Traffic Management",
+      "tags": ["load-balancer", "application-gateway", "front-door", "traffic-manager", "ingress"],
+      "description": "Azure load balancing decision tree and architecture patterns — Azure Load Balancer, Application Gateway, Azure Front Door, and Traffic Manager.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/load-balancing.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/load-balancing.drawio"
+    },
+    {
+      "id": "nva-ha",
+      "title": "NVA High Availability",
+      "filename": "NVA-ha.drawio",
+      "category": "Traffic Management",
+      "tags": ["nva", "firewall", "high-availability", "route-server", "active-active"],
+      "description": "Network Virtual Appliance (NVA) high availability patterns — active-active, active-passive, Route Server integration, and ECMP routing.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/NVA-ha.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/NVA-ha.drawio"
+    },
+    {
+      "id": "aks",
+      "title": "AKS Networking",
+      "filename": "aks.drawio",
+      "category": "Kubernetes & Containers",
+      "tags": ["aks", "kubernetes", "cni", "ingress", "cilium", "kubenet"],
+      "description": "Azure Kubernetes Service networking deep-dive — CNI options (Azure CNI, Kubenet, Cilium), ingress patterns, egress control, and private cluster connectivity.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/aks.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/aks.drawio"
+    },
+    {
+      "id": "azure-ai",
+      "title": "Azure AI Architectures",
+      "filename": "azure-ai.drawio",
+      "category": "AI & Data",
+      "tags": ["ai", "openai", "machine-learning", "private-endpoint", "networking"],
+      "description": "Network architecture patterns for Azure AI services — Azure OpenAI, private networking, API Management integration, and secure AI landing zones.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/azure-ai.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/azure-ai.drawio"
+    },
+    {
+      "id": "data-architectures",
+      "title": "Data Architectures",
+      "filename": "data-architectures.drawio",
+      "category": "AI & Data",
+      "tags": ["data", "synapse", "data-factory", "storage", "private-endpoint", "analytics"],
+      "description": "Network patterns for Azure data services — Synapse Analytics, Azure Data Factory, storage accounts, and analytics platform connectivity.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/data-architectures.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/data-architectures.drawio"
+    },
+    {
+      "id": "avs",
+      "title": "Azure VMware Solution",
+      "filename": "AVS.drawio",
+      "category": "Hybrid & Migration",
+      "tags": ["avs", "vmware", "hybrid", "expressroute", "migration"],
+      "description": "Full Azure VMware Solution architecture — network topology, ExpressRoute connectivity, NSX-T segments, HCX migration, and internet egress patterns.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/AVS.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/AVS.drawio"
+    },
+    {
+      "id": "avs-bootcamp",
+      "title": "AVS Bootcamp",
+      "filename": "AVS.bootcamp.drawio",
+      "category": "Hybrid & Migration",
+      "tags": ["avs", "vmware", "bootcamp", "training", "workshop"],
+      "description": "Condensed AVS architecture diagrams designed for bootcamp and workshop delivery — step-by-step layered views for learning.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/AVS.bootcamp.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/AVS.bootcamp.drawio"
+    },
+    {
+      "id": "demo",
+      "title": "Demo",
+      "filename": "demo.drawio",
+      "category": "General",
+      "tags": ["demo", "sample", "starter"],
+      "description": "Sample/demo diagram for testing and illustration purposes.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/demo.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/demo.drawio"
+    }
+  ],
+  "categories": [
+    "Network Topology",
+    "DNS & Name Resolution",
+    "Traffic Management",
+    "Kubernetes & Containers",
+    "AI & Data",
+    "Hybrid & Migration",
+    "General"
+  ]
+}

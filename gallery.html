@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diagram Gallery — Azure Network Architecture</title>
+  <style>
+    :root {
+      --navy: #0d1b2a;
+      --navy-light: #1b2e45;
+      --accent: #4a90d9;
+      --accent-light: #6aaee8;
+      --white: #ffffff;
+      --muted: #a8b8cc;
+      --card-bg: #152236;
+      --tag-bg: #1e3a5f;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background-color: var(--navy);
+      color: var(--white);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--navy-light);
+      border-bottom: 2px solid var(--accent);
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    header h1 { font-size: 1.4rem; font-weight: 700; }
+    header h1 span { color: var(--accent); }
+
+    header a.home {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+    header a.home:hover { color: var(--accent-light); }
+
+    .controls {
+      max-width: 1100px;
+      margin: 2rem auto 1.5rem;
+      padding: 0 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    .search-wrap {
+      flex: 1 1 260px;
+      position: relative;
+    }
+
+    .search-wrap input {
+      width: 100%;
+      padding: 0.65rem 1rem 0.65rem 2.5rem;
+      border-radius: 6px;
+      border: 1px solid var(--navy-light);
+      background: var(--card-bg);
+      color: var(--white);
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .search-wrap input:focus { border-color: var(--accent); }
+    .search-wrap input::placeholder { color: var(--muted); }
+
+    .search-wrap .icon {
+      position: absolute;
+      left: 0.75rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      pointer-events: none;
+    }
+
+    .filter-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .filter-btn {
+      background: var(--card-bg);
+      color: var(--muted);
+      border: 1px solid var(--navy-light);
+      border-radius: 20px;
+      padding: 0.4rem 1rem;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .filter-btn:hover { border-color: var(--accent); color: var(--accent-light); }
+    .filter-btn.active { background: var(--accent); color: var(--white); border-color: var(--accent); }
+
+    .stats {
+      max-width: 1100px;
+      margin: 0 auto 1rem;
+      padding: 0 2rem;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .grid {
+      max-width: 1100px;
+      margin: 0 auto 4rem;
+      padding: 0 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--navy-light);
+      border-radius: 10px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .card:hover { border-color: var(--accent); transform: translateY(-2px); }
+
+    .card-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; }
+    .card h3 { font-size: 1.05rem; color: var(--white); flex: 1; }
+
+    .category-badge {
+      font-size: 0.72rem;
+      background: var(--tag-bg);
+      color: var(--accent-light);
+      border-radius: 4px;
+      padding: 0.2rem 0.55rem;
+      white-space: nowrap;
+    }
+
+    .card p { font-size: 0.88rem; color: var(--muted); flex: 1; }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag { background: var(--tag-bg); color: var(--muted); border-radius: 4px; padding: 0.15rem 0.5rem; font-size: 0.75rem; }
+
+    .card-actions { display: flex; gap: 0.75rem; margin-top: 0.25rem; }
+
+    .btn {
+      flex: 1;
+      text-align: center;
+      text-decoration: none;
+      padding: 0.5rem 0.75rem;
+      border-radius: 5px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .btn-primary { background: var(--accent); color: var(--white); }
+    .btn-primary:hover { background: var(--accent-light); }
+    .btn-secondary { background: transparent; color: var(--muted); border: 1px solid var(--navy-light); }
+    .btn-secondary:hover { border-color: var(--accent); color: var(--accent-light); }
+
+    .empty { grid-column: 1 / -1; text-align: center; padding: 4rem 2rem; color: var(--muted); }
+    .empty p { font-size: 1.1rem; margin-bottom: 0.5rem; }
+
+    .error { grid-column: 1 / -1; text-align: center; padding: 4rem 2rem; color: #e07070; }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      border-top: 1px solid var(--navy-light);
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 600px) {
+      header { flex-direction: column; align-items: flex-start; }
+      .controls { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Azure Network <span>Diagram Gallery</span></h1>
+    <a class="home" href="index.html">← Back to Home</a>
+  </header>
+
+  <div class="controls">
+    <div class="search-wrap">
+      <span class="icon">🔍</span>
+      <input type="text" id="search" placeholder="Search diagrams, tags, categories…" />
+    </div>
+    <div class="filter-wrap" id="filters">
+      <button class="filter-btn active" data-category="All">All</button>
+    </div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="grid" id="grid">
+    <div class="empty"><p>Loading diagrams…</p></div>
+  </div>
+
+  <footer>
+    <p>Built for Cloud Solutions Architects &nbsp;·&nbsp;
+      <a href="https://github.com/nehalineogi/azure-networking" style="color:var(--accent-light);text-decoration:none;" target="_blank" rel="noopener">View on GitHub</a>
+      &nbsp;·&nbsp; Open for contributions
+    </p>
+  </footer>
+
+  <script>
+    let allDiagrams = [];
+    let activeCategory = 'All';
+    let searchQuery = '';
+
+    async function loadIndex() {
+      try {
+        const res = await fetch('index.json');
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        allDiagrams = data.diagrams;
+        buildFilters(data.categories);
+        render();
+      } catch (err) {
+        document.getElementById('grid').innerHTML = `
+          <div class="error">
+            <p>⚠️ Could not load diagrams.</p>
+            <small>This gallery requires a web server. Open it via GitHub Pages or run a local server.</small>
+          </div>`;
+      }
+    }
+
+    function buildFilters(categories) {
+      const wrap = document.getElementById('filters');
+      categories.forEach(cat => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn';
+        btn.dataset.category = cat;
+        btn.textContent = cat;
+        btn.addEventListener('click', () => setCategory(cat));
+        wrap.appendChild(btn);
+      });
+      wrap.querySelector('[data-category="All"]').addEventListener('click', () => setCategory('All'));
+    }
+
+    function setCategory(cat) {
+      activeCategory = cat;
+      document.querySelectorAll('.filter-btn').forEach(b => {
+        b.classList.toggle('active', b.dataset.category === cat);
+      });
+      render();
+    }
+
+    function render() {
+      const q = searchQuery.toLowerCase();
+      const filtered = allDiagrams.filter(d => {
+        const matchCat = activeCategory === 'All' || d.category === activeCategory;
+        const matchSearch = !q ||
+          d.title.toLowerCase().includes(q) ||
+          d.description.toLowerCase().includes(q) ||
+          d.category.toLowerCase().includes(q) ||
+          d.tags.some(t => t.includes(q));
+        return matchCat && matchSearch;
+      });
+
+      document.getElementById('stats').textContent =
+        `Showing ${filtered.length} of ${allDiagrams.length} diagrams`;
+
+      const grid = document.getElementById('grid');
+      if (filtered.length === 0) {
+        grid.innerHTML = `<div class="empty"><p>No diagrams match your search.</p><small>Try a different keyword or clear the filter.</small></div>`;
+        return;
+      }
+
+      grid.innerHTML = filtered.map(d => `
+        <div class="card">
+          <div class="card-header">
+            <h3>${d.title}</h3>
+            <span class="category-badge">${d.category}</span>
+          </div>
+          <p>${d.description}</p>
+          <div class="tags">${d.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
+          <div class="card-actions">
+            <a class="btn btn-primary" href="${d.github_url}" target="_blank" rel="noopener">View on GitHub</a>
+            <a class="btn btn-secondary" href="${d.raw_url}" target="_blank" rel="noopener">Download</a>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    document.getElementById('search').addEventListener('input', e => {
+      searchQuery = e.target.value;
+      render();
+    });
+
+    loadIndex();
+  </script>
+
+</body>
+</html>

@@ -16,16 +16,6 @@ The purpose of this repo is to deliver **layered, reusable, and GitHub-friendly*
 
 ---
 
-## 📋 Table of Contents
-
-- [Scope](#scope-reusable-and-layered-network-diagrams)
-- [Core Networking Diagrams](#core-networking-diagrams)
-- [Cross-Functional Diagrams](#cross-functional-diagrams)
-- [YouTube Playlists](#youtube-playlists)
-- [Tooling](#tooling---drawio-now-diagramsnet)
-- [Acknowledgements](#acknowledgement)
-
----
 
 # Scope: Reusable and Layered Network Diagrams
 
@@ -44,7 +34,9 @@ Cloud Solution Architects · Network Architects · Cloud Infrastructure Architec
 
 ## ⬇️ Download Diagrams
 
-All draw.io diagrams are in the [`/diagrams`](/diagrams) folder, or browse and download them from the **[interactive gallery](https://diagrams.penguintrails.com)**.
+Browse and download all draw.io diagrams: **[/diagrams](diagrams/)** · or from the **[interactive gallery](https://diagrams.penguintrails.com)**.
+
+📁 **[Browse full repo structure](https://github.com/nehalineogi/azure-networking)**
 
 ---
 

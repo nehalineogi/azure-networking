@@ -50,7 +50,7 @@ Cloud Solution Architects · Network Architects · Cloud Infrastructure Architec
 <tr>
 <td align="center" width="33%">
 
-### 🔗 Hub & Spoke
+### <img src="https://raw.githubusercontent.com/benc-uk/icon-collection/master/azure-icons/Virtual-Networks.svg" width="20"/> Hub & Spoke
 
 [![Hub-spoke-design](design-gifs/hub-spoke-design.GIF)](diagrams/hub-spoke.drawio)
 
@@ -59,7 +59,7 @@ Cloud Solution Architects · Network Architects · Cloud Infrastructure Architec
 </td>
 <td align="center" width="33%">
 
-### 🌐 Virtual WAN
+### <img src="https://raw.githubusercontent.com/benc-uk/icon-collection/master/azure-icons/Virtual-WANs.svg" width="20"/> Virtual WAN
 
 [![azure-vwan](design-gifs/vwan-design.GIF)](diagrams/vwan.drawio)
 
@@ -68,7 +68,7 @@ Cloud Solution Architects · Network Architects · Cloud Infrastructure Architec
 </td>
 <td align="center" width="33%">
 
-### ⚖️ Load Balancing
+### <img src="https://raw.githubusercontent.com/benc-uk/icon-collection/master/azure-icons/Load-Balancers.svg" width="20"/> Load Balancing
 
 [![lb-design](design-gifs/lb-design.GIF)](diagrams/load-balancing.drawio)
 
@@ -79,7 +79,7 @@ Cloud Solution Architects · Network Architects · Cloud Infrastructure Architec
 <tr>
 <td align="center">
 
-### 🌍 DNS in Azure
+### <img src="https://raw.githubusercontent.com/benc-uk/icon-collection/master/azure-icons/DNS-Zones.svg" width="20"/> DNS in Azure
 
 [![DNS Design](design-gifs/dns-design.GIF)](diagrams/dns-in-azure.drawio)
 
@@ -88,7 +88,7 @@ Cloud Solution Architects · Network Architects · Cloud Infrastructure Architec
 </td>
 <td align="center">
 
-### 🛡️ NVA High Availability
+### <img src="https://raw.githubusercontent.com/benc-uk/icon-collection/master/azure-icons/Firewalls.svg" width="20"/> NVA High Availability
 
 [![nva-ha-design](design-gifs/nva-ha-design.GIF)](diagrams/NVA-ha.drawio)
 
@@ -97,7 +97,7 @@ Cloud Solution Architects · Network Architects · Cloud Infrastructure Architec
 </td>
 <td align="center">
 
-### 🔒 Private Endpoints
+### <img src="https://raw.githubusercontent.com/benc-uk/icon-collection/master/azure-icons/Private-Link.svg" width="20"/> Private Endpoints
 
 [![private-ep-design](design-gifs/private-ep-design.GIF)](diagrams/private-EP.drawio)
 
@@ -115,7 +115,7 @@ Cloud Solution Architects · Network Architects · Cloud Infrastructure Architec
 <tr>
 <td align="center" width="50%">
 
-### 🤖 AI Studio (AI Foundry) Networking
+### <img src="https://raw.githubusercontent.com/benc-uk/icon-collection/master/azure-icons/Cognitive-Services.svg" width="20"/> AI Studio (AI Foundry) Networking
 
 [![aistudio-design](design-gifs/aistudio-design.gif)](diagrams/azure-ai.drawio)
 
@@ -124,7 +124,7 @@ Cloud Solution Architects · Network Architects · Cloud Infrastructure Architec
 </td>
 <td align="center" width="50%">
 
-### 🧠 ML Studio Networking
+### <img src="https://raw.githubusercontent.com/benc-uk/icon-collection/master/azure-icons/Machine-Learning.svg" width="20"/> ML Studio Networking
 
 [![mlstudio-design](design-gifs/ml-studio-design.gif)](diagrams/azure-ai.drawio)
 
@@ -135,7 +135,7 @@ Cloud Solution Architects · Network Architects · Cloud Infrastructure Architec
 <tr>
 <td align="center">
 
-### ☸️ AKS Networking
+### <img src="https://raw.githubusercontent.com/benc-uk/icon-collection/master/azure-icons/Kubernetes-Services.svg" width="20"/> AKS Networking
 
 [![aks-cni](design-gifs/aks-cni.gif)](diagrams/aks.drawio)
 
@@ -144,7 +144,7 @@ Cloud Solution Architects · Network Architects · Cloud Infrastructure Architec
 </td>
 <td align="center">
 
-### 🖥️ Azure VMware Solution (AVS)
+### <img src="https://raw.githubusercontent.com/benc-uk/icon-collection/master/azure-icons/AVS.svg" width="20"/> Azure VMware Solution (AVS)
 
 [![avs-design](design-gifs/avs-design.gif)](diagrams/AVS.drawio)
 
@@ -155,7 +155,7 @@ Cloud Solution Architects · Network Architects · Cloud Infrastructure Architec
 <tr>
 <td align="center">
 
-### 📦 Azure Container Apps
+### <img src="https://raw.githubusercontent.com/benc-uk/icon-collection/master/azure-icons/Container-Instances.svg" width="20"/> Azure Container Apps
 
 <video src="design-gifs/aca.mp4" controls width="100%"></video>
 
@@ -164,7 +164,7 @@ Cloud Solution Architects · Network Architects · Cloud Infrastructure Architec
 </td>
 <td align="center">
 
-### 🏭 Azure Data Factory
+### <img src="https://raw.githubusercontent.com/benc-uk/icon-collection/master/azure-icons/Data-Factory.svg" width="20"/> Azure Data Factory
 
 <video src="design-gifs/adf.mp4" controls width="100%"></video>
 
@@ -182,10 +182,10 @@ Cloud Solution Architects · Network Architects · Cloud Infrastructure Architec
 |--------|----------|
 | 🎨 draw.io Basics & Layered Diagrams | [Watch](https://youtu.be/-5tKnS03I5Y) |
 | 🌐 Azure Networking Core Series | [Watch](https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE) |
-| ☸️ AKS Networking Series | [Watch](https://www.youtube.com/playlist?list=PLb4hYfatvJJiIzPftv85zYFq7PXnUY2Zg) |
+| <img src="https://raw.githubusercontent.com/benc-uk/icon-collection/master/azure-icons/Kubernetes-Services.svg" width="16"/> AKS Networking Series | [Watch](https://www.youtube.com/playlist?list=PLb4hYfatvJJiIzPftv85zYFq7PXnUY2Zg) |
 | 🤖 AI Foundry Networking | [Watch](https://www.youtube.com/playlist?list=PLb4hYfatvJJjLOs8TjjXgw-2BP2y0sWFc) |
 | 🧠 ML Studio Networking | [Watch](https://www.youtube.com/playlist?list=PLb4hYfatvJJjn9x8hiy6qzzO1snMb613G) |
-| 🖥️ Azure VMware Solution Series | [Watch](https://www.youtube.com/playlist?list=PLb4hYfatvJJiGinTehdteuv1EXm6dbLKf) |
+| <img src="https://raw.githubusercontent.com/benc-uk/icon-collection/master/azure-icons/AVS.svg" width="16"/> Azure VMware Solution Series | [Watch](https://www.youtube.com/playlist?list=PLb4hYfatvJJiGinTehdteuv1EXm6dbLKf) |
 | 🔌 ISV Series: Security & SD-WAN in vWAN | [Watch](https://www.youtube.com/playlist?list=PLb4hYfatvJJhNyUpS9LX4RtllDYXhtZ75) |
 | 🔗 Cross Functional Series | [Watch](https://www.youtube.com/playlist?list=PLb4hYfatvJJj3QKHkwrdnQZCcJpYXso3X) |
 

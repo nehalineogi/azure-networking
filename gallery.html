@@ -168,26 +168,43 @@
     .btn-secondary { background: transparent; color: var(--muted); border: 1px solid var(--navy-light); }
     .btn-secondary:hover { border-color: var(--accent); color: var(--accent-light); }
 
-    .btn-youtube {
-      display: block;
-      text-align: center;
-      text-decoration: none;
-      padding: 0.5rem 0.75rem;
-      border-radius: 5px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      background: #c00;
-      color: var(--white);
-      transition: background 0.2s;
-    }
-    .btn-youtube:hover { background: #e00; }
+    .videos-section { display: flex; flex-direction: column; gap: 0.35rem; }
 
-    .youtube-desc {
-      font-size: 0.8rem;
+    .videos-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
       color: var(--muted);
-      font-style: italic;
-      margin-top: 0.25rem;
-      line-height: 1.5;
+      margin-bottom: 0.1rem;
+    }
+
+    .video-link {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      text-decoration: none;
+      font-size: 0.85rem;
+      color: var(--accent-light);
+      transition: color 0.2s;
+    }
+    .video-link:hover { color: var(--white); }
+
+    .yt-icon {
+      flex-shrink: 0;
+      width: 18px;
+      height: 13px;
+      background: #ff0000;
+      border-radius: 3px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .yt-icon::after {
+      content: '';
+      display: inline-block;
+      border-style: solid;
+      border-width: 4px 0 4px 7px;
+      border-color: transparent transparent transparent #fff;
     }
 
     .empty { grid-column: 1 / -1; text-align: center; padding: 4rem 2rem; color: var(--muted); }
@@ -315,10 +332,14 @@
             <a class="btn btn-primary" href="${d.github_url}" target="_blank" rel="noopener">View on GitHub</a>
             <a class="btn btn-secondary" href="${d.raw_url}" target="_blank" rel="noopener">Download</a>
           </div>
-          ${d.youtube_url ? `
-          <a class="btn btn-youtube" href="${d.youtube_url}" target="_blank" rel="noopener">▶ Watch on YouTube</a>
-          ${d.youtube_description ? `<p class="youtube-desc">${d.youtube_description}</p>` : ''}
-          ` : ''}
+          ${d.videos && d.videos.length ? `
+          <div class="videos-section">
+            <span class="videos-label">📺 Videos</span>
+            ${d.videos.map(v => `
+              <a class="video-link" href="${v.url}" target="_blank" rel="noopener">
+                <span class="yt-icon"></span>${v.title}
+              </a>`).join('')}
+          </div>` : ''}
         </div>
       `).join('');
     }

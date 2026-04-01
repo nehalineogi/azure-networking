@@ -17,8 +17,10 @@
       "description": "Classic hub-and-spoke topology with shared services hub, spoke VNets, and VNet peering. Covers routing, firewall integration, and spoke isolation patterns.",
       "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/hub-spoke.drawio",
       "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/hub-spoke.drawio",
-      "youtube_url": "https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE",
-      "youtube_description": "Watch the full Azure Networking Series — walks through hybrid connectivity with hub-spoke, site-to-site/P2S/ExpressRoute branches, default traffic flows, Azure Firewall, Route Server, NVA pros & cons, VPN Gateway Active-Active challenges, and multi-region designs."
+      "videos": [
+        { "title": "Draw.io Basics & Layered Network Diagrams", "url": "https://youtu.be/-5tKnS03I5Y" },
+        { "title": "Azure Networking Series (Full Playlist)", "url": "https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE" }
+      ]
     },
     {
       "id": "vwan",
@@ -29,8 +31,10 @@
       "description": "Azure Virtual WAN architectures including secured hubs, branch connectivity, and any-to-any routing patterns.",
       "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/vwan.drawio",
       "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/vwan.drawio",
-      "youtube_url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJhNyUpS9LX4RtllDYXhtZ75",
-      "youtube_description": "ISV Series: Security & SDWAN Partners in vWAN — featuring Check Point CloudGuard, Palo Alto Cloud NGFW, Fortinet NGFW & SDWAN, Cisco SDWAN & Meraki, and VMware SDWAN by Broadcom. Also covers secured vWAN, routing intent, BGP endpoint, NVA in indirect spokes, and multi-region ExR bow-tie design."
+      "videos": [
+        { "title": "Azure Networking Series (Full Playlist)", "url": "https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE" },
+        { "title": "ISV Series: Security & SDWAN Partners in vWAN", "url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJhNyUpS9LX4RtllDYXhtZ75" }
+      ]
     },
     {
       "id": "dns-in-azure",
@@ -41,8 +45,9 @@
       "description": "Comprehensive DNS architecture patterns in Azure — Private DNS Zones, Azure DNS Private Resolver, conditional forwarding, and hybrid DNS flows.",
       "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/dns-in-azure.drawio",
       "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/dns-in-azure.drawio",
-      "youtube_url": "https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE",
-      "youtube_description": "Part of the Azure Networking Series — covers all DNS options in Azure from default configuration, custom DNS, and hybrid DNS flows, to Private DNS Zones and the Azure Private DNS Resolver. Essential viewing for anyone designing private connectivity for PaaS services."
+      "videos": [
+        { "title": "Azure Networking Series (Full Playlist)", "url": "https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE" }
+      ]
     },
     {
       "id": "private-ep",
@@ -53,8 +58,9 @@
       "description": "Private Endpoint patterns for PaaS services — DNS integration, spoke connectivity, hub-and-spoke flows, and on-premises resolution.",
       "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/private-EP.drawio",
       "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/private-EP.drawio",
-      "youtube_url": "https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE",
-      "youtube_description": "Part of the Azure Networking Series — deep dives into Service Endpoints vs Private Endpoints, Private Link Service, VNET Integration vs Private Endpoint trade-offs, Azure Front Door with Private Endpoint, and AKS integration patterns."
+      "videos": [
+        { "title": "Azure Networking Series (Full Playlist)", "url": "https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE" }
+      ]
     },
     {
       "id": "load-balancing",
@@ -65,8 +71,9 @@
       "description": "Azure load balancing decision tree and architecture patterns — Azure Load Balancer, Application Gateway, Azure Front Door, and Traffic Manager.",
       "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/load-balancing.drawio",
       "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/load-balancing.drawio",
-      "youtube_url": "https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE",
-      "youtube_description": "Part of the Azure Networking Series — walks through the full Azure load balancing portfolio: Azure Load Balancer (Layer 4), Application Gateway (Layer 7), Cross-Region Load Balancer, Traffic Manager, Azure Front Door, Gateway Load Balancer, multi-region design, and Private Endpoint with AFD."
+      "videos": [
+        { "title": "Azure Networking Series (Full Playlist)", "url": "https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE" }
+      ]
     },
     {
       "id": "nva-ha",
@@ -77,8 +84,9 @@
       "description": "Network Virtual Appliance (NVA) high availability patterns — active-active, active-passive, Route Server integration, and ECMP routing.",
       "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/NVA-ha.drawio",
       "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/NVA-ha.drawio",
-      "youtube_url": "https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE",
-      "youtube_description": "Part of the Azure Networking Series — covers the NVA Load Balancer Sandwich design, the challenge of preserving flow symmetry, North-South and East-West traffic flows, packet captures, Floating IP use cases, HA Ports, and configuration snippets for real-world NVA deployments."
+      "videos": [
+        { "title": "Azure Networking Series (Full Playlist)", "url": "https://www.youtube.com/watch?v=-5tKnS03I5Y&list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE" }
+      ]
     },
     {
       "id": "aks",
@@ -89,8 +97,10 @@
       "description": "Azure Kubernetes Service networking deep-dive — CNI options (Azure CNI, Kubenet, Cilium), ingress patterns, egress control, and private cluster connectivity.",
       "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/aks.drawio",
       "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/aks.drawio",
-      "youtube_url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE",
-      "youtube_description": "AKS Networking Series — explores Azure CNI, Kubenet, Azure CNI Overlay, Dual Stack (IPv4/IPv6), Nginx and App Gateway ingress, Azure Firewall and NAT Gateway egress patterns, private cluster connectivity, and upcoming topics including Cilium/Isovalent BYO CNI and Application Gateway for Containers."
+      "videos": [
+        { "title": "AKS Networking Series", "url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJgFVWN7RDITbv8y3Qp2RVgE" },
+        { "title": "Azure Container Apps & App Service Networking", "url": "https://youtu.be/2d9wqFisv6A" }
+      ]
     },
     {
       "id": "azure-ai",
@@ -101,8 +111,10 @@
       "description": "Network architecture patterns for Azure AI services — Azure OpenAI, private networking, API Management integration, and secure AI landing zones.",
       "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/azure-ai.drawio",
       "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/azure-ai.drawio",
-      "youtube_url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJjLOs8TjjXgw-2BP2y0sWFc",
-      "youtube_description": "AI Foundry Networking Series — covers AI Studio Prompt Flow with Managed VNET and Private Endpoints, ML Studio networking modes (Public, BYO VNET, Managed VNET with Internet/Approved Outbound), all inbound/outbound traffic flows, and key concepts including managed endpoints, embedding, vector databases, and AI models."
+      "videos": [
+        { "title": "AI Foundry Networking Series", "url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJjLOs8TjjXgw-2BP2y0sWFc" },
+        { "title": "ML Studio Networking Series", "url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJjn9x8hiy6qzzO1snMb613G" }
+      ]
     },
     {
       "id": "data-architectures",
@@ -113,8 +125,10 @@
       "description": "Network patterns for Azure data services — Synapse Analytics, Azure Data Factory, storage accounts, and analytics platform connectivity.",
       "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/data-architectures.drawio",
       "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/data-architectures.drawio",
-      "youtube_url": "https://youtu.be/KLPRST4nNNU",
-      "youtube_description": "Azure ADF & Fabric Networking (3hr deep-dive) — covers ADF concepts from a network perspective, AutoResolve Integration Runtime (public networking), Self-Hosted IR (on-premises and Azure VM), Private Endpoint & DNS deep-dive, P2S VPN with Private Endpoints, Managed VNET IR, Microsoft Fabric Data Factory networking, validations, and troubleshooting."
+      "videos": [
+        { "title": "Azure ADF & Fabric Networking", "url": "https://youtu.be/KLPRST4nNNU" },
+        { "title": "Cross Functional Series", "url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJj3QKHkwrdnQZCcJpYXso3X" }
+      ]
     },
     {
       "id": "avs",
@@ -125,8 +139,10 @@
       "description": "Full Azure VMware Solution architecture — network topology, ExpressRoute connectivity, NSX-T segments, HCX migration, and internet egress patterns.",
       "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/AVS.drawio",
       "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/AVS.drawio",
-      "youtube_url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJiGinTehdteuv1EXm6dbLKf",
-      "youtube_description": "Azure VMware Solution Series — covers on-premises connectivity via Global Reach, VPN/ER transit using Azure Route Server, NVA in Azure VNET with ARS, transit VNET design, third-party NVA deployment via NSX-T segments within AVS, and Secured vWAN Hub with Routing Intent."
+      "videos": [
+        { "title": "Azure VMware Solution Series", "url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJiGinTehdteuv1EXm6dbLKf" },
+        { "title": "AVS HCX MON Part-1 (Deep Dive)", "url": "https://youtu.be/ryeu8IFg2pI" }
+      ]
     },
     {
       "id": "avs-bootcamp",
@@ -137,8 +153,10 @@
       "description": "Condensed AVS architecture diagrams designed for bootcamp and workshop delivery — step-by-step layered views for learning.",
       "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/AVS.bootcamp.drawio",
       "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/AVS.bootcamp.drawio",
-      "youtube_url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJiGinTehdteuv1EXm6dbLKf",
-      "youtube_description": "AVS Bootcamp walkthrough including the HCX MON deep-dive (3hr session) — deploy simulated on-prem from scratch, ER Gateway, NSX-T segments, DHCP/DNS, VM deployment, HCX site pairing, L2 Extension, Mobility Optimized Networking (MON), asymmetric routing, HCX policy routes, VM migration, and troubleshooting."
+      "videos": [
+        { "title": "Azure VMware Solution Series", "url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJiGinTehdteuv1EXm6dbLKf" },
+        { "title": "AVS HCX MON Part-1 (Deep Dive)", "url": "https://youtu.be/ryeu8IFg2pI" }
+      ]
     },
     {
       "id": "demo",
@@ -148,7 +166,10 @@
       "tags": ["demo", "sample", "starter"],
       "description": "Sample/demo diagram for testing and illustration purposes.",
       "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/demo.drawio",
-      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/demo.drawio"
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/demo.drawio",
+      "videos": [
+        { "title": "Draw.io Basics & Layered Network Diagrams", "url": "https://youtu.be/-5tKnS03I5Y" }
+      ]
     }
   ],
   "categories": [

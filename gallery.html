@@ -168,6 +168,28 @@
     .btn-secondary { background: transparent; color: var(--muted); border: 1px solid var(--navy-light); }
     .btn-secondary:hover { border-color: var(--accent); color: var(--accent-light); }
 
+    .btn-youtube {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      padding: 0.5rem 0.75rem;
+      border-radius: 5px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      background: #c00;
+      color: var(--white);
+      transition: background 0.2s;
+    }
+    .btn-youtube:hover { background: #e00; }
+
+    .youtube-desc {
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-style: italic;
+      margin-top: 0.25rem;
+      line-height: 1.5;
+    }
+
     .empty { grid-column: 1 / -1; text-align: center; padding: 4rem 2rem; color: var(--muted); }
     .empty p { font-size: 1.1rem; margin-bottom: 0.5rem; }
 
@@ -293,6 +315,10 @@
             <a class="btn btn-primary" href="${d.github_url}" target="_blank" rel="noopener">View on GitHub</a>
             <a class="btn btn-secondary" href="${d.raw_url}" target="_blank" rel="noopener">Download</a>
           </div>
+          ${d.youtube_url ? `
+          <a class="btn btn-youtube" href="${d.youtube_url}" target="_blank" rel="noopener">▶ Watch on YouTube</a>
+          ${d.youtube_description ? `<p class="youtube-desc">${d.youtube_description}</p>` : ''}
+          ` : ''}
         </div>
       `).join('');
     }

@@ -170,6 +170,58 @@
       "videos": [
         { "title": "Draw.io Basics & Layered Network Diagrams", "url": "https://youtu.be/-5tKnS03I5Y" }
       ]
+    },
+    {
+      "id": "isv-checkpoint",
+      "title": "Check Point CloudGuard in vWAN",
+      "filename": "vwan.drawio",
+      "category": "ISV",
+      "tags": ["checkpoint", "cloudguard", "ngfw", "vwan", "isv", "security"],
+      "description": "Check Point CloudGuard deployment in Azure Virtual WAN — secured hub integration, traffic inspection, and north-south/east-west flow patterns.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/vwan.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/vwan.drawio",
+      "videos": [
+        { "title": "ISV Series: Security & SD-WAN Partners in vWAN", "url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJhNyUpS9LX4RtllDYXhtZ75" }
+      ]
+    },
+    {
+      "id": "isv-paloalto",
+      "title": "Palo Alto Cloud NGFW in vWAN",
+      "filename": "vwan.drawio",
+      "category": "ISV",
+      "tags": ["paloalto", "ngfw", "vwan", "isv", "security"],
+      "description": "Palo Alto Networks Cloud NGFW architecture in Azure Virtual WAN — routing intent, traffic inspection, and secured hub deployment patterns.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/vwan.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/vwan.drawio",
+      "videos": [
+        { "title": "ISV Series: Security & SD-WAN Partners in vWAN", "url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJhNyUpS9LX4RtllDYXhtZ75" }
+      ]
+    },
+    {
+      "id": "isv-fortinet",
+      "title": "Fortinet NGFW & SD-WAN in vWAN",
+      "filename": "vwan.drawio",
+      "category": "ISV",
+      "tags": ["fortinet", "fortigate", "sdwan", "ngfw", "vwan", "isv"],
+      "description": "Fortinet NGFW and SD-WAN integration with Azure Virtual WAN — branch connectivity, NVA in indirect spokes, and SD-WAN policy routing.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/vwan.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/vwan.drawio",
+      "videos": [
+        { "title": "ISV Series: Security & SD-WAN Partners in vWAN", "url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJhNyUpS9LX4RtllDYXhtZ75" }
+      ]
+    },
+    {
+      "id": "isv-cisco",
+      "title": "Cisco SD-WAN & Meraki in vWAN",
+      "filename": "vwan.drawio",
+      "category": "ISV",
+      "tags": ["cisco", "sdwan", "meraki", "vwan", "isv", "branch"],
+      "description": "Cisco SD-WAN and Meraki SD-WAN integration with Azure Virtual WAN — branch-to-cloud connectivity, routing, and dual-hub design patterns.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/vwan.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/vwan.drawio",
+      "videos": [
+        { "title": "ISV Series: Security & SD-WAN Partners in vWAN", "url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJhNyUpS9LX4RtllDYXhtZ75" }
+      ]
     }
   ],
   "categories": [
@@ -179,6 +231,7 @@
     "Kubernetes & Containers",
     "AI & Data",
     "Hybrid & Migration",
+    "ISV",
     "General"
   ]
 }

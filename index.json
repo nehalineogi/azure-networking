@@ -117,6 +117,20 @@
       ]
     },
     {
+      "id": "fabric",
+      "title": "Microsoft Fabric Networking",
+      "filename": "fabric.drawio",
+      "category": "AI & Data",
+      "tags": ["fabric", "microsoft-fabric", "managed-vnet", "private-endpoint", "data", "analytics"],
+      "description": "Network architecture patterns for Microsoft Fabric — managed VNet, private endpoints for Fabric workspaces, OneLake connectivity, and hybrid data access patterns.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/fabric.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/fabric.drawio",
+      "videos": [
+        { "title": "Azure ADF & Fabric Networking", "url": "https://youtu.be/KLPRST4nNNU" },
+        { "title": "Cross Functional Series", "url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJj3QKHkwrdnQZCcJppYXso3X" }
+      ]
+    },
+    {
       "id": "data-architectures",
       "title": "Data Architectures",
       "filename": "data-architectures.drawio",

@@ -103,6 +103,19 @@
       ]
     },
     {
+      "id": "ai-foundry-agent",
+      "title": "Azure AI Foundry — Agent Networking",
+      "filename": "ai-foundry-agent-drawio.drawio",
+      "category": "AI & Data",
+      "tags": ["ai-foundry", "ai-agent", "basic-agent", "standard-agent", "openai", "managed-vnet", "private-endpoint", "networking", "byo-vnet"],
+      "description": "Azure AI Foundry agent networking patterns across three deployment models: Basic Agent (public), Standard with BYO VNet (GA), and Standard with Managed VNet. Covers private endpoints, DNS, and secure agent connectivity.",
+      "github_url": "https://github.com/nehalineogi/azure-networking/blob/main/diagrams/ai-foundry-agent-drawio.drawio",
+      "raw_url": "https://raw.githubusercontent.com/nehalineogi/azure-networking/main/diagrams/ai-foundry-agent-drawio.drawio",
+      "videos": [
+        { "title": "AI Foundry Networking Series", "url": "https://www.youtube.com/playlist?list=PLb4hYfatvJJjLOs8TjjXgww-2BP2y0sWFc" }
+      ]
+    },
+    {
       "id": "azure-ai",
       "title": "Azure AI Architectures",
       "filename": "azure-ai.drawio",

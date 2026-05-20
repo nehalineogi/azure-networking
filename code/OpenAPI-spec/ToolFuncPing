@@ -1,0 +1,37 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Ping Agent API",
+    "version": "1.0.0",
+    "description": "Simple Ping API that returns pong"
+  },
+  "servers": [
+    {
+      "url": "https://<func-name>.azurewebsites.net"
+    }
+  ],
+  "paths": {
+    "/api/pingagent": {
+      "get": {
+        "tags": [
+          "PingAgent"
+        ],
+        "operationId": "getPingAgent",
+        "summary": "Ping the agent",
+        "responses": {
+          "200": {
+            "description": "Returns pong",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": "pong"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

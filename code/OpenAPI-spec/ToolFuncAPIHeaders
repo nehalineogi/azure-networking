@@ -1,0 +1,55 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Network Agent API",
+    "description": "Returns the host machine name, its IP address, and the HTTP headers from the incoming request.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://<func-name>.azurewebsites.net"
+    }
+  ],
+  "paths": {
+    "/api/networkagent": {
+      "get": {
+        "operationId": "getNetworkInfo",
+        "summary": "Get network information and HTTP headers",
+        "responses": {
+          "200": {
+            "description": "Successful response with network info and headers.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "host": {
+                      "type": "string",
+                      "description": "Hostname of the machine running the agent"
+                    },
+                    "ip": {
+                      "type": "string",
+                      "description": "IP address of the machine"
+                    },
+                    "headers": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      },
+                      "description": "HTTP headers received in the request"
+                    }
+                  },
+                  "required": [
+                    "host",
+                    "ip",
+                    "headers"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
